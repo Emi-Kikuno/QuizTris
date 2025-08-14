@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>QizzTris</title>
+<style>
+  :root { --bg:#0f1220; --fg:#e8ecf1; --panel:#121737; --line:#2a3361; --ok:#3ad29f; --accent:#6dd5ed; --accent2:#a17fe0; }
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  .wrap{display:grid;grid-template-rows:auto 1fr auto;min-height:100%}
+  header{padding:10px 14px;background:linear-gradient(to right,#151a30,#12162a);border-bottom:1px solid #22284a}
+  footer{padding:10px 14px;background:linear-gradient(to right,#151a30,#12162a);border-top:1px solid #22284a;border-bottom:none}
+  .title{font-weight:700;letter-spacing:.4px}
+  .game{display:grid;grid-template-columns:1fr auto;gap:12px;padding:12px}
+  .board-wrap{position:relative;margin:0 auto}
+  canvas{background: radial-gradient(circle at 50% 0%, #101735, #0e1329 60%);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.35);display:block}
+  .hud{display:grid;gap:8px;align-content:start;min-width:180px}
+  .card{background:#131939;border:1px solid #262c54;border-radius:12px;padding:10px}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .pill{padding:4px 10px;border-radius:999px;background:#101633;border:1px solid #232a52;font-size:14px}
+
+  /* Start modal */
+  #start{position:fixed;inset:0;display:grid;place-items:center;background:rgba(6,9,20,0.96);z-index:30}
+  #start .panel{width:min(520px,92vw);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+  .field{margin-bottom:12px}.field label{display:block;font-size:14px;opacity:.85;margin-bottom:6px}
+  .field select,.field input[type='number']{width:100%;background:#0e1430;color:var(--fg);border:1px solid #27305e;border-radius:10px;padding:10px;outline:none}
+  .button{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#07131a;font-weight:700;padding:10px 14px;border-radius:12px;border:none;width:100%;box-shadow:0 8px 20px rgba(109,213,237,.25)}
+
+  /* Toast */
+  #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:10px;width:min(680px,94vw);z-index:40;display:none}
+  #toast .toast-body{background:#0f1636;border:1px solid var(--line);border-radius:14px;box-shadow:0 14px 40px rgba(0,0,0,.5);padding:12px}
+  #toast.min{width:300px;left:auto;right:10px;transform:none;bottom:10px}
+  .toast-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .count{font-variant-numeric:tabular-nums;background:#0b1233;padding:4px 8px;border-radius:8px;border:1px solid #223066}
+  .stem{font-size:16px;line-height:1.3;margin-bottom:8px}
+  .answers{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .answers button{background:#121b45;border:1px solid #2a356e;color:var(--fg);padding:10px;border-radius:10px}
+  .answers button:active{transform:translateY(1px)}
+  .numpad{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+  .numpad button{background:#121b45;border:1px solid #2a356e;color:var(--fg);padding:12px;border-radius:10px;font-weight:700}
+  .sol{display:flex;gap:6px;margin:8px 0}
+  .sol input{flex:1;background:#0c1435;color:var(--fg);border:1px solid #273268;border-radius:10px;padding:10px;font-size:18px;text-align:center}
+  .sol button{background:var(--ok);color:#072018;border:none;border-radius:10px;padding:10px 12px;font-weight:700}
+
+  /* Bar highlight */
+  .bar-highlight{position:absolute;left:0;right:0;height:0;pointer-events:none}
+
+  /* Footer controls row (no auto-centering; JS will align to canvas) */
+  footer .controls{display:flex;gap:8px;justify-content:center}
+  /* Control button colors */
+#left {
+  background-color: #64b5f6; /* blue */
+  color: white;
+}
+#right {
+  background-color: #64b5f6; /* blue */
+  color: white;
+  margin-right: 20px; /* extra space before Drop */
+}
+#rotate {
+  background-color: #fdd835; /* yellow */
+  color: black; /* better contrast with yellow */
+}
+#drop {
+  background-color: #e53935; /* red */
+  color: white;
+}
+
+
+/* Hover/active feedback */
+footer .controls button:hover {
+  filter: brightness(1.2);
+}
+footer .controls button:active {
+  filter: brightness(0.9);
+}
+
+
+  /* File-picker overlay (fallback) */
+  #picker { position: fixed; inset: 0; background: rgba(0,0,0,.75); display:none; place-items:center; z-index: 50; }
+  #picker .box { background:#0f1636; border:1px solid var(--line); border-radius: 14px; padding: 16px; width: min(520px,92vw); }
+  #picker h3 { margin: 0 0 8px; }
+
+  @media (max-width:860px){.game{grid-template-columns:1fr}#toast.min{right:6px}}
+</style>
+<style id="mobile-hud-css">
+@media (max-width: 860px) {
+  /* hide the right-column HUD on mobile */
+  .hud { display: none; }
+
+  /* bigger, thumb-friendly buttons */
+  footer .controls { justify-content: center; gap: 12px; }
+  footer .controls button {
+    min-width: 64px;
+    padding: 14px 18px;
+    font-size: 20px;
+    border-radius: 14px;
+  }
+
+  /* compact HUD under the controls */
+  .mobile-hud {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .mobile-hud .stat {
+    background: #131939;
+    border: 1px solid #262c54;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+  }
+  .mobile-hud .stat span { display:block; opacity:.8; font-size:12px; margin-bottom:4px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="row" style="display:grid; grid-template-columns: 1fr auto 1fr; align-items:center;">
+    <div class="title" style="justify-self:start;">QuizTris</div>
+    <button id="pauseBtn" style="padding:6px 12px; border-radius:8px; border:none; background:#ff9800; color:#000; font-weight:bold; cursor:pointer;">
+      Pause</button>
+    <div class="pill" id="status" style="justify-self:end;">Paused</div>
+  </div>
+</header>
+
+
+
+  <main class="game">
+    <div class="board-wrap">
+      <canvas id="board" width="320" height="640"></canvas>
+      <div id="barHighlights"></div>
+    </div>
+    <aside class="hud">
+      <div class="card"><div class="row"><div>Score</div><strong id="score">0</strong></div></div>
+      <div class="card"><div class="row"><div>Level</div><strong id="level">1</strong></div></div>
+      <div class="card"><div class="row"><div>Lines</div><strong id="lines">0</strong></div></div>
+      <div class="card"><div class="row"><div>Theme</div><strong id="themeName">—</strong></div></div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="controls">
+      <button id="left">◀︎</button>
+      <button id="rotate">⟳</button>
+      <button id="right">▶︎</button>
+      <button id="drop">⬇︎</button>
+    </div>
+    <div class="mobile-hud">
+  <div class="stat"><span>Score</span><strong id="scoreM">0</strong></div>
+  <div class="stat"><span>Level</span><strong id="levelM">1</strong></div>
+  <div class="stat"><span>Lines</span><strong id="linesM">0</strong></div>
+  <div class="stat"><span>Theme</span><strong id="themeNameM">—</strong></div>
+</div>
+  </footer>
+</div>
+
+<!-- Start Panel -->
+<div id="start">
+  <div class="panel">
+    <h2>Start</h2>
+    <div class="field">
+      <label>Theme</label>
+      <select id="theme">
+        <option value="trivia">General Trivia</option>
+        <option value="weird">Weird &amp; Wonderful</option>
+        <option value="history">History</option>
+        <option value="science">Science</option>
+        <option value="geography">Geography</option>
+        <option value="math">Math Trainer (numeric)</option>
+      </select>
+	  <label for="language">Language</label>
+<select id="language">
+  <option value="en" selected>English</option>
+  <option value="fr">Français</option>
+</select>
+    </div>
+    <div class="field">
+      <label>Timer seconds (pause duration)</label>
+      <input id="timerSec" type="number" min="3" max="20" step="1" value="7" />
+    </div>
+    <div class="field">
+      <label>Board size</label>
+      <select id="boardSize">
+        <option value="10x20">10 × 20 (classic)</option>
+        <option value="8x16">8 × 16</option>
+        <option value="12x24">12 × 24</option>
+      </select>
+    </div>
+    <button class="button" id="go">Play</button>
+  </div>
+</div>
+
+<!-- Toast / Quiz -->
+<div id="toast">
+  <div class="toast-body">
+    <div class="toast-head">
+      <strong id="toastTitle">Question</strong>
+      <span style="margin-left:auto"></span>
+      <span class="count" id="countdown">00</span>
+      <button id="minBtn" title="Minimize" style="background:#0e1430;border:1px solid #263163;color:var(--fg);border-radius:8px;padding:6px 8px;margin-left:8px">▁</button>
+      <button id="closeBtn" title="Close" style="background:#0e1430;border:1px solid #263163;color:var(--fg);border-radius:8px;padding:6px 8px">✕</button>
+    </div>
+    <div class="stem" id="stem">—</div>
+    <div id="ui-mc" class="answers" style="display:none"></div>
+    <div id="ui-num" style="display:none">
+      <div class="sol"><input id="solution" placeholder="Answer" inputmode="numeric" /><button id="submitNum">Submit</button></div>
+      <div class="numpad" id="numpad"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Embedded Trivia (fallback deck; you can expand this) -->
+<script id="embedded-trivia" type="application/json">
+[
+  {"type":"mcq","stem":"Capital of France?","options":["Paris","Lyon","Marseille"],"correctIndex":0},
+  {"type":"mcq","stem":"Largest planet in the Solar System?","options":["Jupiter","Saturn","Neptune"],"correctIndex":0},
+  {"type":"mcq","stem":"H2O is…","options":["Water","Hydrogen","Oxygen"],"correctIndex":0},
+  {"type":"mcq","stem":"Author of '1984'?","options":["George Orwell","Aldous Huxley","Ray Bradbury"],"correctIndex":0},
+  {"type":"mcq","stem":"The Mona Lisa was painted by…","options":["Leonardo da Vinci","Michelangelo","Raphael","Titian"],"correctIndex":0},
+  {"type":"mcq","stem":"Fastest land animal?","options":["Cheetah","Leopard","Pronghorn"],"correctIndex":0},
+  {"type":"mcq","stem":"'I'll be back' is from…","options":["The Terminator","Predator","Commando"],"correctIndex":0},
+  {"type":"mcq","stem":"Great Barrier Reef lies off…","options":["Australia","Indonesia","Fiji"],"correctIndex":0},
+  {"type":"mcq","stem":"'The Matrix' pill Neo takes","options":["Red","Blue"],"correctIndex":0}
+]
+</script>
+
+<!-- File-picker fallback overlay -->
+<div id="picker">
+  <div class="box">
+    <h3>Load trivia.json</h3>
+    <p>Pick a <code>trivia.json</code> from your computer (works even with <code>file://</code>).</p>
+    <input type="file" id="fileInput" accept="application/json,.json" />
+  </div>
+</div>
+
+<script>
+/* ===== Utilities ===== */
+const $ = s => document.querySelector(s);
+
+
+function setHUDValue(idBase, value){
+  const a = document.getElementById(idBase);
+  if (a) a.textContent = value;
+  const b = document.getElementById(idBase + 'M');
+  if (b) b.textContent = value;
+}
+const rand = n => Math.floor(Math.random()*n);
+const shuffle = arr => { for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; };
+
+/* ===== Game State ===== */
+const canvas = $('#board');
+const ctx = canvas.getContext('2d');
+let COLS=10, ROWS=20, CELL=32;
+let grid, active, nextTick=0, dropInterval=800, paused=true, gameOver=false;
+let score=0, level=1, lines=0;
+let timerPauseSeconds=7;
+let theme='math';
+let currentLang = 'en';
+
+const colors={ I:'#68e1fd', J:'#7aa2ff', L:'#ffb86c', O:'#ffdf6d', S:'#6ef7b4', T:'#d98bff', Z:'#ff7a9a', BAR:'#6ef7b480' };
+const SHAPES={
+  I:[[1,1,1,1]], J:[[1,0,0],[1,1,1]], L:[[0,0,1],[1,1,1]], O:[[1,1],[1,1]],
+  S:[[0,1,1],[1,1,0]], T:[[0,1,0],[1,1,1]], Z:[[1,1,0],[0,1,1]]
+};
+const PIECES = Object.keys(SHAPES);
+function updateSpeed(){
+  // Linear ramp: 800ms at L1 → faster each level, floored at 120ms
+  dropInterval = Math.max(120, 800 - (level - 1) * 60);
+  // If you prefer exponential instead, use:
+  // dropInterval = Math.max(100, Math.round(800 * Math.pow(0.92, level - 1)));
+}
+function resizeBoard(){
+  CELL=Math.floor(Math.min(window.innerWidth*0.9/COLS,(window.innerHeight*0.72)/ROWS));
+  canvas.width=COLS*CELL;
+  canvas.height=ROWS*CELL;
+  alignControlsToCanvas(); // keep controls matched to canvas on every resize
+}
+function newGrid(){ return Array.from({length:ROWS},()=>Array(COLS).fill(0)); }
+
+/* ===== Align footer controls to canvas (width & left edge) ===== */
+function alignControlsToCanvas(){
+  const canvasEl = document.getElementById('board');
+  const controls = document.querySelector('footer .controls');
+  const footerEl = document.querySelector('footer');
+  if(!canvasEl || !controls || !footerEl) return;
+  const cb = canvasEl.getBoundingClientRect();
+  const fb = footerEl.getBoundingClientRect();
+  controls.style.width = cb.width + 'px';
+  controls.style.marginLeft = (cb.left - fb.left) + 'px';
+}
+
+/* ===== Trivia loader (fetch + embedded + file-picker) ===== */
+let triviaBank=[], triviaIndex=0, triviaSource='—';
+
+async function loadTrivia(){
+  // Try to load a JSON file that matches the selected theme from /themes_<lang>/
+  try {
+    const url = `themes_${currentLang}/${theme}.json?ts=${Date.now()}`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    triviaBank = await res.json();
+    shuffle(triviaBank);
+    triviaIndex = 0;
+    triviaSource = `file:${theme}`;
+    console.log('[Trivia] Loaded', theme, 'from', url, 'count=', triviaBank.length);
+    $('#themeName').textContent = `${theme} (${triviaSource} @ ${currentLang})`;
+    setHUDValue('themeName', theme);
+    return;
+  } catch (e) {
+    console.warn('[Trivia] Theme file not found or blocked, trying embedded deck.', e);
+  }
+
+  // Embedded fallback
+  try {
+    const raw = $('#embedded-trivia')?.textContent?.trim();
+    if (raw) {
+      triviaBank = JSON.parse(raw);
+      shuffle(triviaBank);
+      triviaIndex = 0;
+      triviaSource = 'embedded';
+      console.log('[Trivia] Loaded embedded deck:', triviaBank.length);
+      $('#themeName').textContent = `${theme} (${triviaSource} @ ${currentLang})`;
+      setHUDValue('themeName', theme);
+      return;
+    }
+  } catch (e) {
+    console.warn('[Trivia] Embedded deck parse failed:', e);
+  }
+
+  // File picker fallback (works on file://)
+  await openTriviaPicker();
+}
+
+// (next comes your existing)
+
+
+function openTriviaPicker(){
+  return new Promise(resolve=>{
+    const overlay = $('#picker'); const input = $('#fileInput');
+    overlay.style.display='grid';
+    input.onchange = ()=>{
+      const file = input.files && input.files[0];
+      if(!file) return;
+      const reader = new FileReader();
+      reader.onload = ()=>{
+        try{
+          triviaBank = JSON.parse(reader.result);
+          shuffle(triviaBank); triviaIndex=0; triviaSource='picker';
+          overlay.style.display='none';
+          console.log('[Trivia] Loaded via file picker:', triviaBank.length);
+          $('#themeName').textContent = `${theme} (${triviaSource} @ ${currentLang})`;
+      setHUDValue('themeName', theme);
+          resolve();
+        }catch(err){
+          alert('Could not parse JSON: ' + err.message);
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    };
+  });
+}
+
+function getNextTrivia(){
+  if(!triviaBank.length) return { type:'mcq', stem:'No trivia loaded', options:['—'], correctIndex:0 };
+  const raw = triviaBank[triviaIndex];
+  triviaIndex = (triviaIndex + 1) % triviaBank.length;
+  if(triviaIndex === 0) shuffle(triviaBank);
+  const idxs = raw.options.map((_,i)=>i); shuffle(idxs);
+  const opts = idxs.map(i=>raw.options[i]);
+  const correctIndex = idxs.indexOf(raw.correctIndex);
+  return { type:'mcq', stem: raw.stem, options: opts, correctIndex };
+}
+
+/* ===== Piece + Physics ===== */
+function spawnPiece(){
+  const type=PIECES[rand(PIECES.length)];
+  const shape=SHAPES[type].map(r=>r.slice());
+  active={x:Math.floor(COLS/2)-Math.ceil(shape[0].length/2), y:0, type, shape};
+  if (collides(grid, active)) { gameOver = true; paused = true; $('#status').textContent='Game Over'; }
+}
+function rotate(shape){
+  const h=shape.length, w=shape[0].length;
+  const res = Array.from({length:w},()=>Array(h).fill(0));
+  for(let y=0;y<h;y++) for(let x=0;x<w;x++) res[x][h-1-y]=shape[y][x];
+  return res;
+}
+function collides(g, p){
+  const {x,y,shape}=p;
+  for(let r=0;r<shape.length;r++) for(let c=0;c<shape[r].length;c++){
+    if(!shape[r][c]) continue;
+    const nx=x+c, ny=y+r;
+    if(nx<0||nx>=COLS||ny>=ROWS) return true;
+    if(ny>=0 && g[ny][nx]) return true;
+  }
+  return false;
+}
+function merge(g,p){ const {x,y,shape,type}=p; for(let r=0;r<shape.length;r++) for(let c=0;c<shape[r].length;c++) if(shape[r][c]) g[y+r][x+c]=type; }
+
+function drawCell(x,y,color){ ctx.fillStyle=color; ctx.fillRect(x*CELL,y*CELL,CELL-1,CELL-1); }
+function draw(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  for(let r=0;r<ROWS;r++) for(let c=0;c<COLS;c++) if(grid[r][c]) drawCell(c,r, grid[r][c]===true? colors.BAR: colors[grid[r][c]]);
+  if(active){ const {x,y,shape,type}=active; for(let r=0;r<shape.length;r++) for(let c=0;c<shape[r].length;c++) if(shape[r][c]) drawCell(x+c,y+r, colors[type]); }
+}
+
+function step(ts){
+  if(paused||gameOver){ draw(); requestAnimationFrame(step); return; }
+  if(!nextTick) nextTick = ts + dropInterval;
+  if(ts >= nextTick){
+    active.y++;
+    if (collides(grid, active)) { active.y--; merge(grid, active); onLock(); spawnPiece(); }
+    nextTick = ts + dropInterval;
+  }
+  draw(); requestAnimationFrame(step);
+}
+
+/* ===== Line handling (merge to bars) ===== */
+function onLock(){
+  const fullRows = [];
+  for (let r = 0; r < ROWS; r++) {
+    if (grid[r].every(v => v)) fullRows.push(r);
+  }
+  if (fullRows.length) {
+    fullRows.forEach(r => grid[r] = Array(COLS).fill(true)); // mark as BAR
+    lines += fullRows.length;
+    setHUDValue('lines', lines);
+    score += 100 * fullRows.length;
+    setHUDValue('score', score);
+    queueBars(fullRows);
+  }
+
+  if (lines >= level * 10) {
+    level++;
+    setHUDValue('level', level);
+    updateSpeed(); // apply new speed
+  }
+}
+
+
+/* ===== Bars queue & click highlights ===== */
+const barQueue=[];
+function queueBars(rows){ rows.forEach(r=>barQueue.push({row:r,pending:true,id:crypto.randomUUID()})); renderBarHighlights(); if(!quiz.active) openNextBar(); }
+function renderBarHighlights(){
+  const wrap=$('#barHighlights'); wrap.innerHTML='';
+  barQueue.filter(b=>b.pending).forEach(b=>{
+    const d=document.createElement('div'); d.className='bar-highlight';
+    d.style.top=(b.row*CELL)+'px'; d.style.height=CELL+'px';
+    d.style.boxShadow='inset 0 0 0 2px rgba(110,247,180,0.8)';
+    d.style.pointerEvents='auto'; d.onclick=()=>openQuizForBar(b);
+    wrap.appendChild(d);
+  });
+}
+function clearAllBarHighlights(){
+  const wrap = document.getElementById('barHighlights');
+  if (wrap) wrap.innerHTML = '';
+}
+
+
+function clearBarRow(row){
+  // Collapse: pull every row above down by 1
+  for (let r = row; r > 0; r--) {
+    grid[r] = grid[r - 1].slice();
+  }
+  grid[0] = Array(COLS).fill(0);
+}
+
+
+
+/* ===== Quiz system ===== */
+const toast={ el:$('#toast'), title:$('#toastTitle'), stem:$('#stem'), count:$('#countdown'), uiMC:$('#ui-mc'), uiNum:$('#ui-num'), solution:$('#solution') };
+const quiz={ active:false, minimized:false, bar:null, timer:null, type:null, data:null };
+
+function showToast(){ toast.el.style.display='block'; toast.el.classList.remove('min'); $('#status').textContent='Paused'; }
+function minimizeToast(){ toast.el.classList.add('min'); }
+function closeToast(){ toast.el.style.display='none'; quiz.active=false; quiz.bar=null; toast.solution.value = ''; // ✅ clean up on close
+}
+$('#minBtn').onclick=()=>minimizeToast();
+$('#closeBtn').onclick=()=>closeToast();
+$('#submitNum').onclick=()=>submitNumeric();
+document.addEventListener('keydown', e=>{
+  if(!quiz.active) return;
+  if(quiz.type==='numeric'){
+    if(/^[0-9]$/.test(e.key)) toast.solution.value+=e.key;
+    if(e.key==='Backspace') toast.solution.value=toast.solution.value.slice(0,-1);
+    if(e.key==='Enter') submitNumeric();
+  }
+});
+
+function makeMathQ(){
+  const ops=['+','-','x','/'];
+  let op=ops[rand(ops.length)];
+  let a=1+rand(12), b=1+rand(12), stem, answer;
+  if(op==='+'){ answer=a+b; stem=`${a} + ${b} = ?`; }
+  else if(op==='-'){ if(b>a)[a,b]=[b,a]; answer=a-b; stem=`${a} - ${b} = ?`; }
+  else if(op==='x'){ answer=a*b; stem=`${a} x ${b} = ?`; }
+  else { a=a*b; answer=Math.floor(a/b); stem=`${a} / ${b} = ?`; }
+  return { type:'numeric', stem, answer:String(answer) };
+}
+
+function buildUIForQuestion(q){
+  if(q.type==='mcq'){
+    toast.uiMC.style.display='grid'; toast.uiNum.style.display='none';
+    toast.uiMC.innerHTML='';
+    q.options.forEach((opt,idx)=>{
+      const b=document.createElement('button'); b.textContent=opt; b.onclick=()=>submitMC(idx);
+      toast.uiMC.appendChild(b);
+    });
+  } else {
+    toast.uiMC.style.display='none'; toast.uiNum.style.display='block';
+	 toast.solution.value = '';
+  setTimeout(()=> toast.solution.focus(), 0);
+    const pad=$('#numpad'); pad.innerHTML='';
+    ['7','8','9','4','5','6','1','2','3','0','←','C'].forEach(k=>{
+      const b=document.createElement('button'); b.textContent=k; b.onclick=()=>{
+        if(k==='C') toast.solution.value='';
+        else if(k==='←') toast.solution.value = toast.solution.value.slice(0,-1);
+        else toast.solution.value += k;
+      };
+      pad.appendChild(b);
+    });
+  }
+}
+
+function pauseGame(){ paused=true; $('#status').textContent='Paused'; }
+function resumeGame(){ if(!gameOver){ paused=false; $('#status').textContent='Playing'; } }
+
+function submitNumeric(){ const ans=toast.solution.value.trim(); resolveAnswer(ans!=='' && ans===quiz.data.answer); }
+function submitMC(idx){ resolveAnswer(idx===quiz.data.correctIndex); }
+
+function resolveAnswer(ok){
+  if(ok){
+  clearBarRow(quiz.bar.row);
+  quiz.bar.pending = false;
+  score += 100; setHUDValue('score', score);
+
+  // Rebuild highlights for any remaining pending bars
+  renderBarHighlights();
+
+  // If none left, wipe them
+  if (!barQueue.some(b => b.pending)) {
+    clearAllBarHighlights();
+  }
+
+  if(quiz.timer){ clearInterval(quiz.timer); quiz.timer=null; }
+  resumeGame();
+  closeToast();
+  openNextBar();
+} else {
+    score=Math.max(0, score-25); setHUDValue('score', score);
+    toast.el.animate(
+      [
+        {transform:'translateX(-50%)'},
+        {transform:'translateX(-50%) translateX(6px)'},
+        {transform:'translateX(-50%)'}
+      ],
+      {duration:180}
+    );
+  }
+}
+
+
+function openNextBar(){ const next = barQueue.find(b=>b.pending); if(next) openQuizForBar(next); }
+
+async function openQuizForBar(bar){
+  quiz.bar=bar; quiz.active=true; quiz.minimized=false;
+  const q = (theme === 'math') ? makeMathQ() : getNextTrivia();
+  quiz.data=q; quiz.type=q.type;
+
+  toast.title.textContent = (theme==='math')? 'Solve to Clear' : 'Pick the Right Answer';
+  toast.stem.textContent = q.stem;
+  buildUIForQuestion(q);
+  showToast();
+
+  // Pause on open; auto-resume when timer hits 0. Player can still answer after resume.
+  pauseGame();
+  let remaining = timerPauseSeconds; toast.count.textContent = remaining;
+  if(quiz.timer) clearInterval(quiz.timer);
+  quiz.timer = setInterval(()=>{
+    remaining--; toast.count.textContent = remaining;
+    if(remaining<=0){ clearInterval(quiz.timer); quiz.timer=null; resumeGame(); /* keep toast open */ }
+  },1000);
+}
+
+/* ===== Controls ===== */
+$('#left').onclick = ()=>{ if(paused||gameOver||!active) return; active.x--; if(collides(grid,active)) active.x++; };
+$('#right').onclick= ()=>{ if(paused||gameOver||!active) return; active.x++; if(collides(grid,active)) active.x--; };
+$('#rotate').onclick=()=>{ if(paused||gameOver||!active) return; const s=rotate(active.shape), old=active.shape; active.shape=s; if(collides(grid,active)) active.shape=old; };
+$('#drop').onclick  =()=>{ if(paused||gameOver||!active) return; active.y++; if(collides(grid,active)){ active.y--; merge(grid,active); onLock(); spawnPiece(); } };
+document.getElementById('pauseBtn').onclick = () => {
+  if (paused) {
+    resumeGame();
+    document.getElementById('pauseBtn').textContent = 'Pause';
+  } else {
+    pauseGame();
+    document.getElementById('pauseBtn').textContent = 'Resume';
+  }
+};
+
+document.addEventListener('keydown', e=>{
+  if(e.key==='ArrowLeft') $('#left').onclick();
+  if(e.key==='ArrowRight') $('#right').onclick();
+  if(e.key==='ArrowUp' || e.key==='x') $('#rotate').onclick();
+  if(e.key==='ArrowDown' || e.key===' ') $('#drop').onclick();
+});
+
+/* ===== Start ===== */
+window.addEventListener('load', ()=>{ resizeBoard(); alignControlsToCanvas(); });
+window.addEventListener('resize', ()=>{ resizeBoard(); alignControlsToCanvas(); });
+
+$('#go').onclick = async ()=>{
+  theme = $('#theme').value;
+  $('#themeName').textContent = theme;
+  setHUDValue('themeName', theme);
+
+  // ✅ NEW: capture language selection from start menu
+  currentLang = ($('#language')?.value || 'en');
+
+  timerPauseSeconds = Math.max(3, Math.min(20, parseInt($('#timerSec').value||'7')));
+  
+  const size = $('#boardSize').value.split('x');
+  COLS = +size[0];
+  ROWS = +size[1];
+  
+  resizeBoard();
+  alignControlsToCanvas(); // ensure correct after sizing
+  
+  grid = newGrid();
+  score = 0;
+  level = 1;
+  lines = 0;
+  setHUDValue('score', score);
+  setHUDValue('level', level);
+  setHUDValue('lines', lines);
+  setHUDValue('themeName', theme);
+  
+  updateSpeed();
+  nextTick = 0;
+  
+  gameOver = false;
+  paused = false;
+  $('#status').textContent = 'Playing';
+  $('#start').style.display = 'none';
+  
+  barQueue.length = 0;
+  renderBarHighlights();
+  
+  // ✅ Language-aware trivia loader for non-math themes
+  if (theme !== 'math') await loadTrivia();
+  
+  spawnPiece();
+  requestAnimationFrame(step);
+};
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,2813 @@
+[
+  {
+    "stem": "'To Kill a Mockingbird' character",
+    "options": [
+      "Atticus Finch",
+      "Holden Caulfield",
+      "Jay Gatsby",
+      "Hester Prynne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Capital of Greece?",
+    "options": [
+      "Athens",
+      "Thessaloniki",
+      "Heraklion",
+      "Patras"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country invented paper (ancient)?",
+    "options": [
+      "China",
+      "Egypt",
+      "Greece",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which year did World War II end in Europe?",
+    "options": [
+      "1945",
+      "1944",
+      "1946"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "The fall of the Berlin Wall occurred in which year?",
+    "options": [
+      "1989",
+      "1991",
+      "1986"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which city did the Renaissance begin?",
+    "options": [
+      "Florence",
+      "Paris",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the British Prime Minister during most of World War II?",
+    "options": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Clement Attlee"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization built the pyramids at Giza?",
+    "options": [
+      "Egyptians",
+      "Mayans",
+      "Sumerians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who wrote the Magna Carta?",
+    "options": [
+      "English barons",
+      "King John",
+      "Thomas Aquinas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what year did the American Declaration of Independence occur?",
+    "options": [
+      "1776",
+      "1789",
+      "1756"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire was ruled by Genghis Khan?",
+    "options": [
+      "Mongol Empire",
+      "Ottoman Empire",
+      "Persian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which revolution began in 1789?",
+    "options": [
+      "French Revolution",
+      "American Revolution",
+      "Russian Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was crowned the first Holy Roman Emperor in 800 CE?",
+    "options": [
+      "Charlemagne",
+      "Otto I",
+      "Justinian I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who led India to independence through nonviolent resistance?",
+    "options": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who unified Germany in 1871 as Chancellor?",
+    "options": [
+      "Otto von Bismarck",
+      "Kaiser Wilhelm I",
+      "Frederick III"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was triggered by the assassination of Archduke Franz Ferdinand?",
+    "options": [
+      "World War I",
+      "Crimean War",
+      "Franco-Prussian War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war ended with the Treaty of Versailles?",
+    "options": [
+      "World War I",
+      "World War II",
+      "Napoleonic Wars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire was centered in Constantinople?",
+    "options": [
+      "Byzantine Empire",
+      "Mughal Empire",
+      "Han Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which year did the Roman Empire fall in the West?",
+    "options": [
+      "476 CE",
+      "410 CE",
+      "532 CE"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which English king signed the Magna Carta?",
+    "options": [
+      "King John",
+      "Henry II",
+      "Richard I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war is associated with trench warfare on the Western Front?",
+    "options": [
+      "World War I",
+      "Boer War",
+      "Korean War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who led the Reformation in Germany?",
+    "options": [
+      "Martin Luther",
+      "John Calvin",
+      "Ulrich Zwingli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient city was buried by the eruption of Mount Vesuvius in 79 CE?",
+    "options": [
+      "Pompeii",
+      "Herculaneum",
+      "Ostia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war ended with the surrender at Appomattox Court House?",
+    "options": [
+      "American Civil War",
+      "War of 1812",
+      "Mexican–American War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first emperor of Rome?",
+    "options": [
+      "Augustus",
+      "Julius Caesar",
+      "Tiberius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which battle in 1066 changed English history?",
+    "options": [
+      "Hastings",
+      "Agincourt",
+      "Stamford Bridge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire constructed the road system known as the Royal Road?",
+    "options": [
+      "Persian Empire",
+      "Roman Empire",
+      "Inca Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dynasty built most sections of the Great Wall seen today?",
+    "options": [
+      "Ming",
+      "Qin",
+      "Han"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which leader was overthrown during the French Revolution?",
+    "options": [
+      "Louis XVI",
+      "Napoleon Bonaparte",
+      "Louis XIV"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient culture created the Parthenon?",
+    "options": [
+      "Ancient Greeks",
+      "Ancient Romans",
+      "Ancient Egyptians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who wrote The Prince and influenced political thought in Renaissance Italy?",
+    "options": [
+      "Niccolò Machiavelli",
+      "Baldassare Castiglione",
+      "Pico della Mirandola"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who proposed natural selection as a mechanism of evolution?",
+    "options": [
+      "Charles Darwin",
+      "Jean-Baptiste Lamarck",
+      "Alfred Russel Wallace"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire built the Colosseum?",
+    "options": [
+      "Roman Empire",
+      "Greek city-states",
+      "Carthaginian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization is associated with the Code of Hammurabi?",
+    "options": [
+      "Babylonian",
+      "Assyrian",
+      "Hittite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scientist is famous for the cat thought experiment in quantum mechanics?",
+    "options": [
+      "Erwin Schrödinger",
+      "Paul Dirac",
+      "Max Born"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has a day longer than its year?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient wonder stood in the city of Babylon?",
+    "options": [
+      "Hanging Gardens",
+      "Colossus of Rhodes",
+      "Temple of Artemis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the longest-reigning queen of the United Kingdom before 2022?",
+    "options": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "Mary I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war featured the Battle of Waterloo (1815)?",
+    "options": [
+      "Napoleonic Wars",
+      "Seven Years' War",
+      "War of the Spanish Succession"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the pharaoh associated with the Great Pyramid of Giza?",
+    "options": [
+      "Khufu",
+      "Tutankhamun",
+      "Ramses II"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What was the primary writing material in ancient Egypt made from plants?",
+    "options": [
+      "Papyrus",
+      "Parchment",
+      "Vellum"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which event is often marked as the start of the Protestant Reformation?",
+    "options": [
+      "95 Theses",
+      "Diet of Worms",
+      "Council of Trent"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire’s capital was Tenochtitlan?",
+    "options": [
+      "Aztec Empire",
+      "Inca Empire",
+      "Toltec Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval charter limited the power of the English monarchy?",
+    "options": [
+      "Magna Carta",
+      "Petition of Right",
+      "Bill of Rights 1689"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war included the D-Day landings?",
+    "options": [
+      "World War II",
+      "World War I",
+      "Korean War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call the change of a solid directly to a gas?",
+    "options": [
+      "Sublimation",
+      "Deposition",
+      "Condensation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization used a base-60 number system influencing timekeeping?",
+    "options": [
+      "Babylonians",
+      "Greeks",
+      "Romans"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient trade route connected China with the Mediterranean?",
+    "options": [
+      "Silk Road",
+      "Amber Road",
+      "Royal Road"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire was ruled by Suleiman the Magnificent?",
+    "options": [
+      "Ottoman Empire",
+      "Safavid Empire",
+      "Mamluk Sultanate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who unified the Mongol tribes and created a vast empire in the 13th century?",
+    "options": [
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval pandemic killed tens of millions in Europe?",
+    "options": [
+      "Black Death",
+      "Spanish flu",
+      "Justinianic plague"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war followed Germany’s invasion of Poland in 1939?",
+    "options": [
+      "World War II",
+      "World War I",
+      "Cold War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who measured planetary orbits as ellipses rather than circles?",
+    "options": [
+      "Johannes Kepler",
+      "Claudius Ptolemy",
+      "Aristarchus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which treaty ended the American Revolutionary War?",
+    "options": [
+      "Treaty of Paris (1783)",
+      "Treaty of Versailles (1787)",
+      "Jay Treaty (1794)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization is known for ziggurat temples like those at Ur?",
+    "options": [
+      "Sumerians",
+      "Egyptians",
+      "Hittites"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ruler created a vast empire stretching from Greece to India in the 4th century BCE?",
+    "options": [
+      "Alexander the Great",
+      "Darius III",
+      "Philip II"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval English document later influenced constitutional law worldwide?",
+    "options": [
+      "Magna Carta",
+      "Domesday Book",
+      "Act of Supremacy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was concluded by the Treaty of Westphalia (1648)?",
+    "options": [
+      "Thirty Years’ War",
+      "Seven Years’ War",
+      "English Civil War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire’s law code is one of the earliest known, famous for “an eye for an eye”?",
+    "options": [
+      "Babylonian",
+      "Assyrian",
+      "Hittite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient Greek historian is known as the ‘Father of History’?",
+    "options": [
+      "Herodotus",
+      "Thucydides",
+      "Xenophon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire built the aqueducts and extensive road networks across Europe?",
+    "options": [
+      "Roman Empire",
+      "Byzantine Empire",
+      "Frankish Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for a change in DNA sequence?",
+    "options": [
+      "Mutation",
+      "Transcription",
+      "Translation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization is associated with the Oracle at Delphi?",
+    "options": [
+      "Ancient Greeks",
+      "Ancient Egyptians",
+      "Hittites"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war began with a North Korean invasion in 1950?",
+    "options": [
+      "Korean War",
+      "Vietnam War",
+      "Sino-Indian War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient structure in England aligns with solstices?",
+    "options": [
+      "Stonehenge",
+      "Hadrian’s Wall",
+      "Offa’s Dyke"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for the warm, nutrient-poor surface layer of a stratified lake?",
+    "options": [
+      "Epilimnion",
+      "Hypolimnion",
+      "Thermocline"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which event in 1917 led to the creation of the Soviet state?",
+    "options": [
+      "October Revolution",
+      "February Revolution",
+      "Treaty of Brest-Litovsk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval battle ended the Hundred Years' War?",
+    "options": [
+      "Battle of Castillon",
+      "Battle of Agincourt",
+      "Battle of Crécy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization developed the concept of democracy?",
+    "options": [
+      "Ancient Greeks",
+      "Romans",
+      "Egyptians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire built the Hagia Sophia in Constantinople?",
+    "options": [
+      "Byzantine Empire",
+      "Ottoman Empire",
+      "Roman Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of the ancient Inca Empire?",
+    "options": [
+      "Cusco",
+      "Machu Picchu",
+      "Quito"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization invented the wheel?",
+    "options": [
+      "Sumerians",
+      "Egyptians",
+      "Greeks"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire was ruled by Cyrus the Great?",
+    "options": [
+      "Persian Empire",
+      "Babylonian Empire",
+      "Macedonian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first emperor of the Qin dynasty?",
+    "options": [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Liu Bang"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the currency of the ancient Roman Empire?",
+    "options": [
+      "Denarius",
+      "Drachma",
+      "Sesterce"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Asian empire was ruled by the Tokugawa shogunate?",
+    "options": [
+      "Japan",
+      "China",
+      "Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which historical period followed the Middle Ages in Europe?",
+    "options": [
+      "Renaissance",
+      "Enlightenment",
+      "Industrial Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization built the ziggurat of Ur?",
+    "options": [
+      "Sumerians",
+      "Babylonians",
+      "Assyrians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first ruler of the Macedonian Empire?",
+    "options": [
+      "Alexander the Great",
+      "Philip II",
+      "Cassander"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical formula for methane?",
+    "options": [
+      "CH4",
+      "C2H6",
+      "CO2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient people are credited with inventing the alphabet?",
+    "options": [
+      "Phoenicians",
+      "Greeks",
+      "Egyptians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient wonder was a lighthouse in Egypt?",
+    "options": [
+      "Lighthouse of Alexandria",
+      "Hanging Gardens of Babylon",
+      "Colossus of Rhodes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first Roman Emperor?",
+    "options": [
+      "Augustus",
+      "Julius Caesar",
+      "Tiberius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization built the city of Persepolis?",
+    "options": [
+      "Persian Empire",
+      "Babylonian Empire",
+      "Assyrian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was fought between the North and South in the United States?",
+    "options": [
+      "American Civil War",
+      "War of 1812",
+      "Mexican–American War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization used cuneiform writing?",
+    "options": [
+      "Sumerians",
+      "Egyptians",
+      "Phoenicians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which battle marked Napoleon's final defeat?",
+    "options": [
+      "Battle of Waterloo",
+      "Battle of Leipzig",
+      "Battle of Austerlitz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war ended with the Treaty of Versailles in 1919?",
+    "options": [
+      "World War I",
+      "World War II",
+      "Franco-Prussian War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient civilization developed the Olympic Games?",
+    "options": [
+      "Ancient Greeks",
+      "Romans",
+      "Persians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the leader of the Soviet Union during World War II?",
+    "options": [
+      "Joseph Stalin",
+      "Vladimir Lenin",
+      "Nikita Khrushchev"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient mathematician is credited with the Pythagorean theorem?",
+    "options": [
+      "Pythagoras",
+      "Euclid",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Roman general crossed the Rubicon River in 49 BCE?",
+    "options": [
+      "Julius Caesar",
+      "Pompey",
+      "Mark Antony"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which historical period followed the fall of the Western Roman Empire?",
+    "options": [
+      "Middle Ages",
+      "Renaissance",
+      "Enlightenment"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process by which a liquid changes into a gas?",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the Greek philosopher who taught Alexander the Great?",
+    "options": [
+      "Aristotle",
+      "Plato",
+      "Socrates"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which charter limited the power of the English monarchy in 1215?",
+    "options": [
+      "Magna Carta",
+      "Bill of Rights 1689",
+      "Petition of Right"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who conquered the Persian Empire in the 4th century BCE?",
+    "options": [
+      "Alexander the Great",
+      "Julius Caesar",
+      "Hannibal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which battle in 1066 led to Norman control of England?",
+    "options": [
+      "Battle of Hastings",
+      "Battle of Agincourt",
+      "Battle of Crécy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire built the Hagia Sophia before it became a mosque?",
+    "options": [
+      "Byzantine Empire",
+      "Ottoman Empire",
+      "Roman Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who unified the Mongol tribes and began a vast conquest in the 1200s?",
+    "options": [
+      "Genghis Khan",
+      "Kublai Khan",
+      "Tamerlane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Chinese dynasty began after the Qin and lasted four centuries (interrupted)?",
+    "options": [
+      "Han",
+      "Tang",
+      "Song"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What was the capital of the Inca Empire?",
+    "options": [
+      "Cusco",
+      "Quito",
+      "Tenochtitlan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Egyptian pharaoh's tomb was discovered by Howard Carter in 1922?",
+    "options": [
+      "Tutankhamun",
+      "Ramses II",
+      "Akhenaten"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who led the Protestant Reformation in Germany?",
+    "options": [
+      "Martin Luther",
+      "John Calvin",
+      "Ulrich Zwingli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which city was the heart of the Italian Renaissance?",
+    "options": [
+      "Florence",
+      "Venice",
+      "Milan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire used quipus for record-keeping?",
+    "options": [
+      "Inca",
+      "Aztec",
+      "Maya"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient code is known for the phrase 'an eye for an eye'?",
+    "options": [
+      "Code of Hammurabi",
+      "Twelve Tables",
+      "Justinian Code"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who crossed the Alps with elephants during the Second Punic War?",
+    "options": [
+      "Hannibal",
+      "Scipio Africanus",
+      "Pyrrhus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Roman leader was assassinated on the Ides of March, 44 BCE?",
+    "options": [
+      "Julius Caesar",
+      "Marcus Aurelius",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization built Machu Picchu?",
+    "options": [
+      "Inca",
+      "Maya",
+      "Aztec"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval conflict featured Joan of Arc?",
+    "options": [
+      "Hundred Years' War",
+      "Wars of the Roses",
+      "Crusades"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 15th-century invention by Gutenberg revolutionized information spread in Europe?",
+    "options": [
+      "Movable-type printing press",
+      "Magnetic compass",
+      "Spinning wheel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which voyage in 1492 reached the Americas for Castile?",
+    "options": [
+      "Christopher Columbus",
+      "Ferdinand Magellan",
+      "John Cabot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire's capital was Constantinople until 1453?",
+    "options": [
+      "Byzantine Empire",
+      "Umayyad Caliphate",
+      "Ottoman Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What treaty ended World War I?",
+    "options": [
+      "Treaty of Versailles",
+      "Treaty of Trianon",
+      "Treaty of Brest-Litovsk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 18th-century revolution began with the storming of the Bastille?",
+    "options": [
+      "French Revolution",
+      "American Revolution",
+      "Haitian Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who wrote the 'Ninety-Five Theses' in 1517?",
+    "options": [
+      "Martin Luther",
+      "Desiderius Erasmus",
+      "Thomas More"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire built the Royal Road to connect its provinces?",
+    "options": [
+      "Achaemenid Persian Empire",
+      "Roman Empire",
+      "Assyrian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which battle in 1815 marked Napoleon’s final defeat?",
+    "options": [
+      "Waterloo",
+      "Leipzig",
+      "Austerlitz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which document announced the separation of the Thirteen Colonies from Britain?",
+    "options": [
+      "Declaration of Independence",
+      "Bill of Rights",
+      "Articles of Confederation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient city was buried by Mount Vesuvius in 79 CE?",
+    "options": [
+      "Pompeii",
+      "Herculaneum",
+      "Ostia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war began after the assassination of Archduke Franz Ferdinand?",
+    "options": [
+      "World War I",
+      "Second Balkan War",
+      "Russo-Japanese War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which wall divided Berlin from 1961 to 1989?",
+    "options": [
+      "Berlin Wall",
+      "Maginot Line",
+      "Hadrian’s Wall"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which pact created a collective defense among Western nations in 1949?",
+    "options": [
+      "NATO",
+      "Warsaw Pact",
+      "SEATO"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization developed cuneiform writing?",
+    "options": [
+      "Sumerians",
+      "Phoenicians",
+      "Egyptians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient wonder stood at Babylon?",
+    "options": [
+      "Hanging Gardens",
+      "Great Lighthouse",
+      "Colossus of Rhodes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire constructed the Colosseum?",
+    "options": [
+      "Roman Empire",
+      "Carthaginian Empire",
+      "Greek city-states"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was crowned Emperor of the Romans on Christmas Day, 800 CE?",
+    "options": [
+      "Charlemagne",
+      "Otto I",
+      "Frederick II"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which route linked China with the Mediterranean for trade?",
+    "options": [
+      "Silk Road",
+      "Spice Route",
+      "Amber Road"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fleet failed to invade England in 1588?",
+    "options": [
+      "Spanish Armada",
+      "Dutch Fleet",
+      "French Armada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What 18th‑century movement emphasized reason and individual rights?",
+    "options": [
+      "Enlightenment",
+      "Romanticism",
+      "Baroque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which leader completed the first solo nonstop transatlantic flight (1927)?",
+    "options": [
+      "Charles Lindbergh",
+      "Amelia Earhart",
+      "Bessie Coleman"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What 1947 plan aided Western Europe’s postwar recovery?",
+    "options": [
+      "Marshall Plan",
+      "Molotov Plan",
+      "Point Four Program"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1957 launch began the Space Age?",
+    "options": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Vostok 1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1969 event fulfilled a U.S. goal set by JFK?",
+    "options": [
+      "First Moon landing",
+      "First spacewalk",
+      "First geostationary satellite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which kingdom built the Great Zimbabwe ruins?",
+    "options": [
+      "Kingdom of Zimbabwe",
+      "Kingdom of Aksum",
+      "Kingdom of Kush"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which West African empire was ruled by Mansa Musa?",
+    "options": [
+      "Mali Empire",
+      "Ghana Empire",
+      "Songhai Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which conflict pitted Athens against Sparta?",
+    "options": [
+      "Peloponnesian War",
+      "Punic Wars",
+      "Greco-Persian Wars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Frankish ruler stopped the Umayyad advance at Tours (732)?",
+    "options": [
+      "Charles Martel",
+      "Pepin the Short",
+      "Clovis I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which treaty ended the American Revolutionary War in 1783?",
+    "options": [
+      "Treaty of Paris",
+      "Jay Treaty",
+      "Treaty of Utrecht"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century Italian led the Expedition of the Thousand?",
+    "options": [
+      "Giuseppe Garibaldi",
+      "Camillo Cavour",
+      "Victor Emmanuel II"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century movement opposed absolute monarchy in France (1830/1848)?",
+    "options": [
+      "Revolutionary liberalism",
+      "Mercantilism",
+      "Ultramontanism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire’s fall in 476 CE marks the end of the Western Roman Empire?",
+    "options": [
+      "Western Roman Empire",
+      "Eastern Roman Empire",
+      "Holy Roman Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization carved the moai statues on Rapa Nui?",
+    "options": [
+      "Rapa Nui Polynesians",
+      "Maori",
+      "Tahitians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Norse explorers reached North America around 1000 CE?",
+    "options": [
+      "Vikings",
+      "Huns",
+      "Saxons"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Chinese dynasty built much of the Great Wall seen today?",
+    "options": [
+      "Ming",
+      "Qin",
+      "Han"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What 1648 treaties ended the Thirty Years’ War?",
+    "options": [
+      "Peace of Westphalia",
+      "Treaty of Utrecht",
+      "Edict of Nantes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1905 conflict saw Japan defeat a European power?",
+    "options": [
+      "Russo-Japanese War",
+      "Boer War",
+      "Spanish–American War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indian leader promoted nonviolent resistance to British rule?",
+    "options": [
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose",
+      "Muhammad Ali Jinnah"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1917 revolution created the first socialist state?",
+    "options": [
+      "October Revolution",
+      "February Revolution",
+      "Chinese Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1936–39 conflict was a prelude to World War II?",
+    "options": [
+      "Spanish Civil War",
+      "Second Sino-Japanese War",
+      "Italo-Ethiopian War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1949 revolution established the People’s Republic of China?",
+    "options": [
+      "Chinese Communist Revolution",
+      "Cultural Revolution",
+      "Taiping Rebellion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1954 ruling ended school segregation in the U.S.?",
+    "options": [
+      "Brown v. Board of Education",
+      "Plessy v. Ferguson",
+      "Roe v. Wade"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1989 event symbolized the end of the Cold War in Europe?",
+    "options": [
+      "Fall of the Berlin Wall",
+      "Dissolution of the USSR",
+      "Solidarity’s election victory"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient Greek city pioneered democracy?",
+    "options": [
+      "Athens",
+      "Sparta",
+      "Corinth"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire codified Roman law under Justinian?",
+    "options": [
+      "Byzantine Empire",
+      "Holy Roman Empire",
+      "Frankish Kingdom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dynasty ruled Japan during its long peace from 1603 to 1868?",
+    "options": [
+      "Tokugawa shogunate",
+      "Meiji",
+      "Heian"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which African kingdom defeated Italy at Adwa in 1896?",
+    "options": [
+      "Ethiopia",
+      "Benin",
+      "Kongo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Mesoamerican city hosted the Pyramid of the Sun?",
+    "options": [
+      "Teotihuacan",
+      "Tikal",
+      "Chichén Itzá"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Southeast Asian empire centered on Angkor?",
+    "options": [
+      "Khmer Empire",
+      "Srivijaya",
+      "Majapahit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century war led to the English Bill of Rights (1689)?",
+    "options": [
+      "Glorious Revolution",
+      "English Civil War",
+      "Nine Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century U.S. conflict ended at Appomattox Court House?",
+    "options": [
+      "American Civil War",
+      "War of 1812",
+      "Mexican–American War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which expedition first circumnavigated the globe (completed 1522)?",
+    "options": [
+      "Magellan–Elcano expedition",
+      "Columbus’s voyage",
+      "Vasco da Gama’s voyage"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which explorer reached India by sea around Africa in 1498?",
+    "options": [
+      "Vasco da Gama",
+      "Bartholomeu Dias",
+      "Henry the Navigator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire used the Cyrillic script spread by Orthodox missionaries?",
+    "options": [
+      "Kievan Rus' and successors",
+      "Carolingian Empire",
+      "Abbasid Caliphate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 10th‑century polity formed from eastern Franks became the Holy Roman Empire?",
+    "options": [
+      "East Frankish realm",
+      "West Frankish realm",
+      "Lombard Kingdom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1962 crisis brought the world close to nuclear war?",
+    "options": [
+      "Cuban Missile Crisis",
+      "Suez Crisis",
+      "Berlin Crisis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1804 act crowned Napoleon as Emperor of the French?",
+    "options": [
+      "Self-coronation at Notre-Dame",
+      "Charter of 1814",
+      "Concordat of 1801"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which treaty sold Louisiana to the United States in 1803?",
+    "options": [
+      "Louisiana Purchase Treaty",
+      "Jay Treaty",
+      "Treaty of Ghent"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire fell to Spanish conquistadors with the capture of Tenochtitlan (1521)?",
+    "options": [
+      "Aztec Empire",
+      "Inca Empire",
+      "Maya polities"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which S. American revolutionary is called 'The Liberator'?",
+    "options": [
+      "Simón Bolívar",
+      "José de San Martín",
+      "Bernardo O'Higgins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century war involved Protestant and Catholic states in Central Europe?",
+    "options": [
+      "Thirty Years’ War",
+      "Seven Years’ War",
+      "Nine Years’ War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1757 battle secured British control in Bengal?",
+    "options": [
+      "Battle of Plassey",
+      "Battle of Buxar",
+      "Battle of Panipat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire moved its capital to Delhi under the Sultanate and later the Mughals?",
+    "options": [
+      "Delhi-centered Muslim polities",
+      "Mauryan Empire",
+      "Chola Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1884–85 conference divided Africa among European powers?",
+    "options": [
+      "Berlin Conference",
+      "Vienna Congress",
+      "Paris Peace Conference"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 16th‑century Japanese warlord began the unification of Japan?",
+    "options": [
+      "Oda Nobunaga",
+      "Toyotomi Hideyoshi",
+      "Tokugawa Ieyasu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1805 naval battle gave Britain control of the seas?",
+    "options": [
+      "Battle of Trafalgar",
+      "Battle of Jutland",
+      "Battle of the Nile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient Near Eastern empire was famed for its library at Nineveh?",
+    "options": [
+      "Assyrian Empire",
+      "Hittite Empire",
+      "Babylonian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization built the Parthenon?",
+    "options": [
+      "Ancient Greeks",
+      "Ancient Romans",
+      "Ancient Egyptians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which wall in Britain marked the northern limit of Roman Britannia?",
+    "options": [
+      "Hadrian’s Wall",
+      "Antonine Wall",
+      "Offa’s Dyke"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which law code organized Eastern Roman law under Justinian?",
+    "options": [
+      "Corpus Juris Civilis",
+      "Twelve Tables",
+      "Napoleonic Code"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which city-state led the Delian League?",
+    "options": [
+      "Athens",
+      "Sparta",
+      "Thebes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which city was capital of the Umayyad Caliphate?",
+    "options": [
+      "Damascus",
+      "Baghdad",
+      "Córdoba"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dynasty completed the Grand Canal’s expansion?",
+    "options": [
+      "Sui",
+      "Tang",
+      "Song"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which battle (480 BCE) featured 300 Spartans at a mountain pass?",
+    "options": [
+      "Thermopylae",
+      "Salamis",
+      "Marathon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which pharaoh built the Great Pyramid at Giza?",
+    "options": [
+      "Khufu",
+      "Khafre",
+      "Menkaure"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Norseman founded a short-lived settlement at Vinland?",
+    "options": [
+      "Leif Erikson",
+      "Erik the Red",
+      "Harald Hardrada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which German statesman unified Germany in 1871?",
+    "options": [
+      "Otto von Bismarck",
+      "Helmut von Moltke",
+      "Klemens von Metternich"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which early empire used satraps to govern provinces?",
+    "options": [
+      "Achaemenid Persian Empire",
+      "Seleucid Empire",
+      "Parthian Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which English document followed the Glorious Revolution limiting monarchy?",
+    "options": [
+      "Bill of Rights 1689",
+      "Act of Supremacy",
+      "Navigation Acts"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which civilization developed the alphabet widely adopted by Greeks?",
+    "options": [
+      "Phoenicians",
+      "Minoans",
+      "Hittites"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which African trading empire had the city of Timbuktu?",
+    "options": [
+      "Mali Empire",
+      "Songhai Empire",
+      "Ghana Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century scientist’s laws underpinned the Industrial Revolution?",
+    "options": [
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Robert Boyle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century ideology sought Jewish homeland in Palestine?",
+    "options": [
+      "Zionism",
+      "Pan-Slavism",
+      "Social Darwinism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 20th‑century Indian movement protested salt taxes?",
+    "options": [
+      "Salt March",
+      "Quit India",
+      "Swadeshi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Berlin airlift year kept West Berlin supplied?",
+    "options": [
+      "1948–49",
+      "1953–54",
+      "1961–62"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which treaty ended the Napoleonic Wars and redrew Europe?",
+    "options": [
+      "Congress of Vienna settlements",
+      "Treaty of Ghent",
+      "Treaty of San Stefano"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dynasty produced China’s 'Golden Age' of poetry (Li Bai, Du Fu)?",
+    "options": [
+      "Tang",
+      "Song",
+      "Han"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which empire’s capital was Tenochtitlan?",
+    "options": [
+      "Aztec Empire",
+      "Inca Empire",
+      "Toltec Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Mesoamerican calendar and writing flourished at Chichén Itzá?",
+    "options": [
+      "Maya",
+      "Olmec",
+      "Zapotec"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 11th‑century conquest changed the English language profoundly?",
+    "options": [
+      "Norman Conquest",
+      "Danish Conquest",
+      "Angevin Union"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which explorer named the Pacific Ocean?",
+    "options": [
+      "Ferdinand Magellan",
+      "James Cook",
+      "Vasco Núñez de Balboa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century doctrine opposed European colonization in the Americas?",
+    "options": [
+      "Monroe Doctrine",
+      "Manifest Destiny",
+      "Open Door Policy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war featured the Charge of the Light Brigade?",
+    "options": [
+      "Crimean War",
+      "Boer War",
+      "World War I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country’s Meiji Restoration rapidly modernized in the late 1800s?",
+    "options": [
+      "Japan",
+      "China",
+      "Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 20th‑century protest in Poland birthed Solidarity?",
+    "options": [
+      "Gdańsk Shipyard strikes",
+      "Prague Spring",
+      "Velvet Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which African leader served long after ending apartheid?",
+    "options": [
+      "Nelson Mandela",
+      "Julius Nyerere",
+      "Kwame Nkrumah"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which French document proclaimed rights in 1789?",
+    "options": [
+      "Declaration of the Rights of Man",
+      "Napoleonic Code",
+      "Edict of Nantes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 16th‑century Spanish empire extracted silver from Potosí?",
+    "options": [
+      "Spanish Empire",
+      "Portuguese Empire",
+      "Dutch Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which English sea captain circumnavigated the globe in the 1570s?",
+    "options": [
+      "Francis Drake",
+      "Walter Raleigh",
+      "John Hawkins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which English civil war leader later ruled as Lord Protector?",
+    "options": [
+      "Oliver Cromwell",
+      "Charles I",
+      "James II"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1863 proclamation declared slaves free in Confederate states?",
+    "options": [
+      "Emancipation Proclamation",
+      "Missouri Compromise",
+      "Compromise of 1850"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 20th‑century Chinese campaign attempted rapid industrialization?",
+    "options": [
+      "Great Leap Forward",
+      "Hundred Flowers",
+      "Self-Strengthening"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1919–1921 conflict secured Irish independence (partial)?",
+    "options": [
+      "Irish War of Independence",
+      "Easter Rising",
+      "Irish Civil War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1979 event toppled the Shah of Iran?",
+    "options": [
+      "Iranian Revolution",
+      "White Revolution",
+      "Green Movement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1314 battle secured Scottish independence for a time?",
+    "options": [
+      "Bannockburn",
+      "Stirling Bridge",
+      "Flodden"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1791 document formed the first French constitution?",
+    "options": [
+      "Constitution of 1791",
+      "Civil Constitution of the Clergy",
+      "Constitution of Year VIII"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 732 battle checked Muslim expansion in Europe?",
+    "options": [
+      "Battle of Tours",
+      "Battle of Poitiers (1356)",
+      "Battle of Manzikert"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1453 event ended the Middle Ages for many historians?",
+    "options": [
+      "Fall of Constantinople",
+      "Discovery of America",
+      "Printing of Gutenberg Bible"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century Dutch company dominated Asian trade?",
+    "options": [
+      "Dutch East India Company (VOC)",
+      "Dutch West India Company",
+      "British East India Company"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1867 act created the Dominion of Canada?",
+    "options": [
+      "British North America Act",
+      "Statute of Westminster",
+      "Act of Union"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient Indian emperor embraced Buddhism after Kalinga?",
+    "options": [
+      "Ashoka",
+      "Chandragupta Maurya",
+      "Harsha"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1857 uprising challenged British rule in India?",
+    "options": [
+      "Indian Rebellion of 1857",
+      "Bombay Mutiny of 1803",
+      "Third Anglo-Maratha War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1911–12 revolution ended China’s last imperial dynasty?",
+    "options": [
+      "Xinhai Revolution",
+      "Taiping Rebellion",
+      "Boxer Rebellion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1869 canal cut the sea route from Europe to Asia?",
+    "options": [
+      "Suez Canal",
+      "Panama Canal",
+      "Corinth Canal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1903 achievement by the Wright brothers changed travel?",
+    "options": [
+      "First powered flight",
+      "First jet flight",
+      "First helicopter flight"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which treaty ended WWI between Germany and the Allies?",
+    "options": [
+      "Treaty of Versailles",
+      "Treaty of Brest-Litovsk",
+      "Treaty of San Remo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval order of knights was suppressed in 1312?",
+    "options": [
+      "Knights Templar",
+      "Teutonic Knights",
+      "Hospitallers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which English charter asserted habeas corpus principles in 1679?",
+    "options": [
+      "Habeas Corpus Act",
+      "Act of Settlement",
+      "Test Act"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dynasty followed the Tang in China?",
+    "options": [
+      "Song",
+      "Yuan",
+      "Ming"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century war restored the Stuart monarchy in 1660?",
+    "options": [
+      "English Civil War outcome",
+      "Nine Years' War",
+      "War of the Spanish Succession"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1707 act united England and Scotland into Great Britain?",
+    "options": [
+      "Act of Union",
+      "Settlement Act",
+      "Union of Utrecht"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 18th‑century war is called the first 'world war' by some?",
+    "options": [
+      "Seven Years’ War",
+      "War of the Spanish Succession",
+      "War of Jenkins’ Ear"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1807 act ended the British transatlantic slave trade?",
+    "options": [
+      "Slave Trade Act",
+      "Abolition Act 1833",
+      "Navigation Acts"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1836 battle became a symbol of Texan resistance?",
+    "options": [
+      "Battle of the Alamo",
+      "Battle of San Jacinto",
+      "Battle of Palo Alto"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1861–65 conflict preserved the U.S. Union?",
+    "options": [
+      "American Civil War",
+      "Mexican–American War",
+      "War of 1812"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1871 commune briefly ruled Paris?",
+    "options": [
+      "Paris Commune",
+      "Communards of Lyon",
+      "Lausanne Commune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1889 Exhibition in Paris unveiled a famous tower?",
+    "options": [
+      "Exposition Universelle",
+      "Great Exhibition",
+      "Columbian Exposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1894–95 war saw Japan defeat China over Korea?",
+    "options": [
+      "First Sino-Japanese War",
+      "Russo-Japanese War",
+      "Boxer Rebellion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1915 landing was a costly Allied failure in WWI?",
+    "options": [
+      "Gallipoli",
+      "Somme",
+      "Verdun"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1929 crisis triggered the Great Depression?",
+    "options": [
+      "Wall Street Crash",
+      "Oil Shock",
+      "Panic of 1907"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1935 law in the U.S. created Social Security?",
+    "options": [
+      "Social Security Act",
+      "Wagner Act",
+      "Glass–Steagall Act"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1940 battle was an air campaign over Britain?",
+    "options": [
+      "Battle of Britain",
+      "Battle of the Atlantic",
+      "Battle of El Alamein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1944 invasion opened a Western front in Europe?",
+    "options": [
+      "D‑Day landings",
+      "Operation Market Garden",
+      "Anzio landings"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1945 conference shaped postwar Europe (Churchill, Roosevelt, Stalin)?",
+    "options": [
+      "Yalta Conference",
+      "Potsdam Conference",
+      "Tehran Conference"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1948 declaration set global human rights standards?",
+    "options": [
+      "Universal Declaration of Human Rights",
+      "Atlantic Charter",
+      "Geneva Conventions"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1955 pact aligned the USSR with Eastern Europe?",
+    "options": [
+      "Warsaw Pact",
+      "Cominform",
+      "COMECON"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1956 crisis followed the nationalization of a canal?",
+    "options": [
+      "Suez Crisis",
+      "Hungarian Uprising",
+      "Prague Spring"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1963 speech declared 'I Have a Dream'?",
+    "options": [
+      "Martin Luther King Jr.",
+      "John F. Kennedy",
+      "Lyndon B. Johnson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1964 U.S. law outlawed segregation in public places?",
+    "options": [
+      "Civil Rights Act",
+      "Voting Rights Act",
+      "Fair Housing Act"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1971 accord opened China–U.S. relations via ping-pong?",
+    "options": [
+      "Ping-pong diplomacy",
+      "Camp David Accords",
+      "SALT I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1973 crisis led to an oil embargo?",
+    "options": [
+      "Yom Kippur War",
+      "Suez Crisis",
+      "Six-Day War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1986 disaster struck a Soviet nuclear plant?",
+    "options": [
+      "Chernobyl",
+      "Three Mile Island",
+      "Fukushima"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1991 event ended the USSR?",
+    "options": [
+      "Soviet dissolution",
+      "Belavezha Accords",
+      "August Coup"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1994 election brought majority rule to South Africa?",
+    "options": [
+      "Nelson Mandela elected",
+      "End of apartheid referendum",
+      "Truth and Reconciliation Commission"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which medieval university city is in England?",
+    "options": [
+      "Oxford",
+      "Heidelberg",
+      "Bologna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which early modern economic policy favored trade surplus and bullion?",
+    "options": [
+      "Mercantilism",
+      "Laissez-faire",
+      "Socialism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which pact in 1494 divided new lands between Spain and Portugal?",
+    "options": [
+      "Treaty of Tordesillas",
+      "Treaty of Zaragoza",
+      "Treaty of Alcaçovas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which explorer mapped the St. Lawrence River for France?",
+    "options": [
+      "Jacques Cartier",
+      "Samuel de Champlain",
+      "La Salle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which revolution in 1910 overthrew Porfirio Díaz?",
+    "options": [
+      "Mexican Revolution",
+      "Cuban Revolution",
+      "Nicaraguan Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which European war (1618–1648) devastated German lands?",
+    "options": [
+      "Thirty Years’ War",
+      "Seven Years’ War",
+      "War of the Austrian Succession"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which female pharaoh led trading expeditions to Punt?",
+    "options": [
+      "Hatshepsut",
+      "Cleopatra VII",
+      "Nefertiti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Assyrian innovation spread ironworking in the Near East?",
+    "options": [
+      "Military conquest and deportations",
+      "Coinage",
+      "Writing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Athenian statesman expanded democracy and led during the Parthenon’s construction?",
+    "options": [
+      "Pericles",
+      "Solon",
+      "Cleisthenes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Greek city-state emphasized military training from youth?",
+    "options": [
+      "Sparta",
+      "Corinth",
+      "Argos"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Roman road famously ran straight to the capital?",
+    "options": [
+      "Via Appia",
+      "Via Egnatia",
+      "Via Flaminia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Carthaginian wars with Rome decided Mediterranean dominance?",
+    "options": [
+      "Punic Wars",
+      "Samnite Wars",
+      "Mithridatic Wars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 14th‑century pandemic killed millions in Europe?",
+    "options": [
+      "Black Death",
+      "Spanish flu",
+      "Justinianic plague"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1478 institution persecuted heresy in Spain?",
+    "options": [
+      "Spanish Inquisition",
+      "Index Librorum Prohibitorum",
+      "Jesuit Order"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1492 event ended centuries of Muslim rule in Iberia?",
+    "options": [
+      "Fall of Granada",
+      "Alcáçovas Treaty",
+      "Portuguese Restoration"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 16th‑century movement sought to reform the Catholic Church?",
+    "options": [
+      "Protestant Reformation",
+      "Counter-Reformation",
+      "Scholasticism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 17th‑century war in Britain led to the execution of a king?",
+    "options": [
+      "English Civil War",
+      "Nine Years' War",
+      "War of the Three Kingdoms"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 18th‑century revolution created the first modern republic in the Americas?",
+    "options": [
+      "American Revolution",
+      "Haitian Revolution",
+      "Gran Colombian independence"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 19th‑century uprising sought to expel foreigners from China?",
+    "options": [
+      "Boxer Rebellion",
+      "Taiping Rebellion",
+      "Nian Rebellion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which early 20th‑century policy in the U.S. banned alcohol sales?",
+    "options": [
+      "Prohibition",
+      "New Deal",
+      "Square Deal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 20th‑century agreement created the EU’s forerunner in 1957?",
+    "options": [
+      "Treaty of Rome",
+      "Maastricht Treaty",
+      "Lisbon Treaty"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 21st‑century movement began with protests in Tunisia?",
+    "options": [
+      "Arab Spring",
+      "Orange Revolution",
+      "Rose Revolution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient city-state held the Olympic Games?",
+    "options": [
+      "Olympia (Elis)",
+      "Delphi",
+      "Corinth"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Macedonian successor state ruled Egypt after Alexander?",
+    "options": [
+      "Ptolemaic Kingdom",
+      "Seleucid Empire",
+      "Antigonid Kingdom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indian empire compiled the Arthashastra tradition (attributed)?",
+    "options": [
+      "Maurya Empire",
+      "Gupta Empire",
+      "Kushan Empire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Roman general defeated Hannibal at Zama?",
+    "options": [
+      "Scipio Africanus",
+      "Marius",
+      "Sulla"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Gothic group sacked Rome in 410 CE?",
+    "options": [
+      "Visigoths",
+      "Ostrogoths",
+      "Vandals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1204 event diverted a crusade to Constantinople?",
+    "options": [
+      "Fourth Crusade",
+      "Third Crusade",
+      "Second Crusade"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1212 campaign was a popular movement of youths?",
+    "options": [
+      "Children’s Crusade",
+      "Albigensian Crusade",
+      "Northern Crusade"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1455–1487 conflict in England featured York vs Lancaster?",
+    "options": [
+      "Wars of the Roses",
+      "Barons' War",
+      "Jacobite Risings"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which navigator proved the Cape route into the Indian Ocean in 1488?",
+    "options": [
+      "Bartholomeu Dias",
+      "Vasco da Gama",
+      "Pedro Álvares Cabral"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1517 event is often marked as the start of the Reformation?",
+    "options": [
+      "Martin Luther’s Theses at Wittenberg",
+      "Council of Trent opens",
+      "Diet of Worms"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1520 encounter saw Aztec resistance to Cortés?",
+    "options": [
+      "La Noche Triste",
+      "Cajamarca",
+      "Ayacucho"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1582 reform corrected the calendar drift?",
+    "options": [
+      "Gregorian calendar",
+      "Julian calendar",
+      "Revised Julian"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1605 plot attempted to blow up the English Parliament?",
+    "options": [
+      "Gunpowder Plot",
+      "Babington Plot",
+      "Rye House Plot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1642–1651 wars involved England, Scotland and Ireland?",
+    "options": [
+      "Wars of the Three Kingdoms",
+      "War of Devolution",
+      "War of the Grand Alliance"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1700–1721 war expanded Russia’s Baltic access?",
+    "options": [
+      "Great Northern War",
+      "Livonian War",
+      "Crimean War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1756–1763 conflict ended with the Treaty of Paris?",
+    "options": [
+      "Seven Years’ War",
+      "War of the Austrian Succession",
+      "Napoleonic Wars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1793 device symbolized the French Reign of Terror?",
+    "options": [
+      "Guillotine",
+      "Bastille",
+      "Tricolour"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1805 battle was Napoleon’s greatest victory against Austria and Russia?",
+    "options": [
+      "Austerlitz",
+      "Borodino",
+      "Jena–Auerstedt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1812 invasion failed disastrously for Napoleon?",
+    "options": [
+      "Russian campaign",
+      "Peninsular War",
+      "Egypt expedition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1848 wave of uprisings swept across Europe?",
+    "options": [
+      "Revolutions of 1848",
+      "Springtime of Nations",
+      "Paris Commune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1861 Italian city became capital after unification (before Rome)?",
+    "options": [
+      "Florence",
+      "Turin",
+      "Milan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1876 invention by Bell transformed communication?",
+    "options": [
+      "Telephone",
+      "Telegraph",
+      "Phonograph"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1905 massacre in St. Petersburg sparked unrest?",
+    "options": [
+      "Bloody Sunday",
+      "July Days",
+      "Kronstadt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1916 battle was one of WWI’s bloodiest on the Western Front?",
+    "options": [
+      "Somme",
+      "Verdun",
+      "Ypres"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1922 pact normalized relations between Germany and the USSR?",
+    "options": [
+      "Treaty of Rapallo",
+      "Locarno Treaties",
+      "Kellogg–Briand Pact"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1931 event marked Japan’s seizure of Manchuria?",
+    "options": [
+      "Mukden Incident",
+      "Marco Polo Bridge Incident",
+      "Shanghai Incident"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1947 partition created India and Pakistan?",
+    "options": [
+      "Partition of British India",
+      "Partition of Bengal (1905)",
+      "Partition of Punjab (1966)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1957 treaty created the European Economic Community?",
+    "options": [
+      "Treaty of Rome",
+      "Treaty of Paris (1951)",
+      "Single European Act"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1968 event crushed reforms in Czechoslovakia?",
+    "options": [
+      "Prague Spring invasion",
+      "Hungarian Uprising",
+      "Solidarity crackdown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1978 accords brokered peace between Egypt and Israel?",
+    "options": [
+      "Camp David Accords",
+      "Oslo Accords",
+      "Wye River Memorandum"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1982 conflict involved Britain and Argentina?",
+    "options": [
+      "Falklands War",
+      "Suez Crisis",
+      "Cod Wars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1989 protest in China was suppressed in Tiananmen Square?",
+    "options": [
+      "Pro‑democracy movement",
+      "Cultural Revolution",
+      "Hundred Flowers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 1999 currency launched as a non-cash unit in Europe?",
+    "options": [
+      "Euro",
+      "ECU",
+      "Deutschmark"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 2004 expansion added 10 states to the EU?",
+    "options": [
+      "EU enlargement of 2004",
+      "Schengen enlargement 2007",
+      "EFTA expansion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which 2016 referendum led to the UK leaving the EU?",
+    "options": [
+      "Brexit referendum",
+      "AV referendum",
+      "Scottish independence referendum"
+    ],
+    "correctIndex": 0
+  }
+]

@@ -1,0 +1,4846 @@
+[
+  {
+    "stem": "What is the capital of France?",
+    "options": [
+      "Paris",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Germany?",
+    "options": [
+      "Berlin",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Italy?",
+    "options": [
+      "Rome",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Spain?",
+    "options": [
+      "Madrid",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Portugal?",
+    "options": [
+      "Lisbon",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Belgium?",
+    "options": [
+      "Brussels",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Netherlands?",
+    "options": [
+      "Amsterdam",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Luxembourg?",
+    "options": [
+      "Luxembourg",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Switzerland?",
+    "options": [
+      "Bern",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Austria?",
+    "options": [
+      "Vienna",
+      "Niamey",
+      "Tehran"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Czechia?",
+    "options": [
+      "Prague",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Poland?",
+    "options": [
+      "Warsaw",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Hungary?",
+    "options": [
+      "Budapest",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Greece?",
+    "options": [
+      "Athens",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Turkey?",
+    "options": [
+      "Ankara",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Russia?",
+    "options": [
+      "Moscow",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ukraine?",
+    "options": [
+      "Kyiv",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Norway?",
+    "options": [
+      "Oslo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sweden?",
+    "options": [
+      "Stockholm",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Finland?",
+    "options": [
+      "Helsinki",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Denmark?",
+    "options": [
+      "Copenhagen",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ireland?",
+    "options": [
+      "Dublin",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United Kingdom?",
+    "options": [
+      "London",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United States?",
+    "options": [
+      "Washington, D.C.",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mexico?",
+    "options": [
+      "Mexico City",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Brazil?",
+    "options": [
+      "Brasília",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Argentina?",
+    "options": [
+      "Buenos Aires",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Chile?",
+    "options": [
+      "Santiago",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Peru?",
+    "options": [
+      "Lima",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Colombia?",
+    "options": [
+      "Bogotá",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Venezuela?",
+    "options": [
+      "Caracas",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bolivia?",
+    "options": [
+      "Sucre",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ecuador?",
+    "options": [
+      "Quito",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Uruguay?",
+    "options": [
+      "Montevideo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Paraguay?",
+    "options": [
+      "Asunción",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Australia?",
+    "options": [
+      "Canberra",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of New Zealand?",
+    "options": [
+      "Wellington",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of China?",
+    "options": [
+      "Beijing",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Japan?",
+    "options": [
+      "Tokyo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of South Korea?",
+    "options": [
+      "Seoul",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of North Korea?",
+    "options": [
+      "Pyongyang",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of India?",
+    "options": [
+      "New Delhi",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Pakistan?",
+    "options": [
+      "Islamabad",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bangladesh?",
+    "options": [
+      "Dhaka",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sri Lanka?",
+    "options": [
+      "Sri Jayawardenepura Kotte",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Nepal?",
+    "options": [
+      "Kathmandu",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bhutan?",
+    "options": [
+      "Thimphu",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Myanmar?",
+    "options": [
+      "Naypyidaw",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Thailand?",
+    "options": [
+      "Bangkok",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Vietnam?",
+    "options": [
+      "Hanoi",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Laos?",
+    "options": [
+      "Vientiane",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cambodia?",
+    "options": [
+      "Phnom Penh",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Malaysia?",
+    "options": [
+      "Kuala Lumpur",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Singapore?",
+    "options": [
+      "Singapore",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Indonesia?",
+    "options": [
+      "Jakarta",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Philippines?",
+    "options": [
+      "Manila",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mongolia?",
+    "options": [
+      "Ulaanbaatar",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iran?",
+    "options": [
+      "Tehran",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iraq?",
+    "options": [
+      "Baghdad",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Syria?",
+    "options": [
+      "Damascus",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Jordan?",
+    "options": [
+      "Amman",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Israel?",
+    "options": [
+      "Jerusalem",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Lebanon?",
+    "options": [
+      "Beirut",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Saudi Arabia?",
+    "options": [
+      "Riyadh",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Yemen?",
+    "options": [
+      "Sana'a",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Oman?",
+    "options": [
+      "Muscat",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United Arab Emirates?",
+    "options": [
+      "Abu Dhabi",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Qatar?",
+    "options": [
+      "Doha",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kuwait?",
+    "options": [
+      "Kuwait City",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bahrain?",
+    "options": [
+      "Manama",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Egypt?",
+    "options": [
+      "Cairo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Libya?",
+    "options": [
+      "Tripoli",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tunisia?",
+    "options": [
+      "Tunis",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Algeria?",
+    "options": [
+      "Algiers",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Morocco?",
+    "options": [
+      "Rabat",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ethiopia?",
+    "options": [
+      "Addis Ababa",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kenya?",
+    "options": [
+      "Nairobi",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tanzania?",
+    "options": [
+      "Dodoma",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Uganda?",
+    "options": [
+      "Kampala",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sudan?",
+    "options": [
+      "Khartoum",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of South Sudan?",
+    "options": [
+      "Juba",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Somalia?",
+    "options": [
+      "Mogadishu",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Eritrea?",
+    "options": [
+      "Asmara",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Djibouti?",
+    "options": [
+      "Djibouti",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Nigeria?",
+    "options": [
+      "Abuja",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ghana?",
+    "options": [
+      "Accra",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ivory Coast?",
+    "options": [
+      "Yamoussoukro",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Senegal?",
+    "options": [
+      "Dakar",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mali?",
+    "options": [
+      "Bamako",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Niger?",
+    "options": [
+      "Niamey",
+      "Vienna",
+      "Tehran"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cameroon?",
+    "options": [
+      "Yaoundé",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Democratic Republic of the Congo?",
+    "options": [
+      "Kinshasa",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Republic of the Congo?",
+    "options": [
+      "Brazzaville",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of South Africa?",
+    "options": [
+      "Pretoria",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Zimbabwe?",
+    "options": [
+      "Harare",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Zambia?",
+    "options": [
+      "Lusaka",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Botswana?",
+    "options": [
+      "Gaborone",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Namibia?",
+    "options": [
+      "Windhoek",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Angola?",
+    "options": [
+      "Luanda",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Madagascar?",
+    "options": [
+      "Antananarivo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Rwanda?",
+    "options": [
+      "Kigali",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burundi?",
+    "options": [
+      "Gitega",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Gabon?",
+    "options": [
+      "Libreville",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Equatorial Guinea?",
+    "options": [
+      "Malabo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guinea?",
+    "options": [
+      "Conakry",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guinea-Bissau?",
+    "options": [
+      "Bissau",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sierra Leone?",
+    "options": [
+      "Freetown",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Liberia?",
+    "options": [
+      "Monrovia",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Togo?",
+    "options": [
+      "Lomé",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Benin?",
+    "options": [
+      "Porto-Novo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burkina Faso?",
+    "options": [
+      "Ouagadougou",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Chad?",
+    "options": [
+      "N'Djamena",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Central African Republic?",
+    "options": [
+      "Bangui",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Albania?",
+    "options": [
+      "Tirana",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Serbia?",
+    "options": [
+      "Belgrade",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Croatia?",
+    "options": [
+      "Zagreb",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bosnia and Herzegovina?",
+    "options": [
+      "Sarajevo",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of North Macedonia?",
+    "options": [
+      "Skopje",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bulgaria?",
+    "options": [
+      "Sofia",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Romania?",
+    "options": [
+      "Bucharest",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Slovakia?",
+    "options": [
+      "Bratislava",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Slovenia?",
+    "options": [
+      "Ljubljana",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Belarus?",
+    "options": [
+      "Minsk",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Lithuania?",
+    "options": [
+      "Vilnius",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Latvia?",
+    "options": [
+      "Riga",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Estonia?",
+    "options": [
+      "Tallinn",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iceland?",
+    "options": [
+      "Reykjavík",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Malta?",
+    "options": [
+      "Valletta",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cyprus?",
+    "options": [
+      "Nicosia",
+      "Niamey",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is the largest hot desert?",
+    "options": [
+      "Sahara Desert",
+      "Gobi Desert",
+      "Arabian Desert"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe and Asia in Russia?",
+    "options": [
+      "Ural Mountains",
+      "Caucasus Mountains",
+      "Alps"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the world's highest waterfall by height?",
+    "options": [
+      "Angel Falls",
+      "Niagara Falls",
+      "Victoria Falls"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the most natural lakes?",
+    "options": [
+      "Canada",
+      "Finland",
+      "Russia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "The Danube River empties into which sea?",
+    "options": [
+      "Black Sea",
+      "Adriatic Sea",
+      "Aegean Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which strait separates Asia and North America?",
+    "options": [
+      "Bering Strait",
+      "Gibraltar",
+      "Bosporus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "What is the capital of Benin?",
+    "options": [
+      "Porto-Novo",
+      "Addis Ababa",
+      "Minsk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Dominican Republic?",
+    "options": [
+      "Santo Domingo",
+      "Belgrade",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Democratic Republic of the Congo?",
+    "options": [
+      "Kinshasa",
+      "St. George's",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Samoa?",
+    "options": [
+      "Apia",
+      "Sarajevo",
+      "Bridgetown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bangladesh?",
+    "options": [
+      "Dhaka",
+      "Wellington",
+      "Castries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Nigeria?",
+    "options": [
+      "Abuja",
+      "Sana'a",
+      "Kathmandu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kiribati?",
+    "options": [
+      "Tarawa",
+      "Brasília",
+      "Roseau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Solomon Islands?",
+    "options": [
+      "Honiara",
+      "Reykjavík",
+      "Gitega"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mexico?",
+    "options": [
+      "Mexico City",
+      "Reykjavík",
+      "Sucre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Djibouti?",
+    "options": [
+      "Djibouti",
+      "Amsterdam",
+      "Palikir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Monaco?",
+    "options": [
+      "Monaco",
+      "Bangui",
+      "Addis Ababa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Equatorial Guinea?",
+    "options": [
+      "Malabo",
+      "Hanoi",
+      "Bogotá"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Slovenia?",
+    "options": [
+      "Ljubljana",
+      "Sarajevo",
+      "Bridgetown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bahamas?",
+    "options": [
+      "Nassau",
+      "Havana",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Spain?",
+    "options": [
+      "Madrid",
+      "Belgrade",
+      "Maseru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of South Sudan?",
+    "options": [
+      "Juba",
+      "Kuala Lumpur",
+      "Bishkek"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Netherlands?",
+    "options": [
+      "Amsterdam",
+      "Stockholm",
+      "San Marino"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sierra Leone?",
+    "options": [
+      "Freetown",
+      "Astana",
+      "Malabo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burundi?",
+    "options": [
+      "Gitega",
+      "Roseau",
+      "Antananarivo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Nepal?",
+    "options": [
+      "Kathmandu",
+      "Muscat",
+      "Brussels"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Vanuatu?",
+    "options": [
+      "Port Vila",
+      "Dodoma",
+      "Tegucigalpa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bosnia and Herzegovina?",
+    "options": [
+      "Sarajevo",
+      "Pyongyang",
+      "Banjul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Finland?",
+    "options": [
+      "Helsinki",
+      "Kinshasa",
+      "Bucharest"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mauritania?",
+    "options": [
+      "Nouakchott",
+      "Bogotá",
+      "Nairobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Singapore?",
+    "options": [
+      "Singapore",
+      "Taipei",
+      "Dushanbe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of North Korea?",
+    "options": [
+      "Pyongyang",
+      "Freetown",
+      "Malabo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tajikistan?",
+    "options": [
+      "Dushanbe",
+      "Baghdad",
+      "St. George's"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Republic of the Congo?",
+    "options": [
+      "Brazzaville",
+      "Kuala Lumpur",
+      "Suva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Botswana?",
+    "options": [
+      "Gaborone",
+      "Tunis",
+      "São Tomé"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Belarus?",
+    "options": [
+      "Minsk",
+      "Cairo",
+      "Athens"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Japan?",
+    "options": [
+      "Tokyo",
+      "Kingstown",
+      "Cairo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of El Salvador?",
+    "options": [
+      "San Salvador",
+      "Vienna",
+      "Ashgabat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Morocco?",
+    "options": [
+      "Rabat",
+      "Accra",
+      "Tashkent"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Colombia?",
+    "options": [
+      "Bogotá",
+      "Addis Ababa",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kuwait?",
+    "options": [
+      "Kuwait City",
+      "Astana",
+      "Nouakchott"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Antigua and Barbuda?",
+    "options": [
+      "St. John's",
+      "Athens",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Costa Rica?",
+    "options": [
+      "San José",
+      "Belgrade",
+      "Beirut"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Jordan?",
+    "options": [
+      "Amman",
+      "San Salvador",
+      "St. John's"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Saint Vincent and the Grenadines?",
+    "options": [
+      "Kingstown",
+      "St. George's",
+      "San José"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of South Korea?",
+    "options": [
+      "Seoul",
+      "Lisbon",
+      "Madrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mongolia?",
+    "options": [
+      "Ulaanbaatar",
+      "Kingstown",
+      "Libreville"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Turkmenistan?",
+    "options": [
+      "Ashgabat",
+      "Tallinn",
+      "Monaco"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guyana?",
+    "options": [
+      "Georgetown",
+      "Brussels",
+      "Bridgetown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Germany?",
+    "options": [
+      "Berlin",
+      "Manama",
+      "Maputo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sri Lanka?",
+    "options": [
+      "Sri Jayawardenepura Kotte",
+      "Beijing",
+      "Kingston"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Croatia?",
+    "options": [
+      "Zagreb",
+      "Majuro",
+      "Sofia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Paraguay?",
+    "options": [
+      "Asunción",
+      "Nicosia",
+      "Ljubljana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kyrgyzstan?",
+    "options": [
+      "Bishkek",
+      "St. George's",
+      "Windhoek"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Algeria?",
+    "options": [
+      "Algiers",
+      "Nicosia",
+      "São Tomé"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Palau?",
+    "options": [
+      "Ngerulmud",
+      "Vaduz",
+      "Nassau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Eritrea?",
+    "options": [
+      "Asmara",
+      "St. John's",
+      "London"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Yemen?",
+    "options": [
+      "Sana'a",
+      "Bangkok",
+      "Abu Dhabi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Georgia?",
+    "options": [
+      "Tbilisi",
+      "Skopje",
+      "Nairobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Papua New Guinea?",
+    "options": [
+      "Port Moresby",
+      "Yamoussoukro",
+      "Algiers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Latvia?",
+    "options": [
+      "Riga",
+      "St. George's",
+      "Oslo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Greece?",
+    "options": [
+      "Athens",
+      "Nicosia",
+      "Majuro"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of China?",
+    "options": [
+      "Beijing",
+      "Banjul",
+      "Lilongwe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Rwanda?",
+    "options": [
+      "Kigali",
+      "N'Djamena",
+      "Sofia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Italy?",
+    "options": [
+      "Rome",
+      "Rabat",
+      "Ulaanbaatar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Somalia?",
+    "options": [
+      "Mogadishu",
+      "Moroni",
+      "Phnom Penh"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Saudi Arabia?",
+    "options": [
+      "Riyadh",
+      "Kyiv",
+      "Roseau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Comoros?",
+    "options": [
+      "Moroni",
+      "Copenhagen",
+      "Dhaka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iran?",
+    "options": [
+      "Tehran",
+      "Bogotá",
+      "Victoria"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Gambia?",
+    "options": [
+      "Banjul",
+      "Khartoum",
+      "Yaoundé"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Egypt?",
+    "options": [
+      "Cairo",
+      "Bishkek",
+      "Madrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Slovakia?",
+    "options": [
+      "Bratislava",
+      "Guatemala City",
+      "Dakar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Andorra?",
+    "options": [
+      "Andorra la Vella",
+      "N'Djamena",
+      "Jakarta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Uruguay?",
+    "options": [
+      "Montevideo",
+      "Doha",
+      "Harare"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ecuador?",
+    "options": [
+      "Quito",
+      "Brasília",
+      "Ottawa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Saint Kitts and Nevis?",
+    "options": [
+      "Basseterre",
+      "Amman",
+      "Montevideo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iraq?",
+    "options": [
+      "Baghdad",
+      "Manama",
+      "Tegucigalpa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Taiwan?",
+    "options": [
+      "Taipei",
+      "Bern",
+      "Brussels"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Czechia?",
+    "options": [
+      "Prague",
+      "Bamako",
+      "San Salvador"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Barbados?",
+    "options": [
+      "Bridgetown",
+      "N'Djamena",
+      "Antananarivo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Saint Lucia?",
+    "options": [
+      "Castries",
+      "Honiara",
+      "Baku"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Maldives?",
+    "options": [
+      "Malé",
+      "Tashkent",
+      "Vilnius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Israel?",
+    "options": [
+      "Jerusalem",
+      "Berlin",
+      "Tunis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Poland?",
+    "options": [
+      "Warsaw",
+      "Naypyidaw",
+      "Palikir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Austria?",
+    "options": [
+      "Vienna",
+      "Ulaanbaatar",
+      "Phnom Penh"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mozambique?",
+    "options": [
+      "Maputo",
+      "Kingstown",
+      "Monaco"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Gabon?",
+    "options": [
+      "Libreville",
+      "Port Moresby",
+      "Asunción"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Timor-Leste?",
+    "options": [
+      "Dili",
+      "Kuwait City",
+      "Ljubljana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of North Macedonia?",
+    "options": [
+      "Skopje",
+      "Panama City",
+      "Suva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of San Marino?",
+    "options": [
+      "San Marino",
+      "Beirut",
+      "Kampala"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Dominica?",
+    "options": [
+      "Roseau",
+      "Juba",
+      "Bern"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United States?",
+    "options": [
+      "Washington, D.C.",
+      "Zagreb",
+      "Astana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Philippines?",
+    "options": [
+      "Manila",
+      "Nassau",
+      "Mexico City"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Malta?",
+    "options": [
+      "Valletta",
+      "Pyongyang",
+      "Singapore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Jamaica?",
+    "options": [
+      "Kingston",
+      "Tashkent",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Madagascar?",
+    "options": [
+      "Antananarivo",
+      "Conakry",
+      "Belgrade"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Vatican City?",
+    "options": [
+      "Vatican City",
+      "Bogotá",
+      "Nairobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kazakhstan?",
+    "options": [
+      "Astana",
+      "Brasília",
+      "Lusaka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Zimbabwe?",
+    "options": [
+      "Harare",
+      "Havana",
+      "Yamoussoukro"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Moldova?",
+    "options": [
+      "Chișinău",
+      "Vientiane",
+      "Manila"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burkina Faso?",
+    "options": [
+      "Ouagadougou",
+      "Suva",
+      "Ngerulmud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mali?",
+    "options": [
+      "Bamako",
+      "Amman",
+      "Havana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United Kingdom?",
+    "options": [
+      "London",
+      "Kuala Lumpur",
+      "Antananarivo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Seychelles?",
+    "options": [
+      "Victoria",
+      "Suva",
+      "Sana'a"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Pakistan?",
+    "options": [
+      "Islamabad",
+      "Prague",
+      "Roseau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tuvalu?",
+    "options": [
+      "Funafuti",
+      "Riyadh",
+      "Windhoek"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Turkey?",
+    "options": [
+      "Ankara",
+      "Luxembourg",
+      "Pyongyang"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of France?",
+    "options": [
+      "Paris",
+      "Zagreb",
+      "Muscat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Myanmar?",
+    "options": [
+      "Naypyidaw",
+      "Islamabad",
+      "San Salvador"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Serbia?",
+    "options": [
+      "Belgrade",
+      "Dushanbe",
+      "Tirana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tunisia?",
+    "options": [
+      "Tunis",
+      "Port-au-Prince",
+      "Kathmandu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Uzbekistan?",
+    "options": [
+      "Tashkent",
+      "Bogotá",
+      "Georgetown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Syria?",
+    "options": [
+      "Damascus",
+      "Accra",
+      "Sarajevo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cyprus?",
+    "options": [
+      "Nicosia",
+      "Tehran",
+      "Santiago"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cambodia?",
+    "options": [
+      "Phnom Penh",
+      "Majuro",
+      "Bridgetown"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guatemala?",
+    "options": [
+      "Guatemala City",
+      "Montevideo",
+      "Kuwait City"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guinea?",
+    "options": [
+      "Conakry",
+      "Vientiane",
+      "Malabo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Thailand?",
+    "options": [
+      "Bangkok",
+      "Baghdad",
+      "Budapest"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Peru?",
+    "options": [
+      "Lima",
+      "Berlin",
+      "Jakarta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Chad?",
+    "options": [
+      "N'Djamena",
+      "Asunción",
+      "Dhaka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Trinidad and Tobago?",
+    "options": [
+      "Port of Spain",
+      "Brussels",
+      "Funafuti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Luxembourg?",
+    "options": [
+      "Luxembourg",
+      "Dushanbe",
+      "Sucre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bahrain?",
+    "options": [
+      "Manama",
+      "Dushanbe",
+      "Praia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Namibia?",
+    "options": [
+      "Windhoek",
+      "Bern",
+      "Madrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Venezuela?",
+    "options": [
+      "Caracas",
+      "Rabat",
+      "Singapore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Fiji?",
+    "options": [
+      "Suva",
+      "Dublin",
+      "Jerusalem"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sudan?",
+    "options": [
+      "Khartoum",
+      "Conakry",
+      "Warsaw"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Togo?",
+    "options": [
+      "Lomé",
+      "Riyadh",
+      "Dodoma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Vietnam?",
+    "options": [
+      "Hanoi",
+      "Washington, D.C.",
+      "Jakarta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tanzania?",
+    "options": [
+      "Dodoma",
+      "Washington, D.C.",
+      "Kabul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Laos?",
+    "options": [
+      "Vientiane",
+      "Santo Domingo",
+      "Beirut"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Suriname?",
+    "options": [
+      "Paramaribo",
+      "Sarajevo",
+      "Ouagadougou"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Albania?",
+    "options": [
+      "Tirana",
+      "Bucharest",
+      "Brasília"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Lithuania?",
+    "options": [
+      "Vilnius",
+      "Praia",
+      "Roseau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Hungary?",
+    "options": [
+      "Budapest",
+      "São Tomé",
+      "Monaco"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Liberia?",
+    "options": [
+      "Monrovia",
+      "Madrid",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Sweden?",
+    "options": [
+      "Stockholm",
+      "Tarawa",
+      "Singapore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Portugal?",
+    "options": [
+      "Lisbon",
+      "Freetown",
+      "Vilnius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Nicaragua?",
+    "options": [
+      "Managua",
+      "Victoria",
+      "Castries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Berlin",
+      "Castries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Estonia?",
+    "options": [
+      "Tallinn",
+      "Ngerulmud",
+      "Tokyo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ethiopia?",
+    "options": [
+      "Addis Ababa",
+      "Vatican City",
+      "Dublin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Uganda?",
+    "options": [
+      "Kampala",
+      "Suva",
+      "Tripoli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Brunei?",
+    "options": [
+      "Bandar Seri Begawan",
+      "Tallinn",
+      "Moroni"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Panama?",
+    "options": [
+      "Panama City",
+      "Bratislava",
+      "Beijing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ghana?",
+    "options": [
+      "Accra",
+      "Gaborone",
+      "Beirut"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of India?",
+    "options": [
+      "New Delhi",
+      "Ulaanbaatar",
+      "Bandar Seri Begawan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Mauritius?",
+    "options": [
+      "Port Louis",
+      "São Tomé",
+      "Palikir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Belgium?",
+    "options": [
+      "Brussels",
+      "Tirana",
+      "Nukuʻalofa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Qatar?",
+    "options": [
+      "Doha",
+      "Valletta",
+      "Brussels"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Côte d'Ivoire?",
+    "options": [
+      "Yamoussoukro",
+      "Naypyidaw",
+      "Nukuʻalofa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Grenada?",
+    "options": [
+      "St. George's",
+      "Havana",
+      "Port of Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Azerbaijan?",
+    "options": [
+      "Baku",
+      "Islamabad",
+      "Havana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bhutan?",
+    "options": [
+      "Thimphu",
+      "Kabul",
+      "Praia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Lesotho?",
+    "options": [
+      "Maseru",
+      "Dodoma",
+      "Dushanbe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Indonesia?",
+    "options": [
+      "Jakarta",
+      "San Salvador",
+      "Yerevan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ukraine?",
+    "options": [
+      "Kyiv",
+      "Porto-Novo",
+      "Prague"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of New Zealand?",
+    "options": [
+      "Wellington",
+      "Conakry",
+      "San José"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Afghanistan?",
+    "options": [
+      "Kabul",
+      "Bangkok",
+      "Prague"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Micronesia?",
+    "options": [
+      "Palikir",
+      "Wellington",
+      "Lisbon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of São Tomé and Príncipe?",
+    "options": [
+      "São Tomé",
+      "Nairobi",
+      "Ouagadougou"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Montenegro?",
+    "options": [
+      "Podgorica",
+      "Astana",
+      "Canberra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Armenia?",
+    "options": [
+      "Yerevan",
+      "Bratislava",
+      "Athens"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Australia?",
+    "options": [
+      "Canberra",
+      "Nicosia",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Senegal?",
+    "options": [
+      "Dakar",
+      "Zagreb",
+      "Montevideo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Angola?",
+    "options": [
+      "Luanda",
+      "Georgetown",
+      "Basseterre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Honduras?",
+    "options": [
+      "Tegucigalpa",
+      "Port Moresby",
+      "Nouakchott"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Iceland?",
+    "options": [
+      "Reykjavík",
+      "Brussels",
+      "Nouakchott"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Oman?",
+    "options": [
+      "Muscat",
+      "Belmopan",
+      "Kampala"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bolivia?",
+    "options": [
+      "Sucre",
+      "Apia",
+      "Port-au-Prince"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Lebanon?",
+    "options": [
+      "Beirut",
+      "Monrovia",
+      "Kampala"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Marshall Islands?",
+    "options": [
+      "Majuro",
+      "Khartoum",
+      "Bandar Seri Begawan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Romania?",
+    "options": [
+      "Bucharest",
+      "Minsk",
+      "Palikir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Zambia?",
+    "options": [
+      "Lusaka",
+      "Yamoussoukro",
+      "Djibouti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Denmark?",
+    "options": [
+      "Copenhagen",
+      "Rabat",
+      "Suva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Tonga?",
+    "options": [
+      "Nukuʻalofa",
+      "Gaborone",
+      "Tripoli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Liechtenstein?",
+    "options": [
+      "Vaduz",
+      "Damascus",
+      "Seoul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of United Arab Emirates?",
+    "options": [
+      "Abu Dhabi",
+      "Lomé",
+      "Djibouti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Chile?",
+    "options": [
+      "Santiago",
+      "Bamako",
+      "Asmara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Belize?",
+    "options": [
+      "Belmopan",
+      "Berlin",
+      "Libreville"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Kenya?",
+    "options": [
+      "Nairobi",
+      "Kigali",
+      "Tallinn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cape Verde?",
+    "options": [
+      "Praia",
+      "Nouakchott",
+      "Roseau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Central African Republic?",
+    "options": [
+      "Bangui",
+      "Rome",
+      "Vilnius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Malaysia?",
+    "options": [
+      "Kuala Lumpur",
+      "Jakarta",
+      "Tirana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Ireland?",
+    "options": [
+      "Dublin",
+      "Reykjavík",
+      "Asunción"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Guinea-Bissau?",
+    "options": [
+      "Bissau",
+      "Chișinău",
+      "Helsinki"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Bulgaria?",
+    "options": [
+      "Sofia",
+      "Nassau",
+      "Podgorica"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Switzerland?",
+    "options": [
+      "Bern",
+      "Bratislava",
+      "Accra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Libya?",
+    "options": [
+      "Tripoli",
+      "Nicosia",
+      "Juba"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Niger?",
+    "options": [
+      "Niamey",
+      "Kuwait City",
+      "Algiers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Brazil?",
+    "options": [
+      "Brasília",
+      "Bangui",
+      "Managua"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cuba?",
+    "options": [
+      "Havana",
+      "Majuro",
+      "Kingston"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Haiti?",
+    "options": [
+      "Port-au-Prince",
+      "London",
+      "Libreville"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cameroon?",
+    "options": [
+      "Yaoundé",
+      "Reykjavík",
+      "Podgorica"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Malawi?",
+    "options": [
+      "Lilongwe",
+      "Bamako",
+      "Kuala Lumpur"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Norway?",
+    "options": [
+      "Oslo",
+      "Kigali",
+      "Lisbon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Algeria?",
+    "options": [
+      "Algiers",
+      "Malabo",
+      "Libreville"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Angola?",
+    "options": [
+      "Luanda",
+      "Rome",
+      "Helsinki"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Benin?",
+    "options": [
+      "Porto-Novo",
+      "Singapore",
+      "Port Louis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Botswana?",
+    "options": [
+      "Gaborone",
+      "Astana",
+      "Tarawa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burkina Faso?",
+    "options": [
+      "Ouagadougou",
+      "Accra",
+      "Kathmandu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Burundi?",
+    "options": [
+      "Gitega",
+      "Ulaanbaatar",
+      "Funafuti"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cameroon?",
+    "options": [
+      "Yaoundé",
+      "Nairobi",
+      "Ottawa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Cape Verde?",
+    "options": [
+      "Praia",
+      "Guatemala City",
+      "Stockholm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Central African Republic?",
+    "options": [
+      "Bangui",
+      "Juba",
+      "Seoul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the capital of Chad?",
+    "options": [
+      "N'Djamena",
+      "Tegucigalpa",
+      "Dodoma"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest desert in the world?",
+    "options": [
+      "Antarctic Desert",
+      "Sahara",
+      "Gobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Eiffel Tower located?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the tallest mountain in Africa?",
+    "options": [
+      "Kilimanjaro",
+      "Mount Kenya",
+      "Rwenzori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Eiffel Tower located?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island country is known as the 'Land of the Long White Cloud'?",
+    "options": [
+      "New Zealand",
+      "Iceland",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river forms part of the border between the USA and Mexico?",
+    "options": [
+      "Rio Grande",
+      "Mississippi",
+      "Colorado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in Mongolia and China?",
+    "options": [
+      "Gobi",
+      "Taklamakan",
+      "Thar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island group includes Maui and Oahu?",
+    "options": [
+      "Hawaiian Islands",
+      "Galápagos Islands",
+      "Canary Islands"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the most islands?",
+    "options": [
+      "Sweden",
+      "Indonesia",
+      "Philippines"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river forms part of the border between the USA and Mexico?",
+    "options": [
+      "Rio Grande",
+      "Mississippi",
+      "Colorado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert covers much of western Australia?",
+    "options": [
+      "Great Victoria Desert",
+      "Simpson Desert",
+      "Great Sandy Desert"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea is the lowest point on Earth's surface?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is Mount Fuji located?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the tallest mountain in Africa?",
+    "options": [
+      "Kilimanjaro",
+      "Mount Kenya",
+      "Rwenzori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Paris?",
+    "options": [
+      "Seine",
+      "Thames",
+      "Rhine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest desert in the world?",
+    "options": [
+      "Antarctic Desert",
+      "Sahara",
+      "Gobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the tallest mountain in Africa?",
+    "options": [
+      "Kilimanjaro",
+      "Mount Kenya",
+      "Rwenzori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the tallest mountain in Africa?",
+    "options": [
+      "Kilimanjaro",
+      "Mount Kenya",
+      "Rwenzori"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island country is known as the 'Land of the Long White Cloud'?",
+    "options": [
+      "New Zealand",
+      "Iceland",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea is the lowest point on Earth's surface?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in Mongolia and China?",
+    "options": [
+      "Gobi",
+      "Taklamakan",
+      "Thar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island country is known as the 'Land of the Long White Cloud'?",
+    "options": [
+      "New Zealand",
+      "Iceland",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is Mount Fuji located?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Cairo?",
+    "options": [
+      "Nile",
+      "Zambezi",
+      "Limpopo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea is the lowest point on Earth's surface?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island country is known as the 'Land of the Long White Cloud'?",
+    "options": [
+      "New Zealand",
+      "Iceland",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea is the lowest point on Earth's surface?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in Mongolia and China?",
+    "options": [
+      "Gobi",
+      "Taklamakan",
+      "Thar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is Mount Fuji located?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island country is known as the 'Land of the Long White Cloud'?",
+    "options": [
+      "New Zealand",
+      "Iceland",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island group includes Maui and Oahu?",
+    "options": [
+      "Hawaiian Islands",
+      "Galápagos Islands",
+      "Canary Islands"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Cairo?",
+    "options": [
+      "Nile",
+      "Zambezi",
+      "Limpopo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Eiffel Tower located?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest country by area?",
+    "options": [
+      "Russia",
+      "Canada",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Cairo?",
+    "options": [
+      "Nile",
+      "Zambezi",
+      "Limpopo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient monument is in Giza?",
+    "options": [
+      "Pyramids",
+      "Stonehenge",
+      "Machu Picchu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest desert in the world?",
+    "options": [
+      "Antarctic Desert",
+      "Sahara",
+      "Gobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Paris?",
+    "options": [
+      "Seine",
+      "Thames",
+      "Rhine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the most populous country in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river forms part of the border between the USA and Mexico?",
+    "options": [
+      "Rio Grande",
+      "Mississippi",
+      "Colorado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the most islands?",
+    "options": [
+      "Sweden",
+      "Indonesia",
+      "Philippines"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient monument is in Giza?",
+    "options": [
+      "Pyramids",
+      "Stonehenge",
+      "Machu Picchu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island group includes Maui and Oahu?",
+    "options": [
+      "Hawaiian Islands",
+      "Galápagos Islands",
+      "Canary Islands"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is the Taj Mahal?",
+    "options": [
+      "India",
+      "Pakistan",
+      "Nepal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert covers much of northern Africa?",
+    "options": [
+      "Sahara",
+      "Kalahari",
+      "Namib"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest desert in the world?",
+    "options": [
+      "Antarctic Desert",
+      "Sahara",
+      "Gobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert covers much of northern Africa?",
+    "options": [
+      "Sahara",
+      "Kalahari",
+      "Namib"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in the world?",
+    "options": [
+      "Mount Everest",
+      "K2",
+      "Kangchenjunga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the highest mountain in North America?",
+    "options": [
+      "Denali",
+      "Mount Logan",
+      "Mount Whitney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which Indonesian island is known for its temples and beaches?",
+    "options": [
+      "Bali",
+      "Java",
+      "Sumatra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest desert in the world?",
+    "options": [
+      "Antarctic Desert",
+      "Sahara",
+      "Gobi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Cairo?",
+    "options": [
+      "Nile",
+      "Zambezi",
+      "Limpopo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient monument is in Giza?",
+    "options": [
+      "Pyramids",
+      "Stonehenge",
+      "Machu Picchu"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Great Barrier Reef located?",
+    "options": [
+      "Australia",
+      "New Zealand",
+      "Fiji"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in Mongolia and China?",
+    "options": [
+      "Gobi",
+      "Taklamakan",
+      "Thar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest island in the world?",
+    "options": [
+      "Greenland",
+      "New Guinea",
+      "Borneo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the largest ocean on Earth?",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has the longest coastline?",
+    "options": [
+      "Canada",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river flows through Paris?",
+    "options": [
+      "Seine",
+      "Thames",
+      "Rhine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where is the Eiffel Tower located?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea is the lowest point on Earth's surface?",
+    "options": [
+      "Dead Sea",
+      "Caspian Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the longest river in the world?",
+    "options": [
+      "Nile",
+      "Amazon",
+      "Yangtze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river forms part of the border between the USA and Mexico?",
+    "options": [
+      "Rio Grande",
+      "Mississippi",
+      "Colorado"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which island nation lies east of Madagascar?",
+    "options": [
+      "Mauritius",
+      "Maldives",
+      "Seychelles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea separates Europe and Africa?",
+    "options": [
+      "Mediterranean Sea",
+      "Black Sea",
+      "Red Sea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which is the smallest country in the world?",
+    "options": [
+      "Vatican City",
+      "Monaco",
+      "Nauru"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in southern Africa?",
+    "options": [
+      "Kalahari",
+      "Namib",
+      "Sahara"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which desert is in Mongolia and China?",
+    "options": [
+      "Gobi",
+      "Taklamakan",
+      "Thar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean lies between Africa and Australia?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Southern Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is Mount Fuji located?",
+    "options": [
+      "Japan",
+      "China",
+      "South Korea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mountain range separates Europe from Asia?",
+    "options": [
+      "Ural Mountains",
+      "Alps",
+      "Caucasus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which river runs through Baghdad?",
+    "options": [
+      "Tigris",
+      "Euphrates",
+      "Jordan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean surrounds the Maldives?",
+    "options": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country is home to Machu Picchu?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Mexico"
+    ],
+    "correctIndex": 0
+  }
+]

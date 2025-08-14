@@ -1,0 +1,1891 @@
+[
+  {
+    "stem": "Qui était le premier empereur romain ?",
+    "options": [
+      "Auguste",
+      "Jules César",
+      "Néron",
+      "Trajan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle civilisation a construit les pyramides de Gizeh ?",
+    "options": [
+      "Grecque",
+      "Égyptienne",
+      "Mésopotamienne",
+      "Maya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a traversé les Alpes avec des éléphants pour attaquer Rome ?",
+    "options": [
+      "Hannibal",
+      "Alexandre le Grand",
+      "César",
+      "Scipion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle cité grecque était dirigée par Périclès ?",
+    "options": [
+      "Sparte",
+      "Athènes",
+      "Corinthe",
+      "Thèbes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel fleuve traversait la Mésopotamie avec le Tigre ?",
+    "options": [
+      "Euphrate",
+      "Nil",
+      "Jourdain",
+      "Indus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la bataille de Hastings ?",
+    "options": [
+      "1066",
+      "1215",
+      "1415",
+      "1000"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le roi des Francs couronné empereur en l'an 800 ?",
+    "options": [
+      "Charlemagne",
+      "Clovis",
+      "Philippe Auguste",
+      "Louis IX"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle peste a ravagé l'Europe au XIVe siècle ?",
+    "options": [
+      "Peste noire",
+      "Choléra",
+      "Grippe espagnole",
+      "Typhus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a inventé l'imprimerie à caractères mobiles ?",
+    "options": [
+      "Chine",
+      "Allemagne",
+      "Italie",
+      "France"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle guerre a opposé la France et l'Angleterre de 1337 à 1453 ?",
+    "options": [
+      "Guerre de Cent Ans",
+      "Guerre des Deux-Roses",
+      "Première croisade",
+      "Guerre de Trente Ans"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a peint la Joconde ?",
+    "options": [
+      "Léonard de Vinci",
+      "Michel-Ange",
+      "Raphaël",
+      "Botticelli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel navigateur a fait le premier tour du monde ?",
+    "options": [
+      "Magellan",
+      "Colomb",
+      "Vasco de Gama",
+      "Cook"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
+    "options": [
+      "1492",
+      "1500",
+      "1485",
+      "1519"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a écrit 'L'Utopie' en 1516 ?",
+    "options": [
+      "Thomas More",
+      "Machiavel",
+      "Érasme",
+      "Calvin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi de France était surnommé 'le Roi Soleil' ?",
+    "options": [
+      "Louis XIV",
+      "Louis XVI",
+      "Louis XV",
+      "François Ier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a dirigé la Révolution russe de 1917 ?",
+    "options": [
+      "Trotski",
+      "Staline",
+      "Lénine",
+      "Kerenski"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
+    "options": [
+      "Austerlitz",
+      "Iéna",
+      "Waterloo",
+      "Leipzig"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Qui a proclamé l'indépendance des États-Unis en 1776 ?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Benjamin Franklin",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "options": [
+      "Versailles",
+      "Trianon",
+      "Francfort",
+      "Brest-Litovsk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le Premier ministre britannique pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Churchill",
+      "Chamberlain",
+      "Attlee",
+      "Eden"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a utilisé pour la première fois l'arme atomique en guerre ?",
+    "options": [
+      "URSS",
+      "USA",
+      "Japon",
+      "Allemagne"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "options": [
+      "1965",
+      "1969",
+      "1972",
+      "1963"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a mené la marche du sel en Inde ?",
+    "options": [
+      "Nehru",
+      "Gandhi",
+      "Patel",
+      "Bose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?",
+    "options": [
+      "Guerre d'Indépendance",
+      "Guerre de Sécession",
+      "Guerre américano-mexicaine",
+      "Guerre de 1812"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel mur est tombé en 1989 ?",
+    "options": [
+      "Mur de Berlin",
+      "Mur des Lamentations",
+      "Mur d'Hadrien",
+      "Muraille de Chine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé l'ampoule électrique ?",
+    "options": [
+      "Edison",
+      "Tesla",
+      "Swan",
+      "Franklin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert la pénicilline ?",
+    "options": [
+      "Fleming",
+      "Pasteur",
+      "Jenner",
+      "Lister"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé l'imprimerie en Europe ?",
+    "options": [
+      "Gutenberg",
+      "Caxton",
+      "Fust",
+      "Manutius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle invention a permis la navigation océanique au XVe siècle ?",
+    "options": [
+      "Boussole",
+      "Chronomètre",
+      "Astrolabe",
+      "Télescope"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Qui a inventé le téléphone ?",
+    "options": [
+      "Bell",
+      "Marconi",
+      "Morse",
+      "Tesla"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était la première femme à obtenir le prix Nobel ?",
+    "options": [
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Jane Goodall",
+      "Ada Lovelace"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le premier président noir d'Afrique du Sud ?",
+    "options": [
+      "Mandela",
+      "Mbeki",
+      "Ramaphosa",
+      "Tambo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était la reine d'Égypte célèbre pour son alliance avec Jules César ?",
+    "options": [
+      "Cléopâtre",
+      "Néfertiti",
+      "Hatshepsout",
+      "Merneith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était surnommé le Mahatma ?",
+    "options": [
+      "Gandhi",
+      "Nehru",
+      "Tagore",
+      "Bose"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel explorateur a découvert le Cap de Bonne-Espérance ?",
+    "options": [
+      "Dias",
+      "Vasco de Gama",
+      "Cook",
+      "Magellan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel navire a coulé en 1912 ?",
+    "options": [
+      "Titanic",
+      "Britannic",
+      "Lusitania",
+      "Queen Mary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a construit la Grande Muraille ?",
+    "options": [
+      "Chine",
+      "Japon",
+      "Corée",
+      "Mongolie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle civilisation a inventé l'écriture cunéiforme ?",
+    "options": [
+      "Sumériens",
+      "Égyptiens",
+      "Phéniciens",
+      "Perses"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la Révolution française ?",
+    "options": [
+      "1789",
+      "1792",
+      "1804",
+      "1776"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empereur romain a adopté le christianisme ?",
+    "options": [
+      "Constantin",
+      "Néron",
+      "Auguste",
+      "Trajan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a lancé le premier satellite Spoutnik ?",
+    "options": [
+      "URSS",
+      "USA",
+      "Chine",
+      "France"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a peint la Chapelle Sixtine ?",
+    "options": [
+      "Michel-Ange",
+      "Raphaël",
+      "Léonard de Vinci",
+      "Donatello"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a unifié l'Allemagne en 1871 ?",
+    "options": [
+      "Bismarck",
+      "Guillaume II",
+      "Moltke",
+      "Frédéric III"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel général français a dirigé la France libre pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "De Gaulle",
+      "Pétain",
+      "Foch",
+      "Giraud"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Qui a fondé l'Empire perse achéménide ?",
+    "options": [
+      "Cyrus le Grand",
+      "Darius Ier",
+      "Xerxès",
+      "Artaxerxès"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi babylonien est célèbre pour son code de lois ?",
+    "options": [
+      "Hammurabi",
+      "Nabuchodonosor",
+      "Sargon",
+      "Assurbanipal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle ville antique fut ensevelie lors de l'éruption du Vésuve en 79 ?",
+    "options": [
+      "Pompéi",
+      "Herculanum",
+      "Ostie",
+      "Capoue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a construit le Colisée à Rome ?",
+    "options": [
+      "Vespasien",
+      "Néron",
+      "Auguste",
+      "Trajan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel philosophe grec a enseigné à Alexandre le Grand ?",
+    "options": [
+      "Aristote",
+      "Socrate",
+      "Platon",
+      "Diogène"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi anglais a signé la Magna Carta en 1215 ?",
+    "options": [
+      "Jean sans Terre",
+      "Richard Cœur de Lion",
+      "Henri II",
+      "Édouard Ier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a mené la première croisade ?",
+    "options": [
+      "Urbain II",
+      "Godefroy de Bouillon",
+      "Richard Cœur de Lion",
+      "Philippe Auguste"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle dynastie a régné sur la Chine de 618 à 907 ?",
+    "options": [
+      "Tang",
+      "Song",
+      "Ming",
+      "Qing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel explorateur viking aurait atteint l'Amérique vers l'an 1000 ?",
+    "options": [
+      "Leif Erikson",
+      "Erik le Rouge",
+      "Harald à la Belle Chevelure",
+      "Olaf Tryggvason"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle bataille a mis fin à la domination musulmane en France en 732 ?",
+    "options": [
+      "Poitiers",
+      "Hastings",
+      "Tolbiac",
+      "Tours"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a dominé le commerce des épices au XVIIe siècle ?",
+    "options": [
+      "Pays-Bas",
+      "Portugal",
+      "Espagne",
+      "Angleterre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a écrit 'Le Prince' ?",
+    "options": [
+      "Machiavel",
+      "Thomas More",
+      "Erasme",
+      "Montaigne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle ville italienne était dirigée par la famille Médicis ?",
+    "options": [
+      "Florence",
+      "Venise",
+      "Rome",
+      "Milan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert le passage maritime vers l'Inde en contournant l'Afrique ?",
+    "options": [
+      "Vasco de Gama",
+      "Magellan",
+      "Colomb",
+      "Dias"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel événement marque le début de la Réforme protestante ?",
+    "options": [
+      "Les 95 thèses de Luther",
+      "Concile de Trente",
+      "Excommunication de Luther",
+      "Paix d'Augsbourg"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était président des États-Unis pendant la guerre de Sécession ?",
+    "options": [
+      "Abraham Lincoln",
+      "Andrew Johnson",
+      "Ulysses Grant",
+      "James Buchanan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la révolution de Juillet en France ?",
+    "options": [
+      "1830",
+      "1848",
+      "1870",
+      "1820"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été la première femme médecin en France ?",
+    "options": [
+      "Madeleine Brès",
+      "Marie Curie",
+      "Louise Michel",
+      "Olympe de Gouges"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a connu la guerre des Boers ?",
+    "options": [
+      "Afrique du Sud",
+      "Kenya",
+      "Namibie",
+      "Zimbabwe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé le télégraphe électrique ?",
+    "options": [
+      "Samuel Morse",
+      "Alexander Bell",
+      "Thomas Edison",
+      "Michael Faraday"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel traité a créé la Société des Nations ?",
+    "options": [
+      "Traité de Versailles",
+      "Traité de Paris",
+      "Traité de Londres",
+      "Traité de Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été le premier président de la Ve République française ?",
+    "options": [
+      "Charles de Gaulle",
+      "Georges Pompidou",
+      "René Coty",
+      "François Mitterrand"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel conflit a opposé les USA et l'URSS sans affrontement direct ?",
+    "options": [
+      "Guerre froide",
+      "Guerre de Corée",
+      "Guerre du Vietnam",
+      "Crise de Cuba"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était l'empereur du Japon pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Hirohito",
+      "Akihito",
+      "Meiji",
+      "Taisho"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la crise des missiles de Cuba ?",
+    "options": [
+      "1962",
+      "1960",
+      "1964",
+      "1959"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle civilisation précolombienne a bâti Machu Picchu ?",
+    "options": [
+      "Inca",
+      "Maya",
+      "Aztèque",
+      "Olmèque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel explorateur a atteint le pôle Sud en premier ?",
+    "options": [
+      "Amundsen",
+      "Scott",
+      "Shackleton",
+      "Peary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le premier empereur de Chine ?",
+    "options": [
+      "Qin Shi Huang",
+      "Han Gaozu",
+      "Wu Zetian",
+      "Tang Taizong"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel royaume africain était célèbre pour ses richesses en or au XIVe siècle ?",
+    "options": [
+      "Mali",
+      "Ghana",
+      "Songhaï",
+      "Koush"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays était dirigé par François Ier pendant la Renaissance ?",
+    "options": [
+      "France",
+      "Espagne",
+      "Portugal",
+      "Italie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé la machine à vapeur moderne ?",
+    "options": [
+      "James Watt",
+      "George Stephenson",
+      "Denis Papin",
+      "Robert Fulton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle invention est attribuée aux frères Lumière ?",
+    "options": [
+      "Cinématographe",
+      "Télévision",
+      "Appareil photo",
+      "Radio"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert l'Amérique centrale ?",
+    "options": [
+      "Christophe Colomb",
+      "Amerigo Vespucci",
+      "Hernán Cortés",
+      "Pizarro"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé l'avion ?",
+    "options": [
+      "Frères Wright",
+      "Clément Ader",
+      "Santos-Dumont",
+      "Bleriot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé le vaccin contre la rage ?",
+    "options": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Edward Jenner",
+      "Jonas Salk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le dernier tsar de Russie ?",
+    "options": [
+      "Nicolas II",
+      "Alexandre III",
+      "Pierre le Grand",
+      "Ivan IV"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était l'épouse de Louis XVI ?",
+    "options": [
+      "Marie-Antoinette",
+      "Joséphine",
+      "Anne d'Autriche",
+      "Marie de Médicis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a mené la révolution cubaine en 1959 ?",
+    "options": [
+      "Fidel Castro",
+      "Che Guevara",
+      "Raúl Castro",
+      "Camilo Cienfuegos"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi macédonien a conquis l'Empire perse ?",
+    "options": [
+      "Alexandre le Grand",
+      "Philippe II",
+      "Cassandre",
+      "Perdicas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le chef nazi pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Adolf Hitler",
+      "Himmler",
+      "Goebbels",
+      "Goering"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Quel est le nom du temple dédié à Athéna à Athènes ?",
+    "options": [
+      "Parthénon",
+      "Panthéon",
+      "Colisée",
+      "Acropole"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le dieu principal de la mythologie romaine ?",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel célèbre roi macédonien était élève d'Aristote ?",
+    "options": [
+      "Alexandre le Grand",
+      "Philippe II",
+      "Antigone",
+      "Cassandre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle guerre antique a opposé Athènes et Sparte ?",
+    "options": [
+      "Guerre du Péloponnèse",
+      "Guerre médique",
+      "Guerre punique",
+      "Guerre de Troie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empire avait pour capitale Ninive ?",
+    "options": [
+      "Assyrien",
+      "Babylonien",
+      "Hittite",
+      "Persan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi de France a mené la septième croisade ?",
+    "options": [
+      "Louis IX",
+      "Philippe Auguste",
+      "Charles V",
+      "Louis XI"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a fondé l'Empire mongol ?",
+    "options": [
+      "Gengis Khan",
+      "Koubilaï Khan",
+      "Tamerlan",
+      "Batu Khan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel était le principal adversaire de Richard Cœur de Lion lors de la troisième croisade ?",
+    "options": [
+      "Saladin",
+      "Baibars",
+      "Haroun al-Rachid",
+      "Salah al-Din"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel moine a fondé l'ordre bénédictin ?",
+    "options": [
+      "Benoît de Nursie",
+      "François d'Assise",
+      "Dominique de Guzmán",
+      "Bernard de Clairvaux"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel instrument de torture médiéval étirait les membres ?",
+    "options": [
+      "Chevalet",
+      "Iron Maiden",
+      "Pilon",
+      "Bûcher"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été reine d'Angleterre de 1558 à 1603 ?",
+    "options": [
+      "Élisabeth Iʳᵉ",
+      "Marie Tudor",
+      "Anne Boleyn",
+      "Victoria"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a peint 'La Cène' ?",
+    "options": [
+      "Léonard de Vinci",
+      "Raphaël",
+      "Michel-Ange",
+      "Botticelli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel navigateur a donné son nom à l'Amérique ?",
+    "options": [
+      "Amerigo Vespucci",
+      "Christophe Colomb",
+      "Magellan",
+      "Cook"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi de Suède est mort à la bataille de Lützen en 1632 ?",
+    "options": [
+      "Gustave II Adolphe",
+      "Charles XII",
+      "Gustave Ier",
+      "Erik XIV"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a subi la guerre de Trente Ans de 1618 à 1648 ?",
+    "options": [
+      "Saint-Empire romain germanique",
+      "France",
+      "Espagne",
+      "Angleterre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a écrit 'Le Manifeste du Parti communiste' ?",
+    "options": [
+      "Karl Marx et Friedrich Engels",
+      "Lénine",
+      "Trotski",
+      "Bakounine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle guerre a opposé la Russie à une coalition en 1853-1856 ?",
+    "options": [
+      "Guerre de Crimée",
+      "Guerre russo-japonaise",
+      "Guerre de Sécession",
+      "Guerre du Caucase"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était l'empereur du Mexique exécuté en 1867 ?",
+    "options": [
+      "Maximilien Ier",
+      "Benito Juárez",
+      "Porfirio Díaz",
+      "Iturbide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la Commune de Paris ?",
+    "options": [
+      "1871",
+      "1848",
+      "1792",
+      "1905"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel ingénieur français a conçu le canal de Suez ?",
+    "options": [
+      "Ferdinand de Lesseps",
+      "Gustave Eiffel",
+      "Vauban",
+      "Louis Blériot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a envahi la Pologne en 1939 avec l'Allemagne ?",
+    "options": [
+      "URSS",
+      "Italie",
+      "Hongrie",
+      "Roumanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel président américain a ordonné le New Deal ?",
+    "options": [
+      "Franklin D. Roosevelt",
+      "Herbert Hoover",
+      "Harry Truman",
+      "Dwight Eisenhower"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été la première femme Premier ministre du Royaume-Uni ?",
+    "options": [
+      "Margaret Thatcher",
+      "Theresa May",
+      "Indira Gandhi",
+      "Golda Meir"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année a eu lieu la guerre des Malouines ?",
+    "options": [
+      "1982",
+      "1979",
+      "1985",
+      "1980"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a connu le génocide des Tutsi en 1994 ?",
+    "options": [
+      "Rwanda",
+      "Soudan",
+      "Congo",
+      "Ouganda"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empire contrôlait la route de la soie au XIIIe siècle ?",
+    "options": [
+      "Empire mongol",
+      "Empire romain",
+      "Empire perse",
+      "Empire ottoman"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a conquis l'empire aztèque ?",
+    "options": [
+      "Hernán Cortés",
+      "Francisco Pizarro",
+      "Pedro de Alvarado",
+      "Diego de Almagro"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel chef militaire carthaginois a été vaincu à Zama ?",
+    "options": [
+      "Hannibal",
+      "Hasdrubal",
+      "Mago",
+      "Himilcon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel royaume était dirigé par Mansa Moussa ?",
+    "options": [
+      "Mali",
+      "Ghana",
+      "Songhaï",
+      "Koush"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle civilisation a construit les lignes de Nazca ?",
+    "options": [
+      "Nazca",
+      "Maya",
+      "Inca",
+      "Olmèque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé le gramophone ?",
+    "options": [
+      "Emile Berliner",
+      "Thomas Edison",
+      "Alexander Bell",
+      "Marconi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle invention est associée à Johannes Kepler ?",
+    "options": [
+      "Lois du mouvement planétaire",
+      "Télescope",
+      "Thermomètre",
+      "Boussole"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a développé la théorie de la relativité ?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galilée",
+      "Max Planck"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé la dynamite ?",
+    "options": [
+      "Alfred Nobel",
+      "Louis Pasteur",
+      "Michael Faraday",
+      "Werner von Braun"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a mis au point le radar pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Robert Watson-Watt",
+      "Nikola Tesla",
+      "Guglielmo Marconi",
+      "Alan Turing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le pharaon lors de la construction de la grande pyramide ?",
+    "options": [
+      "Khéops",
+      "Ramsès II",
+      "Toutankhamon",
+      "Djoser"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été la première femme astronaute ?",
+    "options": [
+      "Valentina Terechkova",
+      "Sally Ride",
+      "Christa McAuliffe",
+      "Eileen Collins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le premier président de la République française ?",
+    "options": [
+      "Louis-Napoléon Bonaparte",
+      "Adolphe Thiers",
+      "Mac Mahon",
+      "Sadi Carnot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a fondé l'Empire ottoman ?",
+    "options": [
+      "Osman Ier",
+      "Mehmet II",
+      "Suleiman Ier",
+      "Selim Ier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le roi d'Angleterre pendant la guerre d'Indépendance américaine ?",
+    "options": [
+      "George III",
+      "George II",
+      "William IV",
+      "Edward VII"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Quelle ville antique est célèbre pour son phare, l'une des Sept Merveilles ?",
+    "options": [
+      "Alexandrie",
+      "Rhodes",
+      "Babylone",
+      "Athènes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a écrit 'L'Iliade' et 'L'Odyssée' ?",
+    "options": [
+      "Homère",
+      "Hésiode",
+      "Sophocle",
+      "Virgile"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel peuple a fondé la ville de Carthage ?",
+    "options": [
+      "Phéniciens",
+      "Grecs",
+      "Romains",
+      "Égyptiens"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel philosophe a bu la ciguë ?",
+    "options": [
+      "Socrate",
+      "Platon",
+      "Aristote",
+      "Diogène"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel général romain a conquis la Gaule ?",
+    "options": [
+      "Jules César",
+      "Pompée",
+      "Marius",
+      "Scipion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a fondé l'ordre des Franciscains ?",
+    "options": [
+      "François d'Assise",
+      "Dominique de Guzmán",
+      "Benoît de Nursie",
+      "Ignace de Loyola"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle bataille célèbre de 1214 a vu la victoire française contre l'Angleterre et l'Empire ?",
+    "options": [
+      "Bouvines",
+      "Azincourt",
+      "Crécy",
+      "Poitiers"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi anglais a combattu contre Saladin lors de la troisième croisade ?",
+    "options": [
+      "Richard Cœur de Lion",
+      "Henri II",
+      "Jean sans Terre",
+      "Édouard Ier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel événement de 1054 a divisé l'Église chrétienne ?",
+    "options": [
+      "Grand Schisme d'Orient",
+      "Réforme protestante",
+      "Concile de Trente",
+      "Croisades"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel peuple nomade a envahi l'Europe au IXe siècle ?",
+    "options": [
+      "Vikings",
+      "Huns",
+      "Mongols",
+      "Sarrasins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a peint le plafond de la chapelle Sixtine ?",
+    "options": [
+      "Michel-Ange",
+      "Raphaël",
+      "Botticelli",
+      "Giotto"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel explorateur portugais a découvert le Brésil ?",
+    "options": [
+      "Pedro Álvares Cabral",
+      "Vasco de Gama",
+      "Magellan",
+      "Diaz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel roi anglais a eu six épouses ?",
+    "options": [
+      "Henri VIII",
+      "Élisabeth Iʳᵉ",
+      "Édouard VI",
+      "Jacques Ier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a découvert l'Australie ?",
+    "options": [
+      "Pays-Bas",
+      "Royaume-Uni",
+      "Espagne",
+      "Portugal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a été le chef militaire de la Révolution américaine ?",
+    "options": [
+      "George Washington",
+      "Benjamin Franklin",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel État américain a fait sécession en premier en 1860 ?",
+    "options": [
+      "Caroline du Sud",
+      "Virginie",
+      "Texas",
+      "Géorgie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé la photographie ?",
+    "options": [
+      "Nicéphore Niépce",
+      "Louis Daguerre",
+      "George Eastman",
+      "William Fox Talbot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a unifié l'Italie au XIXe siècle ?",
+    "options": [
+      "Garibaldi",
+      "Cavour",
+      "Victor-Emmanuel II",
+      "Mazzini"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel écrivain français a écrit 'Les Misérables' ?",
+    "options": [
+      "Victor Hugo",
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Balzac"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a construit le Transsibérien ?",
+    "options": [
+      "Russie",
+      "Chine",
+      "Japon",
+      "Mongolie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel traité a mis fin à la guerre de Corée ?",
+    "options": [
+      "Armistice de Panmunjeom",
+      "Traité de Versailles",
+      "Traité de Yalta",
+      "Traité de San Francisco"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le président américain pendant la Première Guerre mondiale ?",
+    "options": [
+      "Woodrow Wilson",
+      "Theodore Roosevelt",
+      "Warren Harding",
+      "Calvin Coolidge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel mouvement a mené à l'indépendance de l'Algérie ?",
+    "options": [
+      "FLN",
+      "Mouvement des non-alignés",
+      "Parti communiste",
+      "Ligue arabe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle guerre a eu lieu entre 1955 et 1975 ?",
+    "options": [
+      "Guerre du Vietnam",
+      "Guerre de Corée",
+      "Guerre d'Afghanistan",
+      "Guerre Iran-Irak"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a lancé la perestroïka ?",
+    "options": [
+      "Mikhaïl Gorbatchev",
+      "Boris Eltsine",
+      "Leonid Brejnev",
+      "Nikita Khrouchtchev"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empire avait pour capitale Constantinople ?",
+    "options": [
+      "Empire byzantin",
+      "Empire romain",
+      "Empire ottoman",
+      "Empire perse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a bâti les statues de l'île de Pâques ?",
+    "options": [
+      "Rapa Nui",
+      "Maoris",
+      "Incas",
+      "Tahitien"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel explorateur a traversé le Pacifique en radeau en 1947 ?",
+    "options": [
+      "Thor Heyerdahl",
+      "Jacques Cousteau",
+      "Francis Chichester",
+      "Joshua Slocum"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empire contrôlait l'Égypte au XIXe siècle ?",
+    "options": [
+      "Empire ottoman",
+      "Empire britannique",
+      "Empire français",
+      "Empire perse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle civilisation a construit Chichen Itza ?",
+    "options": [
+      "Maya",
+      "Inca",
+      "Aztèque",
+      "Olmèque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé la radio ?",
+    "options": [
+      "Marconi",
+      "Tesla",
+      "Edison",
+      "Bell"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé la pile électrique ?",
+    "options": [
+      "Volta",
+      "Faraday",
+      "Franklin",
+      "Galvani"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert l'insuline ?",
+    "options": [
+      "Banting et Best",
+      "Pasteur",
+      "Fleming",
+      "Salk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert le tombeau de Toutankhamon ?",
+    "options": [
+      "Howard Carter",
+      "Champollion",
+      "Petrie",
+      "Schliemann"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé le microscope ?",
+    "options": [
+      "Leeuwenhoek",
+      "Galilée",
+      "Hooke",
+      "Pasteur"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était l'épouse de Napoléon Bonaparte ?",
+    "options": [
+      "Joséphine de Beauharnais",
+      "Marie-Louise",
+      "Marie-Antoinette",
+      "Charlotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a dirigé l'Allemagne de l'Est de 1971 à 1989 ?",
+    "options": [
+      "Erich Honecker",
+      "Walter Ulbricht",
+      "Helmut Kohl",
+      "Gerhard Schröder"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le chef des forces alliées en Europe pendant la Seconde Guerre mondiale ?",
+    "options": [
+      "Eisenhower",
+      "MacArthur",
+      "Montgomery",
+      "Patton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été la première femme à voyager dans l'espace ?",
+    "options": [
+      "Valentina Terechkova",
+      "Sally Ride",
+      "Peggy Whitson",
+      "Christina Koch"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été empereur du Japon pendant l'ère Meiji ?",
+    "options": [
+      "Mutsuhito",
+      "Hirohito",
+      "Akihito",
+      "Komei"
+    ],
+    "correctIndex": 0
+  },
+  
+  {
+    "stem": "En quelle année a débuté la guerre de Cent Ans ?",
+    "options": ["1337", "1415", "1066", "1453"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le roi de France pendant la Révolution française ?",
+    "options": ["Louis XV", "Louis XVI", "Louis XIV", "Louis-Philippe"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel traité a mis fin à la Première Guerre mondiale ?",
+    "options": ["Traité de Versailles", "Traité de Trianon", "Traité de Brest-Litovsk", "Traité de Paris"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui était le premier président des États-Unis ?",
+    "options": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "En quelle année l'Empire romain d'Occident est-il tombé ?",
+    "options": ["395", "476", "410", "529"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a mené la marche du sel en Inde ?",
+    "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "Indira Gandhi"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays a été dirigé par Nelson Mandela après l'apartheid ?",
+    "options": ["Namibie", "Afrique du Sud", "Zimbabwe", "Botswana"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle reine anglaise est connue comme la 'Reine vierge' ?",
+    "options": ["Élisabeth Ire", "Victoria", "Marie Ire", "Anne"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel mur est tombé en 1989 marquant la fin de la guerre froide ?",
+    "options": ["Mur de Berlin", "Mur de Varsovie", "Mur de Prague", "Mur de Moscou"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a été le premier empereur romain ?",
+    "options": ["César", "Auguste", "Néron", "Trajan"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle bataille a marqué la fin de Napoléon Bonaparte ?",
+    "options": ["Austerlitz", "Iéna", "Waterloo", "Wagram"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel explorateur a atteint l'Inde par la mer en 1498 ?",
+    "options": ["Christophe Colomb", "Vasco de Gama", "Fernand de Magellan", "Bartolomeu Dias"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a peint la fresque de la Chapelle Sixtine ?",
+    "options": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Botticelli"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "En quelle année a commencé la Seconde Guerre mondiale ?",
+    "options": ["1937", "1938", "1939", "1940"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel roi franc a été couronné empereur d'Occident en l'an 800 ?",
+    "options": ["Clovis", "Charlemagne", "Louis le Pieux", "Pépin le Bref"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui était la femme de Louis XVI ?",
+    "options": ["Marie Leszczyńska", "Marie-Antoinette", "Anne d'Autriche", "Catherine de Médicis"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel scientifique italien a soutenu la théorie héliocentrique et a été jugé par l'Inquisition ?",
+    "options": ["Galilée", "Copernic", "Kepler", "Newton"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel empire était dirigé par Gengis Khan ?",
+    "options": ["Empire ottoman", "Empire mongol", "Empire perse", "Empire byzantin"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel événement a déclenché la Première Guerre mondiale ?",
+    "options": ["Assassinat de l'archiduc François-Ferdinand", "Invasion de la Pologne", "Révolution russe", "Attaque de Pearl Harbor"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a découvert la pénicilline ?",
+    "options": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Joseph Lister"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle ville a été détruite par l'éruption du Vésuve en 79 apr. J.-C. ?",
+    "options": ["Pompei", "Herculanum", "Ostie", "Capoue"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
+    "options": ["1492", "1488", "1500", "1512"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel traité a mis fin à la guerre d'Indépendance américaine ?",
+    "options": ["Traité de Paris (1783)", "Traité de Versailles", "Traité de Gand", "Traité d'Utrecht"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a écrit 'Le Prince' ?",
+    "options": ["Voltaire", "Machiavel", "Rousseau", "Montaigne"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pharaon est célèbre pour son tombeau intact découvert en 1922 ?",
+    "options": ["Ramsès II", "Toutânkhamon", "Khéops", "Cléopâtre"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle bataille navale a opposé l'Angleterre à l'Espagne en 1588 ?",
+    "options": ["Trafalgar", "Gravelines", "Lépante", "La Manche"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel président américain a aboli l'esclavage ?",
+    "options": ["George Washington", "Abraham Lincoln", "Theodore Roosevelt", "Andrew Jackson"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel empire a construit le Colisée ?",
+    "options": ["Empire grec", "Empire romain", "Empire carthaginois", "Empire byzantin"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "En quelle année a eu lieu la prise de la Bastille ?",
+    "options": ["1788", "1789", "1790", "1791"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a inventé l'imprimerie en Europe ?",
+    "options": ["Johannes Gutenberg", "Leonardo da Vinci", "Galileo Galilei", "Isaac Newton"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel traité a mis fin à la guerre de Trente Ans ?",
+    "options": ["Traité de Nimègue", "Paix de Westphalie", "Traité d'Aix-la-Chapelle", "Traité de Paris"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel explorateur a donné son nom à l'Amérique ?",
+    "options": ["Vasco de Gama", "Amerigo Vespucci", "Marco Polo", "Ferdinand Magellan"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle dynastie a régné sur la Chine pendant la construction de la Grande Muraille ?",
+    "options": ["Ming", "Qin", "Han", "Tang"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a été le premier homme à marcher sur la Lune ?",
+    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "En quelle année l'Union européenne a-t-elle été officiellement créée par le traité de Maastricht ?",
+    "options": ["1991", "1992", "1993", "1994"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel empereur français a vendu la Louisiane aux États-Unis ?",
+    "options": ["Louis-Philippe", "Napoléon Ier", "Napoléon III", "Charles X"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a fondé l'Empire perse achéménide ?",
+    "options": ["Cyrus le Grand", "Darius Ier", "Xerxès Ier", "Artaxerxès Ier"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel événement a marqué le début du Moyen Âge ?",
+    "options": ["Chute de Rome", "Couronnement de Charlemagne", "Peste noire", "Guerre de Cent Ans"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle guerre a opposé les États du Nord et du Sud aux États-Unis ?",
+    "options": ["Guerre d'Indépendance", "Guerre de Sécession", "Guerre hispano-américaine", "Guerre de 1812"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Qui a dirigé l'URSS pendant la Seconde Guerre mondiale ?",
+    "options": ["Lénine", "Staline", "Trotski", "Khrouchtchev"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle civilisation a construit Machu Picchu ?",
+    "options": ["Aztèques", "Mayas", "Incas", "Olmèques"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel événement historique a eu lieu en 1066 ?",
+    "options": ["Bataille d'Hastings", "Chute de Constantinople", "Découverte de l'Amérique", "Signature de la Magna Carta"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel scientifique a proposé la théorie de l'évolution par sélection naturelle ?",
+    "options": ["Louis Pasteur", "Gregor Mendel", "Charles Darwin", "Jean-Baptiste Lamarck"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle révolution a commencé en 1917 en Russie ?",
+    "options": ["Révolution d'Octobre", "Révolution française", "Révolution industrielle", "Révolution de 1905"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle reine d'Égypte a été la compagne de Jules César et de Marc Antoine ?",
+    "options": ["Néfertiti", "Cléopâtre", "Hatchepsout", "Ankhesenamon"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel président américain a mis en place le New Deal ?",
+    "options": ["Franklin D. Roosevelt", "Harry Truman", "Woodrow Wilson", "Herbert Hoover"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la plus ancienne civilisation connue de Mésopotamie ?",
+    "options": ["Sumériens", "Babyloniens", "Assyriens", "Akkadiens"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a mené la conquête du Mexique au nom de l'Espagne ?",
+    "options": ["Francisco Pizarro", "Hernán Cortés", "Vasco Núñez de Balboa", "Pedro de Alvarado"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle ville était la capitale de l'Empire byzantin ?",
+    "options": ["Antioche", "Constantinople", "Rome", "Alexandrie"],
+    "correctIndex": 1
+  }
+]

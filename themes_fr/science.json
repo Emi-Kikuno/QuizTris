@@ -1,0 +1,2041 @@
+[
+  {
+    "stem": "Quelle est la vitesse de la lumière dans le vide ?",
+    "options": [
+      "300 000 km/s",
+      "150 000 km/s",
+      "3 000 km/s",
+      "30 000 km/s"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle unité mesure la force ?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a proposé la théorie de la relativité restreinte ?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galilée",
+      "Niels Bohr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle particule porte une charge négative ?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Électron",
+      "Positron"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Que mesure un thermomètre ?",
+    "options": [
+      "Pression",
+      "Température",
+      "Volume",
+      "Masse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel instrument mesure l'intensité d'un courant électrique ?",
+    "options": [
+      "Voltmètre",
+      "Ampèremètre",
+      "Ohmmètre",
+      "Thermomètre"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la formule de l'énergie cinétique ?",
+    "options": [
+      "1/2 mv²",
+      "mgh",
+      "F=ma",
+      "V=IR"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quelle unité mesure-t-on l'énergie ?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Kelvin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la troisième loi de Newton ?",
+    "options": [
+      "Inertie",
+      "Action-réaction",
+      "Gravitation universelle",
+      "Conservation de l'énergie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel gaz est utilisé dans les lampes fluorescentes ?",
+    "options": [
+      "Hélium",
+      "Néon",
+      "Argon",
+      "Mercure"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quel est le symbole chimique de l'or ?",
+    "options": [
+      "Au",
+      "Ag",
+      "Pt",
+      "Fe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien d'atomes d'oxygène contient une molécule d'eau ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel acide est contenu dans le vinaigre ?",
+    "options": [
+      "Acide sulfurique",
+      "Acide acétique",
+      "Acide citrique",
+      "Acide chlorhydrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la formule chimique du dioxyde de carbone ?",
+    "options": [
+      "CO",
+      "CO₂",
+      "C₂O",
+      "O₂C"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel élément a pour symbole Fe ?",
+    "options": [
+      "Fer",
+      "Fluor",
+      "Francium",
+      "Phosphore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+    "options": [
+      "Oxygène",
+      "Azote",
+      "Argon",
+      "Dioxyde de carbone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le numéro atomique du carbone ?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel métal liquide est utilisé dans les thermomètres ?",
+    "options": [
+      "Mercure",
+      "Plomb",
+      "Zinc",
+      "Etain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Que mesure l'échelle de pH ?",
+    "options": [
+      "Acidité",
+      "Température",
+      "Salinité",
+      "Pression"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom de la liaison chimique qui unit deux atomes par partage d'électrons ?",
+    "options": [
+      "Ionique",
+      "Covalente",
+      "Métallique",
+      "Hydrogène"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle molécule transporte l'oxygène dans le sang ?",
+    "options": [
+      "Hémoglobine",
+      "Myoglobine",
+      "Chlorophylle",
+      "Insuline"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe principal du système nerveux ?",
+    "options": [
+      "Cœur",
+      "Cerveau",
+      "Foie",
+      "Poumon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est l'unité de base de la vie ?",
+    "options": [
+      "Molécule",
+      "Atome",
+      "Cellule",
+      "Tissu"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel organe produit l'insuline ?",
+    "options": [
+      "Pancréas",
+      "Foie",
+      "Rate",
+      "Rein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Comment appelle-t-on la transformation d'une chenille en papillon ?",
+    "options": [
+      "Mue",
+      "Métamorphose",
+      "Mutation",
+      "Photosynthèse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Où se situe l'ADN dans une cellule eucaryote ?",
+    "options": [
+      "Noyau",
+      "Cytoplasme",
+      "Membrane",
+      "Ribosome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel type de sang est donneur universel ?",
+    "options": [
+      "O-",
+      "O+",
+      "AB-",
+      "AB+"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe le plus volumineux du corps humain ?",
+    "options": [
+      "Foie",
+      "Peau",
+      "Cerveau",
+      "Poumon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le rôle des globules blancs ?",
+    "options": [
+      "Transporter l'oxygène",
+      "Combattre les infections",
+      "Produire des hormones",
+      "Stocker l'énergie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'acide nucléique qui transporte l'information génétique ?",
+    "options": [
+      "ARN",
+      "ADN",
+      "ATP",
+      "ARNm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle planète est la plus proche du Soleil ?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "Terre",
+      "Mars"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la plus grande planète du système solaire ?",
+    "options": [
+      "Jupiter",
+      "Saturne",
+      "Uranus",
+      "Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle galaxie contient notre système solaire ?",
+    "options": [
+      "Andromède",
+      "Voie lactée",
+      "Grand Nuage de Magellan",
+      "M33"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle planète est surnommée la planète rouge ?",
+    "options": [
+      "Mars",
+      "Vénus",
+      "Mercure",
+      "Jupiter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le satellite naturel de la Terre ?",
+    "options": [
+      "Lune",
+      "Phobos",
+      "Europe",
+      "Titan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'âge approximatif de l'univers ?",
+    "options": [
+      "13,8 milliards d'années",
+      "4,5 milliards d'années",
+      "10 milliards d'années",
+      "1 milliard d'années"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète possède les anneaux les plus visibles ?",
+    "options": [
+      "Saturne",
+      "Uranus",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est l'étoile la plus proche de la Terre après le Soleil ?",
+    "options": [
+      "Sirius",
+      "Proxima du Centaure",
+      "Alpha du Centaure A",
+      "Bételgeuse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom du rover qui a exploré Mars en 2021 ?",
+    "options": [
+      "Opportunity",
+      "Curiosity",
+      "Perseverance",
+      "Spirit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la quatrième planète à partir du Soleil ?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Vénus",
+      "Mercure"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la valeur de π arrondie à deux décimales ?",
+    "options": [
+      "3,14",
+      "3,15",
+      "3,13",
+      "3,16"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de côtés a un hexagone ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la racine carrée de 81 ?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Que vaut 2⁵ ?",
+    "options": [
+      "25",
+      "10",
+      "32",
+      "16"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Comment appelle-t-on un polygone à quatre côtés ?",
+    "options": [
+      "Pentagone",
+      "Carré",
+      "Quadrilatère",
+      "Trapèze"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Combien font 7 × 8 ?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "60"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'inverse multiplicatif de 5 ?",
+    "options": [
+      "1/5",
+      "-5",
+      "5",
+      "-1/5"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Comment appelle-t-on un triangle qui a un angle droit ?",
+    "options": [
+      "Aigu",
+      "Obtus",
+      "Rectangle",
+      "Isocèle"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la formule de l'aire d'un cercle ?",
+    "options": [
+      "πr²",
+      "2πr",
+      "πd",
+      "r²/2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nombre premier suivant 7 ?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctIndex": 3
+  },
+
+  {
+    "stem": "Quel est le plus grand océan sur Terre ?",
+    "options": [
+      "Pacifique",
+      "Atlantique",
+      "Indien",
+      "Arctique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel type de roche est formé par le refroidissement de la lave ?",
+    "options": [
+      "Ignée",
+      "Sédimentaire",
+      "Métamorphique",
+      "Calcaire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la couche externe de la Terre ?",
+    "options": [
+      "Croûte",
+      "Manteau",
+      "Noyau externe",
+      "Noyau interne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle échelle mesure la magnitude des séismes ?",
+    "options": [
+      "Richter",
+      "Beaufort",
+      "Fahrenheit",
+      "Decibel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel minéral est la forme cristallisée du carbone ?",
+    "options": [
+      "Diamant",
+      "Graphite",
+      "Quartz",
+      "Calcite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Que signifie 'CPU' ?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Power Unit",
+      "Control Processing Unit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel langage est principalement utilisé pour le développement web côté client ?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "PHP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Que signifie 'URL' ?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Link",
+      "Unified Resource Locator",
+      "Uniform Reference Link"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le système d'exploitation de la majorité des smartphones ?",
+    "options": [
+      "Windows",
+      "iOS",
+      "Android",
+      "Linux"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Qui est considéré comme le père de l'informatique ?",
+    "options": [
+      "Alan Turing",
+      "Bill Gates",
+      "Charles Babbage",
+      "Steve Jobs"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le groupe sanguin receveur universel ?",
+    "options": [
+      "O-",
+      "O+",
+      "AB-",
+      "AB+"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quelle vitamine est produite par la peau sous l'effet du soleil ?",
+    "options": [
+      "Vitamine A",
+      "Vitamine C",
+      "Vitamine D",
+      "Vitamine B12"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel organe filtre le sang pour éliminer les déchets ?",
+    "options": [
+      "Rein",
+      "Foie",
+      "Rate",
+      "Pancréas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle maladie est causée par un manque de vitamine C ?",
+    "options": [
+      "Scorbut",
+      "Rachitisme",
+      "Anémie",
+      "Béribéri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'os le plus long du corps humain ?",
+    "options": [
+      "Humérus",
+      "Fémur",
+      "Tibia",
+      "Fibula"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel gaz est principalement responsable du réchauffement climatique ?",
+    "options": [
+      "CO₂",
+      "O₂",
+      "N₂",
+      "H₂"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le protocole international pour réduire les gaz à effet de serre ?",
+    "options": [
+      "Protocole de Kyoto",
+      "Accord de Paris",
+      "Traité de Rome",
+      "Conférence de Rio"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel phénomène provoque la montée du niveau des océans ?",
+    "options": [
+      "Fonte des glaciers",
+      "Séismes",
+      "Vents",
+      "Volcans"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le principal gaz de l'effet de serre produit par les ruminants ?",
+    "options": [
+      "Méthane",
+      "Dioxyde de carbone",
+      "Ozone",
+      "Protoxyde d'azote"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel océan est le plus menacé par la pollution plastique ?",
+    "options": [
+      "Pacifique",
+      "Atlantique",
+      "Indien",
+      "Arctique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Qui a inventé le téléphone ?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle entreprise a créé l'iPhone ?",
+    "options": [
+      "Google",
+      "Apple",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le format d'image le plus utilisé sur le web ?",
+    "options": [
+      "PNG",
+      "JPEG",
+      "BMP",
+      "GIF"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel appareil utilise des micro-ondes pour chauffer les aliments ?",
+    "options": [
+      "Four à micro-ondes",
+      "Four traditionnel",
+      "Grill",
+      "Plaque électrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle technologie est utilisée pour les paiements sans contact ?",
+    "options": [
+      "NFC",
+      "Bluetooth",
+      "Wi-Fi",
+      "Infra-rouge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'ingénieur à l'origine de la tour Eiffel ?",
+    "options": [
+      "Gustave Eiffel",
+      "Santiago Calatrava",
+      "Frank Lloyd Wright",
+      "Norman Foster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel type d'énergie produit une éolienne ?",
+    "options": [
+      "Solaire",
+      "Hydraulique",
+      "Éolienne",
+      "Nucléaire"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le nom du tunnel sous la Manche ?",
+    "options": [
+      "Eurotunnel",
+      "Chunnel",
+      "Tunnel de Douvres",
+      "Tunnel Calais-Douvres"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel barrage est le plus grand du monde en volume ?",
+    "options": [
+      "Trois Gorges",
+      "Hoover",
+      "Itaipu",
+      "Aswan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel matériau est principalement utilisé pour fabriquer le béton ?",
+    "options": [
+      "Sable",
+      "Ciment",
+      "Argile",
+      "Gravier"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle planète naine se trouve dans la ceinture de Kuiper ?",
+    "options": [
+      "Pluton",
+      "Cérès",
+      "Eris",
+      "Hauméa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'élément chimique le plus léger ?",
+    "options": [
+      "Hydrogène",
+      "Hélium",
+      "Lithium",
+      "Béryllium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe responsable de la production de bile ?",
+    "options": [
+      "Foie",
+      "Pancréas",
+      "Estomac",
+      "Vésicule biliaire"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle unité mesure l'intensité sonore ?",
+    "options": [
+      "Décibel",
+      "Hertz",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal est un mammifère marin ?",
+    "options": [
+      "Requin",
+      "Dauphin",
+      "Méduse",
+      "Calmar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel scientifique a découvert la radioactivité naturelle ?",
+    "options": [
+      "Henri Becquerel",
+      "Marie Curie",
+      "Pierre Curie",
+      "Enrico Fermi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'état de la matière du plasma ?",
+    "options": [
+      "Solide",
+      "Liquide",
+      "Gaz ionisé",
+      "Cristal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle unité mesure la fréquence ?",
+    "options": [
+      "Hertz",
+      "Joule",
+      "Newton",
+      "Watt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel gaz est nécessaire à la respiration humaine ?",
+    "options": [
+      "Oxygène",
+      "Azote",
+      "Hydrogène",
+      "Hélium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la formule chimique de l'ammoniac ?",
+    "options": [
+      "NH₃",
+      "CH₄",
+      "H₂O",
+      "CO₂"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel métal est le principal composant des canettes de boisson ?",
+    "options": [
+      "Aluminium",
+      "Fer",
+      "Plomb",
+      "Zinc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel organe pompe le sang dans tout le corps ?",
+    "options": [
+      "Cerveau",
+      "Foie",
+      "Cœur",
+      "Poumon"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Comment appelle-t-on l'étude des insectes ?",
+    "options": [
+      "Entomologie",
+      "Ornithologie",
+      "Herpétologie",
+      "Ichtyologie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel organe est responsable de la vision ?",
+    "options": [
+      "Oreille",
+      "Œil",
+      "Nez",
+      "Peau"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom de la première personne à avoir marché sur la Lune ?",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Youri Gagarine",
+      "Michael Collins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète a un jour plus long que son année ?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "Mars",
+      "Pluton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le résultat de 9 x 9 ?",
+    "options": [
+      "81",
+      "72",
+      "99",
+      "108"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de degrés a un angle droit ?",
+    "options": [
+      "45",
+      "90",
+      "180",
+      "360"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Combien de côtés a un octogone ?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2
+  },
+  
+  
+  {
+    "stem": "Quel est le symbole de la résistance électrique ?",
+    "options": [
+      "R",
+      "Ω",
+      "V",
+      "I"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle loi relie la tension, le courant et la résistance ?",
+    "options": [
+      "Loi de Newton",
+      "Loi d'Ohm",
+      "Loi de Coulomb",
+      "Loi de Faraday"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel instrument mesure la pression atmosphérique ?",
+    "options": [
+      "Baromètre",
+      "Thermomètre",
+      "Anémomètre",
+      "Hygromètre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est l'unité de mesure de la puissance électrique ?",
+    "options": [
+      "Watt",
+      "Volt",
+      "Ampère",
+      "Ohm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel phénomène explique la dispersion de la lumière par un prisme ?",
+    "options": [
+      "Réflexion",
+      "Réfraction",
+      "Diffraction",
+      "Polarisation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le symbole chimique de l'argent ?",
+    "options": [
+      "Ar",
+      "Ag",
+      "Au",
+      "Si"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel gaz est produit lors de la photosynthèse ?",
+    "options": [
+      "Oxygène",
+      "Azote",
+      "Dioxyde de carbone",
+      "Hydrogène"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le pH d'une solution neutre ?",
+    "options": [
+      "0",
+      "7",
+      "14",
+      "1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la formule chimique du sel de table ?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCO₃",
+      "Na₂SO₄"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel élément est essentiel dans la formation de l'acier ?",
+    "options": [
+      "Fer",
+      "Aluminium",
+      "Cuivre",
+      "Zinc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle partie du cerveau contrôle l'équilibre ?",
+    "options": [
+      "Cervelet",
+      "Hippocampe",
+      "Cortex",
+      "Bulbe rachidien"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand organe interne du corps humain ?",
+    "options": [
+      "Foie",
+      "Poumon",
+      "Cœur",
+      "Estomac"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel type de cellules produit les anticorps ?",
+    "options": [
+      "Globules rouges",
+      "Globules blancs",
+      "Plaquettes",
+      "Neurones"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la durée moyenne de gestation chez l'humain ?",
+    "options": [
+      "7 mois",
+      "9 mois",
+      "10 mois",
+      "8 mois"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel organe est touché par la néphrite ?",
+    "options": [
+      "Rein",
+      "Foie",
+      "Cœur",
+      "Poumon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom de la plus grande lune de Saturne ?",
+    "options": [
+      "Titan",
+      "Europe",
+      "Ganymède",
+      "Callisto"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète est connue pour ses tempêtes géantes ?",
+    "options": [
+      "Jupiter",
+      "Saturne",
+      "Neptune",
+      "Mars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+    "options": [
+      "150 millions de km",
+      "100 millions de km",
+      "200 millions de km",
+      "50 millions de km"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel objet céleste est au centre de notre système solaire ?",
+    "options": [
+      "Le Soleil",
+      "La Terre",
+      "Jupiter",
+      "La Voie lactée"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète est inclinée sur le côté à environ 98 degrés ?",
+    "options": [
+      "Uranus",
+      "Neptune",
+      "Saturne",
+      "Pluton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la formule de l'aire d'un rectangle ?",
+    "options": [
+      "L × l",
+      "2L + 2l",
+      "πr²",
+      "L²"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de côtés a un dodécagone ?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la racine carrée de 144 ?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Combien font 15 ÷ 3 ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le résultat de 5² ?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "15"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Comment appelle-t-on la roche formée par accumulation de sédiments ?",
+    "options": [
+      "Roche sédimentaire",
+      "Roche ignée",
+      "Roche métamorphique",
+      "Basalte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le volcan le plus actif au monde ?",
+    "options": [
+      "Kilauea",
+      "Etna",
+      "Vésuve",
+      "Eyjafjallajökull"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand désert chaud de la Terre ?",
+    "options": [
+      "Sahara",
+      "Kalahari",
+      "Gobi",
+      "Mojave"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle couche de l'atmosphère est la plus proche du sol ?",
+    "options": [
+      "Troposphère",
+      "Stratosphère",
+      "Mésosphère",
+      "Thermosphère"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel minéral est utilisé pour fabriquer du verre ?",
+    "options": [
+      "Quartz",
+      "Mica",
+      "Feldspath",
+      "Calcite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Que signifie 'HTTP' ?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HyperText Transmission Process",
+      "High Transfer Text Protocol",
+      "Hyperlink Text Transfer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel langage est utilisé pour styliser les pages web ?",
+    "options": [
+      "HTML",
+      "CSS",
+      "Java",
+      "Python"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'inventeur du World Wide Web ?",
+    "options": [
+      "Tim Berners-Lee",
+      "Bill Gates",
+      "Steve Jobs",
+      "Linus Torvalds"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'abréviation de 'Intelligence Artificielle' ?",
+    "options": [
+      "IA",
+      "AI",
+      "I.A.",
+      "Toutes ces réponses"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quel est l'OS libre le plus connu ?",
+    "options": [
+      "Linux",
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom scientifique de la grippe ?",
+    "options": [
+      "Influenza",
+      "Rhinovirus",
+      "Coronavirus",
+      "Streptococcus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel médecin grec est considéré comme le père de la médecine ?",
+    "options": [
+      "Hippocrate",
+      "Galen",
+      "Socrate",
+      "Aristote"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe responsable de pomper le sang ?",
+    "options": [
+      "Cœur",
+      "Poumon",
+      "Foie",
+      "Rate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la température corporelle normale en °C ?",
+    "options": [
+      "36,5 à 37,5",
+      "38 à 39",
+      "35 à 36",
+      "37,5 à 38"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom de la maladie causée par le virus VIH ?",
+    "options": [
+      "SIDA",
+      "Hépatite B",
+      "Tuberculose",
+      "Paludisme"
+    ],
+    "correctIndex": 0
+  },
+  
+  {
+    "stem": "Quel scientifique a formulé les lois du mouvement ?",
+    "options": [
+      "Isaac Newton",
+      "Galilée",
+      "Einstein",
+      "Faraday"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est l'unité de mesure de la température dans le système international ?",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit",
+      "Joule"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle force nous maintient sur Terre ?",
+    "options": [
+      "Magnétisme",
+      "Gravité",
+      "Inertie",
+      "Friction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'état de la matière entre solide et gaz ?",
+    "options": [
+      "Plasma",
+      "Liquide",
+      "Gel",
+      "Vapeur"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel phénomène produit un arc-en-ciel ?",
+    "options": [
+      "Réflexion",
+      "Réfraction et dispersion",
+      "Diffraction",
+      "Polarisation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le symbole chimique du sodium ?",
+    "options": [
+      "S",
+      "So",
+      "Na",
+      "Sa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est l'acide présent dans l'estomac ?",
+    "options": [
+      "Acide sulfurique",
+      "Acide chlorhydrique",
+      "Acide nitrique",
+      "Acide acétique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel élément a pour symbole K ?",
+    "options": [
+      "Potassium",
+      "Krypton",
+      "Kératine",
+      "Kalium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la formule chimique de l'éthanol ?",
+    "options": [
+      "C₂H₅OH",
+      "CH₄",
+      "C₂H₆",
+      "C₃H₈"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom du tableau classant les éléments chimiques ?",
+    "options": [
+      "Tableau périodique",
+      "Tableau atomique",
+      "Tableau chimique",
+      "Tableau des matières"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la fonction principale des poumons ?",
+    "options": [
+      "Filtrer le sang",
+      "Absorber l'oxygène",
+      "Pomper le sang",
+      "Produire de l'insuline"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'organe qui produit la salive ?",
+    "options": [
+      "Glandes salivaires",
+      "Foie",
+      "Estomac",
+      "Reins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle vitamine est principalement obtenue par les agrumes ?",
+    "options": [
+      "Vitamine A",
+      "Vitamine B",
+      "Vitamine C",
+      "Vitamine D"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Comment s'appelle le processus de reproduction des cellules ?",
+    "options": [
+      "Mitosis",
+      "Méiose",
+      "Clonage",
+      "Fusion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la plus petite unité de vie ?",
+    "options": [
+      "Molécule",
+      "Cellule",
+      "Atome",
+      "Organe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom de notre galaxie ?",
+    "options": [
+      "Andromède",
+      "Voie lactée",
+      "Nuage de Magellan",
+      "Centaurus A"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom de la première station spatiale ?",
+    "options": [
+      "Mir",
+      "ISS",
+      "Skylab",
+      "Saliout 1"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quelle planète est la plus dense du système solaire ?",
+    "options": [
+      "Mercure",
+      "Terre",
+      "Vénus",
+      "Mars"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom du télescope spatial lancé en 1990 ?",
+    "options": [
+      "Hubble",
+      "James Webb",
+      "Kepler",
+      "Chandra"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la planète la plus chaude du système solaire ?",
+    "options": [
+      "Mercure",
+      "Vénus",
+      "Mars",
+      "Jupiter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la valeur de 100 ÷ 4 ?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le périmètre d'un carré de côté 5 ?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Combien de côtés a un pentagone ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le cube de 3 ?",
+    "options": [
+      "6",
+      "9",
+      "18",
+      "27"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quel est le résultat de 50% de 200 ?",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom du plus grand océan ?",
+    "options": [
+      "Pacifique",
+      "Atlantique",
+      "Indien",
+      "Arctique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom de la faille géologique en Californie ?",
+    "options": [
+      "Faille de San Andreas",
+      "Faille du Rift",
+      "Faille d'Alaska",
+      "Faille de Cascadia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle roche est utilisée comme combustible fossile ?",
+    "options": [
+      "Granite",
+      "Charbon",
+      "Basalte",
+      "Quartz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom du point le plus profond des océans ?",
+    "options": [
+      "Fosse des Mariannes",
+      "Fosse de Tonga",
+      "Fosse de Porto Rico",
+      "Fosse des Kermadec"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom donné aux roches fondues à l'intérieur de la Terre ?",
+    "options": [
+      "Lave",
+      "Magma",
+      "Basalte",
+      "Granite"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel langage est utilisé pour créer des pages web ?",
+    "options": [
+      "HTML",
+      "C++",
+      "Python",
+      "Java"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Que signifie 'SQL' ?",
+    "options": [
+      "Structured Query Language",
+      "Standard Question Language",
+      "System Query Logic",
+      "Simple Query Language"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le navigateur web développé par Google ?",
+    "options": [
+      "Chrome",
+      "Firefox",
+      "Safari",
+      "Edge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom du système d'exploitation d'Apple pour ordinateurs ?",
+    "options": [
+      "macOS",
+      "iOS",
+      "Linux",
+      "Windows"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom du logiciel de tableur de Microsoft ?",
+    "options": [
+      "Word",
+      "Excel",
+      "PowerPoint",
+      "Access"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle maladie est causée par le virus de la rage ?",
+    "options": [
+      "Rage",
+      "Grippe",
+      "Varicelle",
+      "Rougeole"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle partie de l'œil régule la quantité de lumière ?",
+    "options": [
+      "Cornée",
+      "Iris",
+      "Cristallin",
+      "Rétine"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel médecin a découvert la pénicilline ?",
+    "options": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Edward Jenner",
+      "Joseph Lister"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom du muscle principal utilisé pour respirer ?",
+    "options": [
+      "Diaphragme",
+      "Abdominaux",
+      "Intercostaux",
+      "Trapeze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe qui produit les globules rouges ?",
+    "options": [
+      "Moelle osseuse",
+      "Rate",
+      "Foie",
+      "Poumons"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la planète la plus proche du Soleil ?",
+    "options": ["Vénus", "Mercure", "Mars", "Terre"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'organe responsable du pompage du sang dans le corps humain ?",
+    "options": ["Poumons", "Cœur", "Foie", "Reins"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la formule chimique de l'eau ?",
+    "options": ["CO2", "H2O", "O2", "NaCl"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle unité est utilisée pour mesurer la force ?",
+    "options": ["Newton", "Joule", "Watt", "Pascal"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la planète la plus grande du système solaire ?",
+    "options": ["Saturne", "Neptune", "Jupiter", "Uranus"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel gaz est essentiel à la respiration humaine ?",
+    "options": ["Oxygène", "Azote", "Hydrogène", "Dioxyde de carbone"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel scientifique a proposé la loi de la gravitation universelle ?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galilée", "Kepler"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'état de l'eau à 100°C sous pression atmosphérique normale ?",
+    "options": ["Solide", "Liquide", "Gaz", "Plasma"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la vitesse de la lumière dans le vide ?",
+    "options": ["300 000 km/s", "150 000 km/s", "3 000 km/s", "1 500 km/s"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel organe est responsable de la production d'insuline ?",
+    "options": ["Pancréas", "Foie", "Estomac", "Rate"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la planète surnommée la 'planète rouge' ?",
+    "options": ["Mars", "Vénus", "Mercure", "Jupiter"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le symbole chimique du sodium ?",
+    "options": ["S", "So", "Na", "Sn"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel phénomène est à l'origine de la marée ?",
+    "options": ["Rotation terrestre", "Gravité lunaire", "Vents", "Courants marins"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'élément le plus abondant dans l'univers ?",
+    "options": ["Oxygène", "Carbone", "Hydrogène", "Hélium"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est l'organe principal du système nerveux ?",
+    "options": ["Moelle épinière", "Cerveau", "Nerfs", "Cœur"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle planète possède un grand anneau visible ?",
+    "options": ["Neptune", "Saturne", "Jupiter", "Uranus"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la formule chimique du dioxyde de carbone ?",
+    "options": ["CO2", "C2O", "O2", "CO"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'unité de mesure de l'énergie ?",
+    "options": ["Joule", "Newton", "Watt", "Ampère"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand organe du corps humain ?",
+    "options": ["Cerveau", "Peau", "Poumon", "Foie"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le satellite naturel de la Terre ?",
+    "options": ["Phobos", "Io", "Lune", "Europe"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le symbole chimique du fer ?",
+    "options": ["Fe", "Fr", "Ir", "F"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle couche de l'atmosphère protège la Terre des rayons UV ?",
+    "options": ["Troposphère", "Stratosphère", "Ozone", "Ionosphère"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est l'organe responsable de la filtration du sang ?",
+    "options": ["Reins", "Foie", "Rate", "Poumons"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom du processus par lequel les plantes fabriquent leur nourriture ?",
+    "options": ["Respiration", "Photosynthèse", "Germination", "Transpiration"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la planète la plus éloignée du Soleil ?",
+    "options": ["Uranus", "Pluton", "Neptune", "Saturne"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le gaz le plus présent dans l'atmosphère terrestre ?",
+    "options": ["Oxygène", "Dioxyde de carbone", "Azote", "Hydrogène"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel scientifique a proposé la théorie de la relativité ?",
+    "options": ["Galilée", "Albert Einstein", "Isaac Newton", "Max Planck"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le point d'ébullition de l'eau à pression normale ?",
+    "options": ["90°C", "100°C", "120°C", "80°C"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la planète la plus dense du système solaire ?",
+    "options": ["Terre", "Saturne", "Vénus", "Mars"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le nom de l'étoile la plus proche de la Terre après le Soleil ?",
+    "options": ["Alpha du Centaure", "Bételgeuse", "Sirius", "Proxima du Centaure"],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quelle est la principale source d'énergie de la Terre ?",
+    "options": ["Lune", "Noyau terrestre", "Soleil", "Vent"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le symbole chimique de l'or ?",
+    "options": ["Ag", "Au", "Gd", "Or"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel phénomène produit un arc-en-ciel ?",
+    "options": ["Réfraction et réflexion de la lumière", "Dispersion du son", "Interférence lumineuse", "Absorption de la lumière"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'élément chimique dont le symbole est He ?",
+    "options": ["Hydrogène", "Hélium", "Hafnium", "Holmium"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la couche interne de la Terre appelée ?",
+    "options": ["Manteau", "Croûte", "Noyau", "Lithosphère"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le nom scientifique des globules rouges ?",
+    "options": ["Érythrocytes", "Leucocytes", "Plaquettes", "Lymphocytes"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel instrument mesure la pression atmosphérique ?",
+    "options": ["Thermomètre", "Baromètre", "Hygromètre", "Anémomètre"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom de la galaxie où se trouve la Terre ?",
+    "options": ["Andromède", "Voie lactée", "Grand Nuage de Magellan", "Sagittarius A*"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la plus petite unité de la matière ?",
+    "options": ["Molécule", "Atome", "Proton", "Neutron"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'organe responsable de la digestion chimique des graisses ?",
+    "options": ["Foie", "Pancréas", "Estomac", "Intestin grêle"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète a le jour le plus long du système solaire ?",
+    "options": ["Vénus", "Mars", "Mercure", "Saturne"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle particule subatomique porte une charge négative ?",
+    "options": ["Proton", "Neutron", "Électron", "Positron"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est l'organe du corps humain responsable de produire la bile ?",
+    "options": ["Foie", "Pancréas", "Rate", "Vésicule biliaire"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel phénomène explique la chute des corps vers le sol ?",
+    "options": ["Magnétisme", "Gravité", "Pression", "Friction"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est l’unité de mesure de la puissance électrique ?",
+    "options": ["Volt", "Ampère", "Watt", "Ohm"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le plus gros organe interne du corps humain ?",
+    "options": ["Foie", "Poumon", "Estomac", "Cerveau"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le gaz majoritaire dans l’atmosphère de Mars ?",
+    "options": ["Oxygène", "Dioxyde de carbone", "Azote", "Hélium"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la planète qui possède la plus grande tempête connue ?",
+    "options": ["Saturne", "Jupiter", "Neptune", "Uranus"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le nom de l’instrument qui mesure la température ?",
+    "options": ["Thermomètre", "Baromètre", "Hygromètre", "Anémomètre"],
+    "correctIndex": 0
+  }
+]

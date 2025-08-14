@@ -1,0 +1,992 @@
+[
+  {
+    "stem": "Quel animal est connu pour dormir jusqu'à 20 heures par jour ?",
+    "options": [
+      "Koala",
+      "Paresseux",
+      "Chat",
+      "Ours"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète est surnommée la planète rouge ?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Vénus",
+      "Saturne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de couleurs y a-t-il dans un arc-en-ciel ?",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit a ses graines à l'extérieur ?",
+    "options": [
+      "Fraise",
+      "Kiwi",
+      "Banane",
+      "Framboise"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'animal terrestre le plus rapide ?",
+    "options": [
+      "Guépard",
+      "Autruche",
+      "Lion",
+      "Gazelle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est aussi appelé 'pain de singe' ?",
+    "options": [
+      "Baobab",
+      "Jacquier",
+      "Durian",
+      "Mangoustan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'animal le plus grand du monde ?",
+    "options": [
+      "Baleine bleue",
+      "Éléphant",
+      "Calmar géant",
+      "Girafe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle boisson est faite à partir de feuilles de Camellia sinensis ?",
+    "options": [
+      "Thé",
+      "Café",
+      "Maté",
+      "Tisane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de côtés a un hexagone ?",
+    "options": [
+      "6",
+      "8",
+      "5",
+      "7"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+    "options": [
+      "Vert",
+      "Orange",
+      "Violet",
+      "Marron"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal change de couleur pour se camoufler ?",
+    "options": [
+      "Caméléon",
+      "Pieuvre",
+      "Gecko",
+      "Crabe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand océan du monde ?",
+    "options": [
+      "Pacifique",
+      "Atlantique",
+      "Indien",
+      "Arctique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de joueurs y a-t-il dans une équipe de football ?",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est associé à Isaac Newton ?",
+    "options": [
+      "Pomme",
+      "Poire",
+      "Cerise",
+      "Orange"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel oiseau peut imiter la voix humaine ?",
+    "options": [
+      "Perroquet",
+      "Corbeau",
+      "Mainate",
+      "Mésange"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle ville est surnommée la Ville Lumière ?",
+    "options": [
+      "Paris",
+      "New York",
+      "Londres",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour ses kangourous ?",
+    "options": [
+      "Australie",
+      "Afrique du Sud",
+      "Brésil",
+      "Inde"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fromage est connu pour avoir des trous ?",
+    "options": [
+      "Emmental",
+      "Roquefort",
+      "Brie",
+      "Camembert"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel insecte produit du miel ?",
+    "options": [
+      "Abeille",
+      "Fourmi",
+      "Guêpe",
+      "Cicadelle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'organe principal du système circulatoire ?",
+    "options": [
+      "Cœur",
+      "Poumon",
+      "Foie",
+      "Rein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel jeu de société utilise des lettres pour former des mots ?",
+    "options": [
+      "Scrabble",
+      "Monopoly",
+      "Cluedo",
+      "Uno"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel métal est symbole chimique 'Au' ?",
+    "options": [
+      "Or",
+      "Argent",
+      "Cuivre",
+      "Aluminium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a inventé les sushis ?",
+    "options": [
+      "Japon",
+      "Chine",
+      "Corée",
+      "Thaïlande"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel mammifère marin a une corne torsadée ?",
+    "options": [
+      "Narval",
+      "Orque",
+      "Béluga",
+      "Dauphin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus petit pays du monde ?",
+    "options": [
+      "Vatican",
+      "Monaco",
+      "Nauru",
+      "Saint-Marin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien y a-t-il de zéros dans un milliard ?",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle fête américaine célèbre les récoltes ?",
+    "options": [
+      "Thanksgiving",
+      "Halloween",
+      "Independence Day",
+      "Labor Day"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport se joue à Wimbledon ?",
+    "options": [
+      "Tennis",
+      "Cricket",
+      "Golf",
+      "Rugby"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour ses pyramides ?",
+    "options": [
+      "Égypte",
+      "Mexique",
+      "Soudan",
+      "Indonésie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'oiseau national des États-Unis ?",
+    "options": [
+      "Pygargue à tête blanche",
+      "Aigle royal",
+      "Faucon pèlerin",
+      "Corbeau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'animal emblématique du WWF ?",
+    "options": [
+      "Panda",
+      "Tigre",
+      "Koala",
+      "Loup"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit tropical est connu pour ses épines extérieures ?",
+    "options": [
+      "Ananas",
+      "Durian",
+      "Jacquier",
+      "Fruit du dragon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de jours y a-t-il en février lors d'une année bissextile ?",
+    "options": [
+      "29",
+      "28",
+      "30",
+      "31"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal noir et blanc mange du bambou ?",
+    "options": [
+      "Panda géant",
+      "Zèbre",
+      "Manchot",
+      "Orque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète est la plus proche du Soleil ?",
+    "options": [
+      "Mercure",
+      "Vénus",
+      "Mars",
+      "Terre"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'instrument principal d'un pianiste ?",
+    "options": [
+      "Piano",
+      "Guitare",
+      "Violon",
+      "Flûte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle boisson est faite à partir de grains torréfiés ?",
+    "options": [
+      "Café",
+      "Thé",
+      "Chocolat chaud",
+      "Maté"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Combien de continents y a-t-il sur Terre ?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal peut voler ?",
+    "options": [
+      "Chauve-souris",
+      "Écureuil",
+      "Serpent",
+      "Grenouille"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport utilise un ballon ovale ?",
+    "options": [
+      "Rugby",
+      "Football",
+      "Basketball",
+      "Handball"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand désert chaud du monde ?",
+    "options": [
+      "Sahara",
+      "Gobi",
+      "Kalahari",
+      "Mojave"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel métal est symbole chimique 'Fe' ?",
+    "options": [
+      "Fer",
+      "Zinc",
+      "Plomb",
+      "Nickel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal marin a huit bras ?",
+    "options": [
+      "Poulpe",
+      "Crabe",
+      "Crevette",
+      "Méduse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour ses tulipes ?",
+    "options": [
+      "Pays-Bas",
+      "Belgique",
+      "France",
+      "Allemagne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est jaune et courbé ?",
+    "options": [
+      "Banane",
+      "Citron",
+      "Poire",
+      "Mangue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal pond des œufs mais allaite ses petits ?",
+    "options": [
+      "Ornithorynque",
+      "Dauphin",
+      "Pingouin",
+      "Otarie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel aliment est fabriqué à partir de cacao ?",
+    "options": [
+      "Chocolat",
+      "Café",
+      "Caramel",
+      "Pain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport se joue avec un ballon et un panier ?",
+    "options": [
+      "Basketball",
+      "Handball",
+      "Volley",
+      "Tennis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand mammifère terrestre ?",
+    "options": [
+      "Éléphant d'Afrique",
+      "Girafe",
+      "Rhinocéros",
+      "Bison"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'oiseau le plus rapide en vol ?",
+    "options": [
+      "Faucon pèlerin",
+      "Aigle royal",
+      "Hirondelle",
+      "Martinet"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal peut marcher sur l'eau grâce à ses pattes ?",
+    "options": [
+      "Basilic",
+      "Grenouille",
+      "Lézard vert",
+      "Gecko"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est associé à Hawaï ?",
+    "options": [
+      "Ananas",
+      "Papaye",
+      "Mangue",
+      "Banane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a inventé la pizza ?",
+    "options": [
+      "Italie",
+      "France",
+      "Grèce",
+      "Espagne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel instrument a des touches noires et blanches ?",
+    "options": [
+      "Piano",
+      "Accordéon",
+      "Orgue",
+      "Synthétiseur"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal est célèbre pour sa lenteur ?",
+    "options": [
+      "Paresseux",
+      "Tortue",
+      "Escargot",
+      "Koala"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal a un long cou ?",
+    "options": [
+      "Girafe",
+      "Autruche",
+      "Alpaga",
+      "Lama"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus petit océan du monde ?",
+    "options": [
+      "Arctique",
+      "Indien",
+      "Atlantique",
+      "Pacifique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est connu pour son odeur forte ?",
+    "options": [
+      "Durian",
+      "Mangue",
+      "Litchi",
+      "Ananas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'instrument à cordes le plus petit ?",
+    "options": [
+      "Violon",
+      "Guitare",
+      "Harpe",
+      "Ukulélé"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal a un squelette externe ?",
+    "options": [
+      "Crabe",
+      "Poisson",
+      "Serpent",
+      "Souris"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour la Tour Eiffel ?",
+    "options": [
+      "France",
+      "Italie",
+      "Espagne",
+      "Belgique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'animal symbole de l'Australie ?",
+    "options": [
+      "Kangourou",
+      "Koala",
+      "Émeu",
+      "Diable de Tasmanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le métal symbole chimique 'Ag' ?",
+    "options": [
+      "Argent",
+      "Or",
+      "Aluminium",
+      "Platine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus long fleuve du monde ?",
+    "options": [
+      "Nil",
+      "Amazone",
+      "Yangtsé",
+      "Mississippi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal a une mémoire réputée exceptionnelle ?",
+    "options": [
+      "Éléphant",
+      "Chien",
+      "Pieuvre",
+      "Dauphin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est utilisé pour faire du guacamole ?",
+    "options": [
+      "Avocat",
+      "Tomate",
+      "Citron vert",
+      "Mangue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour ses fjords ?",
+    "options": [
+      "Norvège",
+      "Suède",
+      "Islande",
+      "Danemark"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand reptile du monde ?",
+    "options": [
+      "Crocodile marin",
+      "Anaconda",
+      "Varan de Komodo",
+      "Python réticulé"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel oiseau pond les plus gros œufs ?",
+    "options": [
+      "Autruche",
+      "Aigle",
+      "Albatros",
+      "Manchot"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour ses tulipes et ses moulins ?",
+    "options": [
+      "Pays-Bas",
+      "Belgique",
+      "Allemagne",
+      "Danemark"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel poisson est célèbre pour remonter les rivières pour pondre ?",
+    "options": [
+      "Saumon",
+      "Truite",
+      "Carpe",
+      "Anguille"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal est surnommé 'le roi de la jungle' ?",
+    "options": [
+      "Lion",
+      "Tigre",
+      "Guépard",
+      "Panthère"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle planète est connue pour ses anneaux ?",
+    "options": [
+      "Saturne",
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est souvent confondu avec un légume et utilisé en salade ?",
+    "options": [
+      "Tomate",
+      "Concombre",
+      "Poivron",
+      "Courgette"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel insecte porte bonheur selon la tradition ?",
+    "options": [
+      "Coccinelle",
+      "Papillon",
+      "Abeille",
+      "Mouche"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est le plus consommé dans le monde ?",
+    "options": [
+      "Banane",
+      "Pomme",
+      "Riz",
+      "Raisin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'aliment de base en Chine ?",
+    "options": [
+      "Riz",
+      "Pâtes",
+      "Maïs",
+      "Soja"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal a des rayures noires et blanches ?",
+    "options": [
+      "Zèbre",
+      "Tigre",
+      "Panda",
+      "Okapi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'oiseau qui ne peut pas voler mais court très vite ?",
+    "options": [
+      "Autruche",
+      "Émeu",
+      "Manchot",
+      "Casoar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand mammifère marin ?",
+    "options": [
+      "Baleine bleue",
+      "Orque",
+      "Cachalot",
+      "Rorqual commun"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour le Taj Mahal ?",
+    "options": [
+      "Inde",
+      "Pakistan",
+      "Bangladesh",
+      "Népal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'insecte le plus rapide ?",
+    "options": [
+      "Libellule",
+      "Abeille",
+      "Mouche",
+      "Sauterelle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel légume est célèbre pour améliorer la vue ?",
+    "options": [
+      "Carotte",
+      "Brocoli",
+      "Épinard",
+      "Poivron"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal est connu pour son rire ?",
+    "options": [
+      "Hyène",
+      "Dauphin",
+      "Singe",
+      "Perroquet"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport utilise une batte et une balle ?",
+    "options": [
+      "Baseball",
+      "Golf",
+      "Tennis",
+      "Cricket"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand pays du monde ?",
+    "options": [
+      "Russie",
+      "Canada",
+      "Chine",
+      "États-Unis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal peut tourner sa tête presque complètement ?",
+    "options": [
+      "Hibou",
+      "Chat",
+      "Chauve-souris",
+      "Serpent"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel aliment est fabriqué à partir de lait caillé ?",
+    "options": [
+      "Fromage",
+      "Beurre",
+      "Yaourt",
+      "Crème"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport se joue sur glace avec une crosse ?",
+    "options": [
+      "Hockey sur glace",
+      "Curling",
+      "Patinage artistique",
+      "Bandy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est séché pour donner des pruneaux ?",
+    "options": [
+      "Prune",
+      "Raisin",
+      "Figue",
+      "Datte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal marin est connu pour ses chants ?",
+    "options": [
+      "Baleine",
+      "Dauphin",
+      "Phoque",
+      "Otaries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour le chocolat et les montres ?",
+    "options": [
+      "Suisse",
+      "Belgique",
+      "France",
+      "Allemagne"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est la source principale de la tequila ?",
+    "options": [
+      "Agave",
+      "Cactus",
+      "Mangue",
+      "Citron vert"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel insecte construit des ruches ?",
+    "options": [
+      "Abeille",
+      "Fourmi",
+      "Guêpe",
+      "Frelon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel sport est souvent associé à la NBA ?",
+    "options": [
+      "Basketball",
+      "Baseball",
+      "Football américain",
+      "Hockey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel animal marin a une coquille en spirale ?",
+    "options": [
+      "Escargot de mer",
+      "Coquille Saint-Jacques",
+      "Moule",
+      "Palourde"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le métal symbole chimique 'Cu' ?",
+    "options": [
+      "Cuivre",
+      "Carbone",
+      "Calcium",
+      "Chrome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel légume est utilisé pour faire de la soupe à l'oignon ?",
+    "options": [
+      "Oignon",
+      "Poireau",
+      "Ail",
+      "Carotte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel fruit est pressé pour faire de l'huile d'olive ?",
+    "options": [
+      "Olive",
+      "Avocat",
+      "Noix",
+      "Amande"
+    ],
+    "correctIndex": 0
+  }
+]

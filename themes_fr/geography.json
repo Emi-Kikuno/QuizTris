@@ -1,0 +1,2253 @@
+[
+  {
+    "stem": "Quelle est la capitale de la France ?",
+    "options": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Toulouse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus long fleuve du monde ?",
+    "options": [
+      "Nil",
+      "Amazone",
+      "Yangtsé",
+      "Mississippi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays a la plus grande superficie ?",
+    "options": [
+      "Canada",
+      "Chine",
+      "Russie",
+      "États-Unis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Dans quel océan se trouve Madagascar ?",
+    "options": [
+      "Océan Atlantique",
+      "Océan Pacifique",
+      "Océan Indien",
+      "Océan Arctique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la capitale de l’Australie ?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel pays est situé entre la France et l’Espagne ?",
+    "options": [
+      "Andorre",
+      "Belgique",
+      "Portugal",
+      "Monaco"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand désert chaud du monde ?",
+    "options": [
+      "Désert de Gobi",
+      "Désert du Sahara",
+      "Désert d'Arabie",
+      "Désert du Kalahari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays est connu comme le « pays du Soleil-Levant » ?",
+    "options": [
+      "Chine",
+      "Corée du Sud",
+      "Japon",
+      "Thaïlande"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle mer borde l’Égypte à l’est ?",
+    "options": [
+      "Mer Méditerranée",
+      "Mer Noire",
+      "Mer Rouge",
+      "Mer Caspienne"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la capitale du Canada ?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montréal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la capitale de l’Italie ?",
+    "options": [
+      "Rome",
+      "Milan",
+      "Venise",
+      "Florence"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a pour capitale Berlin ?",
+    "options": [
+      "Allemagne",
+      "Autriche",
+      "Suisse",
+      "Pays-Bas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve le Kilimandjaro ?",
+    "options": [
+      "Kenya",
+      "Tanzanie",
+      "Éthiopie",
+      "Ouganda"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le plus grand océan du monde ?",
+    "options": [
+      "Atlantique",
+      "Indien",
+      "Pacifique",
+      "Arctique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la capitale de l’Espagne ?",
+    "options": [
+      "Barcelone",
+      "Madrid",
+      "Valence",
+      "Séville"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Dans quel pays se trouve la ville de Marrakech ?",
+    "options": [
+      "Maroc",
+      "Algérie",
+      "Tunisie",
+      "Égypte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus petit pays du monde ?",
+    "options": [
+      "Monaco",
+      "Vatican",
+      "Saint-Marin",
+      "Nauru"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la capitale de l’Inde ?",
+    "options": [
+      "Bombay",
+      "New Delhi",
+      "Calcutta",
+      "Bangalore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Dans quel pays se situe la Tour de Pise ?",
+    "options": [
+      "Italie",
+      "France",
+      "Espagne",
+      "Portugal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus long fleuve d’Afrique ?",
+    "options": [
+      "Nil",
+      "Congo",
+      "Niger",
+      "Zambèze"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Venezuela ?",
+    "options": [
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Liechtenstein ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Italie ?",
+    "options": [
+      "Afrique",
+      "Océanie",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Costa Rica ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Colombie ?",
+    "options": [
+      "Afrique",
+      "Océanie",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Slovaquie ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Oman ?",
+    "options": [
+      "Océanie",
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Hongrie ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Asie",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Togo ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Afghanistan ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Espagne ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Papouasie-Nouvelle-Guinée ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Norvège ?",
+    "options": [
+      "Océanie",
+      "Afrique",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Antigua-et-Barbuda ?",
+    "options": [
+      "Amérique du Sud",
+      "Asie",
+      "Amérique du Nord",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Saint-Vincent-et-les-Grenadines ?",
+    "options": [
+      "Amérique du Sud",
+      "Asie",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Croatie ?",
+    "options": [
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Cuba ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Royaume-Uni ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Angola ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Chypre ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Amérique du Sud",
+      "Asie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Belgique ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Bangladesh ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Asie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Soudan ?",
+    "options": [
+      "Amérique du Nord",
+      "Asie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Émirats arabes unis ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Asie",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Singapour ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Asie",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Liban ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Amérique du Nord",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Andorre ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Liberia ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Gambie ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Guinée équatoriale ?",
+    "options": [
+      "Amérique du Sud",
+      "Asie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Jamaïque ?",
+    "options": [
+      "Amérique du Nord",
+      "Asie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Philippines ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Sierra Leone ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Guatemala ?",
+    "options": [
+      "Europe",
+      "Asie",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Finlande ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Pakistan ?",
+    "options": [
+      "Europe",
+      "Océanie",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Micronésie ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Seychelles ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Pologne ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Laos ?",
+    "options": [
+      "Océanie",
+      "Europe",
+      "Asie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Géorgie ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Asie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Guinée ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Afrique",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve République du Congo ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Tchad ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Palaos ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Tanzanie ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Madagascar ?",
+    "options": [
+      "Afrique",
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Niger ?",
+    "options": [
+      "Afrique",
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Ouzbékistan ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Cambodge ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve France ?",
+    "options": [
+      "Amérique du Sud",
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Vanuatu ?",
+    "options": [
+      "Afrique",
+      "Amérique du Nord",
+      "Océanie",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Bosnie-Herzégovine ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Arabie saoudite ?",
+    "options": [
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Sao Tomé-et-Principe ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Barbade ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Îles Salomon ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Océanie",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Îles Marshall ?",
+    "options": [
+      "Océanie",
+      "Afrique",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Lesotho ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Monaco ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Djibouti ?",
+    "options": [
+      "Océanie",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Kosovo ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Côte d’Ivoire ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Rwanda ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Macédoine du Nord ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Amérique du Sud",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Slovénie ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Océanie",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Équateur ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Malawi ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Pérou ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Indonésie ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Qatar ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Soudan du Sud ?",
+    "options": [
+      "Afrique",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Japon ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Afrique",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Tunisie ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Népal ?",
+    "options": [
+      "Afrique",
+      "Océanie",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Zimbabwe ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Éthiopie ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve République démocratique du Congo ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Érythrée ?",
+    "options": [
+      "Europe",
+      "Asie",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Burundi ?",
+    "options": [
+      "Amérique du Nord",
+      "Asie",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Canada ?",
+    "options": [
+      "Océanie",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Danemark ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Monténégro ?",
+    "options": [
+      "Europe",
+      "Asie",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Zambie ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Amérique du Sud",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve États-Unis ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Guyana ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Malaisie ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Turquie ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Salvador ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Libye ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Syrie ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Lituanie ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Asie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Brésil ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Afrique",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Somalie ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Inde ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Trinité-et-Tobago ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Portugal ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Estonie ?",
+    "options": [
+      "Europe",
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Uruguay ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Mali ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Afrique",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Malte ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Nigeria ?",
+    "options": [
+      "Afrique",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Asie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Tuvalu ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Amérique du Nord",
+      "Asie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Samoa ?",
+    "options": [
+      "Afrique",
+      "Océanie",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Belize ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Sainte-Lucie ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Ghana ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Amérique du Sud",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Corée du Nord ?",
+    "options": [
+      "Europe",
+      "Asie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Namibie ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Amérique du Nord",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Guinée-Bissau ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Amérique du Sud",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Suriname ?",
+    "options": [
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Sénégal ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Timor oriental ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Grèce ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Bahreïn ?",
+    "options": [
+      "Amérique du Sud",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Yémen ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Autriche ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Asie",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Koweït ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve République dominicaine ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Bénin ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Tadjikistan ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Islande ?",
+    "options": [
+      "Amérique du Sud",
+      "Europe",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Arménie ?",
+    "options": [
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Panama ?",
+    "options": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Chine ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Corée du Sud ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Botswana ?",
+    "options": [
+      "Océanie",
+      "Afrique",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Algérie ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Cameroun ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Haïti ?",
+    "options": [
+      "Amérique du Nord",
+      "Europe",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Nouvelle-Zélande ?",
+    "options": [
+      "Océanie",
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Ukraine ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Chili ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Comores ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Israël ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Asie",
+      "Océanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Birmanie (Myanmar) ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Mexique ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Serbie ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Mongolie ?",
+    "options": [
+      "Amérique du Nord",
+      "Afrique",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Maroc ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Jordanie ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Albanie ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Égypte ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Suède ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Asie",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Mozambique ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve République centrafricaine ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Tchéquie ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Brunei ?",
+    "options": [
+      "Asie",
+      "Amérique du Sud",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Kirghizistan ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Turkménistan ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Moldavie ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Europe",
+      "Asie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Mauritanie ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord",
+      "Océanie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Paraguay ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Tonga ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Azerbaïdjan ?",
+    "options": [
+      "Asie",
+      "Europe",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Argentine ?",
+    "options": [
+      "Amérique du Sud",
+      "Asie",
+      "Océanie",
+      "Europe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Saint-Marin ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Saint-Christophe-et-Niévès ?",
+    "options": [
+      "Europe",
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Kazakhstan ?",
+    "options": [
+      "Asie",
+      "Océanie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Australie ?",
+    "options": [
+      "Amérique du Sud",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Vatican ?",
+    "options": [
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Allemagne ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Irak ?",
+    "options": [
+      "Océanie",
+      "Europe",
+      "Afrique",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Honduras ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Gabon ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Sri Lanka ?",
+    "options": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Kenya ?",
+    "options": [
+      "Amérique du Sud",
+      "Afrique",
+      "Océanie",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Fidji ?",
+    "options": [
+      "Amérique du Sud",
+      "Océanie",
+      "Europe",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Grenade ?",
+    "options": [
+      "Océanie",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Taïwan ?",
+    "options": [
+      "Océanie",
+      "Asie",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Eswatini ?",
+    "options": [
+      "Europe",
+      "Amérique du Nord",
+      "Afrique",
+      "Asie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Kiribati ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Océanie",
+      "Asie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Bahamas ?",
+    "options": [
+      "Asie",
+      "Afrique",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Cap-Vert ?",
+    "options": [
+      "Amérique du Nord",
+      "Océanie",
+      "Afrique",
+      "Europe"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Thaïlande ?",
+    "options": [
+      "Amérique du Nord",
+      "Asie",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Bhoutan ?",
+    "options": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Sur quel continent se trouve Roumanie ?",
+    "options": [
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Asie",
+      "Europe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Sur quel continent se trouve Luxembourg ?",
+    "options": [
+      "Europe",
+      "Afrique",
+      "Amérique du Sud",
+      "Océanie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Sur quel continent se trouve Suisse ?",
+    "options": [
+      "Afrique",
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Sur quel continent se trouve Ouganda ?",
+    "options": [
+      "Afrique",
+      "Europe",
+      "Asie",
+      "Amérique du Nord"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Quelle est la plus haute montagne du monde ?",
+    "options": ["K2", "Kangchenjunga", "Everest", "Lhotse"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le plus grand lac d'Afrique ?",
+    "options": ["Lac Victoria", "Lac Tanganyika", "Lac Malawi", "Lac Tchad"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est l'océan le plus petit ?",
+    "options": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel pays a le plus grand nombre d'habitants ?",
+    "options": ["Inde", "Chine", "États-Unis", "Indonésie"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Dans quel pays se trouve le Machu Picchu ?",
+    "options": ["Pérou", "Bolivie", "Équateur", "Chili"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le désert le plus sec du monde ?",
+    "options": ["Sahara", "Atacama", "Gobi", "Kalahari"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le plus grand archipel du monde ?",
+    "options": ["Philippines", "Indonésie", "Maldives", "Japon"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays est le plus au nord du monde ?",
+    "options": ["Norvège", "Canada", "Russie", "Groenland (Danemark)"],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quel est le plus long fleuve d'Europe ?",
+    "options": ["Danube", "Volga", "Rhône", "Elbe"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le plus grand pays d'Amérique centrale ?",
+    "options": ["Panama", "Honduras", "Guatemala", "Nicaragua"],
+    "correctIndex": 3
+  },
+  {
+    "stem": "Quelle est la capitale de la Norvège ?",
+    "options": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve la ville de Dubrovnik ?",
+    "options": ["Croatie", "Monténégro", "Bosnie-Herzégovine", "Slovénie"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus haut sommet d'Afrique ?",
+    "options": ["Mont Kenya", "Kilimandjaro", "Ruwenzori", "Simien"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est l'État le plus grand des États-Unis ?",
+    "options": ["Texas", "Californie", "Alaska", "Montana"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la capitale de l'Islande ?",
+    "options": ["Akureyri", "Reykjavik", "Selfoss", "Keflavik"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays est le plus petit d'Afrique ?",
+    "options": ["Seychelles", "Djibouti", "Gambie", "Sao Tomé-et-Principe"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve le mont Fuji ?",
+    "options": ["Chine", "Japon", "Corée du Sud", "Philippines"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la mer la plus salée du monde ?",
+    "options": ["Mer Rouge", "Mer Morte", "Mer Caspienne", "Mer Méditerranée"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel est le plus grand pays d'Océanie ?",
+    "options": ["Nouvelle-Zélande", "Papouasie-Nouvelle-Guinée", "Australie", "Fidji"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le plus grand désert froid du monde ?",
+    "options": ["Antarctique", "Groenland", "Arctique", "Sibérie"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de la Thaïlande ?",
+    "options": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve la Grande Barrière de corail ?",
+    "options": ["Australie", "Nouvelle-Zélande", "Fidji", "Indonésie"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays a le plus de fuseaux horaires ?",
+    "options": ["Russie", "États-Unis", "France", "Chine"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quelle est la plus grande île de la Méditerranée ?",
+    "options": ["Sicile", "Sardaigne", "Crète", "Chypre"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est traversé par le Nil Bleu et le Nil Blanc ?",
+    "options": ["Soudan", "Égypte", "Ouganda", "Soudan du Sud"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale du Maroc ?",
+    "options": ["Casablanca", "Marrakech", "Rabat", "Fès"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel pays a pour capitale Katmandou ?",
+    "options": ["Bhoutan", "Népal", "Inde", "Pakistan"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays est séparé de l'Espagne par le détroit de Gibraltar ?",
+    "options": ["Maroc", "Algérie", "Tunisie", "Portugal"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "options": ["Wellington", "Auckland", "Christchurch", "Dunedin"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus haut sommet d'Amérique du Sud ?",
+    "options": ["Huascarán", "Aconcagua", "Chimborazo", "Illimani"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Dans quel pays se trouve la Cappadoce ?",
+    "options": ["Grèce", "Turquie", "Italie", "Syrie"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la capitale du Kenya ?",
+    "options": ["Mombasa", "Nairobi", "Kisumu", "Malindi"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays possède l'île de Bornéo avec l'Indonésie et la Malaisie ?",
+    "options": ["Brunei", "Philippines", "Singapour", "Timor oriental"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus long fleuve d'Amérique du Nord ?",
+    "options": ["Mississippi-Missouri", "Rio Grande", "Saint-Laurent", "Colorado"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de la Corée du Sud ?",
+    "options": ["Séoul", "Busan", "Incheon", "Daegu"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve le lac Titicaca ?",
+    "options": ["Bolivie", "Pérou", "Chili", "Équateur"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour le canal reliant l'Atlantique au Pacifique ?",
+    "options": ["Panama", "Nicaragua", "Colombie", "Costa Rica"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de l'Iran ?",
+    "options": ["Téhéran", "Ispahan", "Shiraz", "Mashhad"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve la ville de Samarcande ?",
+    "options": ["Kazakhstan", "Ouzbékistan", "Turkménistan", "Tadjikistan"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quelle est la capitale du Vietnam ?",
+    "options": ["Hanoï", "Hô Chi Minh-Ville", "Da Nang", "Huê"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est célèbre pour les fjords de Geiranger et de Sognefjord ?",
+    "options": ["Norvège", "Suède", "Islande", "Finlande"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de l'Irlande ?",
+    "options": ["Dublin", "Cork", "Galway", "Limerick"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel est le plus grand lac d'Amérique du Nord ?",
+    "options": ["Lac Supérieur", "Lac Huron", "Lac Michigan", "Grand Lac de l'Ours"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Dans quel pays se trouve la vallée de la Loire ?",
+    "options": ["France", "Belgique", "Suisse", "Italie"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quel pays est formé de l'Angleterre, de l'Écosse, du Pays de Galles et de l'Irlande du Nord ?",
+    "options": ["Royaume-Uni", "Grande-Bretagne", "Irlande", "Commonwealth"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale du Pakistan ?",
+    "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+    "correctIndex": 2
+  },
+  {
+    "stem": "Quel est le pays le plus vaste d'Amérique du Sud ?",
+    "options": ["Brésil", "Argentine", "Pérou", "Colombie"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de la Turquie ?",
+    "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+    "correctIndex": 1
+  },
+  {
+    "stem": "Quel pays est connu pour la ville antique de Pétra ?",
+    "options": ["Jordanie", "Syrie", "Liban", "Égypte"],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Quelle est la capitale de la Finlande ?",
+    "options": ["Espoo", "Tampere", "Helsinki", "Turku"],
+    "correctIndex": 2
+  }
+]

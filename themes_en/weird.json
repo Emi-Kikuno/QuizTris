@@ -1,0 +1,1983 @@
+[
+  {
+    "stem": "What part of the body has the smallest bones?",
+    "options": [
+      "Ear",
+      "Finger",
+      "Toe"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal can sleep for up to three years?",
+    "options": [
+      "Snail",
+      "Bear",
+      "Frog"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the only metal that is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Sodium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet smells like rotten eggs due to its atmosphere?",
+    "options": [
+      "Uranus",
+      "Venus",
+      "Jupiter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for animals that eat both plants and meat?",
+    "options": [
+      "Omnivores",
+      "Carnivores",
+      "Herbivores"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ancient ruler supposedly had a fear of cats?",
+    "options": [
+      "Napoleon",
+      "Caesar",
+      "Alexander the Great"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was triggered by a bucket being stolen?",
+    "options": [
+      "War of the Oaken Bucket",
+      "Hundred Years' War",
+      "War of Jenkins' Ear"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person to appear on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "George Washington",
+      "Benjamin Franklin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In medieval Europe, what was sometimes used as currency besides coins?",
+    "options": [
+      "Salt",
+      "Cheese",
+      "Wine"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US president kept a pet alligator in the White House?",
+    "options": [
+      "John Quincy Adams",
+      "Theodore Roosevelt",
+      "Thomas Jefferson"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the dot over the lowercase letters i and j called?",
+    "options": [
+      "Tittle",
+      "Nub",
+      "Point"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit was once known as the “love apple”?",
+    "options": [
+      "Tomato",
+      "Pomegranate",
+      "Strawberry"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Whistling",
+      "Eating on the street"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig, for social reasons?",
+    "options": [
+      "Switzerland",
+      "Norway",
+      "New Zealand"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of animal is a Flemish Giant?",
+    "options": [
+      "Rabbit",
+      "Dog",
+      "Horse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic almost any sound, including chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Mockingbird"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What was bubble wrap originally invented for?",
+    "options": [
+      "Wallpaper",
+      "Packaging",
+      "Insulation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country has a national sport of toe wrestling?",
+    "options": [
+      "England",
+      "Canada",
+      "Australia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is unusual about the Basenji dog breed?",
+    "options": [
+      "It doesn't bark",
+      "It has no tail",
+      "It can climb trees"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What kind of animal was 'Mike', who lived for 18 months without a head in the 1940s?",
+    "options": [
+      "Chicken",
+      "Goat",
+      "Snake"
+    ],
+    "correctIndex": 0
+  },
+
+  {
+    "stem": "Which country once had a parliament seat reserved for a cat?",
+    "options": [
+      "Iceland",
+      "Japan",
+      "France"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What unusual ingredient was once used in Victorian-era chocolate?",
+    "options": [
+      "Ground up insects",
+      "Seaweed",
+      "Clay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can sleep while flying?",
+    "options": [
+      "Albatross",
+      "Penguin",
+      "Eagle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to name a pig 'Napoleon'?",
+    "options": [
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal is known to survive complete decapitation for several days?",
+    "options": [
+      "Cockroach",
+      "Lizard",
+      "Starfish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has days longer than its years?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Mars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What unusual pet did President Calvin Coolidge keep at the White House?",
+    "options": [
+      "Raccoon",
+      "Owl",
+      "Kangaroo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which sea creature has three hearts?",
+    "options": [
+      "Octopus",
+      "Shark",
+      "Sea turtle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What food can last thousands of years without spoiling?",
+    "options": [
+      "Honey",
+      "Rice",
+      "Salted fish"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal can change its gender back and forth during its life?",
+    "options": [
+      "Clownfish",
+      "Seahorse",
+      "Frog"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mammal lays eggs?",
+    "options": [
+      "Platypus",
+      "Kangaroo",
+      "Bat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mammal lays eggs?",
+    "options": [
+      "Platypus",
+      "Kangaroo",
+      "Bat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mammal lays eggs?",
+    "options": [
+      "Platypus",
+      "Kangaroo",
+      "Bat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Crow"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Crow"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Crow"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mammal lays eggs?",
+    "options": [
+      "Platypus",
+      "Kangaroo",
+      "Bat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mammal lays eggs?",
+    "options": [
+      "Platypus",
+      "Kangaroo",
+      "Bat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which insect can survive complete decapitation for days?",
+    "options": [
+      "Cockroach",
+      "Beetle",
+      "Fly"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Crow"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which fruit has more vitamin C than oranges?",
+    "options": [
+      "Kiwi",
+      "Apple",
+      "Banana"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which metal is liquid at room temperature?",
+    "options": [
+      "Mercury",
+      "Gallium",
+      "Cesium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first person on a postage stamp?",
+    "options": [
+      "Queen Victoria",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to forget your wife's birthday?",
+    "options": [
+      "Samoa",
+      "Brazil",
+      "India"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bird can mimic chainsaws and car alarms?",
+    "options": [
+      "Lyrebird",
+      "Parrot",
+      "Crow"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the term for water turning directly into vapor?",
+    "options": [
+      "Sublimation",
+      "Condensation",
+      "Deposition"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the largest volcano in the solar system?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Venus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which animal is immortal under the right conditions?",
+    "options": [
+      "Turritopsis dohrnii jellyfish",
+      "Sea turtle",
+      "Axolotl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which country requires citizens to smile in photos for ID cards?",
+    "options": [
+      "Thailand",
+      "Russia",
+      "Norway"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What animal's milk is pink?",
+    "options": [
+      "Hippopotamus",
+      "Camel",
+      "Goat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which emperor made his horse a senator?",
+    "options": [
+      "Caligula",
+      "Nero",
+      "Augustus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In which country is it illegal to own just one guinea pig?",
+    "options": [
+      "Switzerland",
+      "Germany",
+      "Canada"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which war was started over a stolen bucket?",
+    "options": [
+      "War of the Oaken Bucket",
+      "War of the Roses",
+      "Thirty Years' War"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is banned in public places in Singapore since 1992?",
+    "options": [
+      "Chewing gum",
+      "Eating",
+      "Smoking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which US town elected a dog as mayor?",
+    "options": [
+      "Rabbit Hash, Kentucky",
+      "Salem, Oregon",
+      "Austin, Texas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "In what country is it illegal to wear high heels at ancient sites?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who invented the first alarm clock that could only ring at 4 a.m.?",
+    "options": [
+      "Plato",
+      "Benjamin Franklin",
+      "Archimedes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants mostly release during the day?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What creature has no brain but still sleeps?",
+    "options": [
+      "Jellyfish",
+      "Sea cucumber",
+      "Oyster"
+    ],
+    "correctIndex": 0
+  }
+]

@@ -1,0 +1,2487 @@
+[
+  {
+    "stem": "What is the powerhouse of the cell?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Nucleus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which gas makes up most of Earth's atmosphere?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Argon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is H2O commonly called?",
+    "options": [
+      "Water",
+      "Hydrogen",
+      "Ozone"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ filters blood to make urine?",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Pancreas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What particle has a negative electric charge?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What organelle carries out photosynthesis?",
+    "options": [
+      "Chloroplast",
+      "Mitochondrion",
+      "Vacuole"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of force?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Pascal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scientist proposed natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Lamarck",
+      "Wallace"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What does DNA stand for?",
+    "options": [
+      "Deoxyribonucleic acid",
+      "Deoxyribose nucleic amino",
+      "Dinucleic acid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which vitamin is produced by sunlight on skin?",
+    "options": [
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin A"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Hydrogen?",
+    "options": [
+      "H",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Helium?",
+    "options": [
+      "He",
+      "Zn",
+      "Ar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Lithium?",
+    "options": [
+      "Li",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Beryllium?",
+    "options": [
+      "Be",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Boron?",
+    "options": [
+      "B",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Carbon?",
+    "options": [
+      "C",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Nitrogen?",
+    "options": [
+      "N",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Oxygen?",
+    "options": [
+      "O",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Fluorine?",
+    "options": [
+      "F",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Neon?",
+    "options": [
+      "Ne",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Sodium?",
+    "options": [
+      "Na",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Magnesium?",
+    "options": [
+      "Mg",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Aluminium?",
+    "options": [
+      "Al",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Silicon?",
+    "options": [
+      "Si",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Phosphorus?",
+    "options": [
+      "P",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Sulfur?",
+    "options": [
+      "S",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Chlorine?",
+    "options": [
+      "Cl",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Argon?",
+    "options": [
+      "Ar",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Potassium?",
+    "options": [
+      "K",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Calcium?",
+    "options": [
+      "Ca",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Iron?",
+    "options": [
+      "Fe",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Cobalt?",
+    "options": [
+      "Co",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Nickel?",
+    "options": [
+      "Ni",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Copper?",
+    "options": [
+      "Cu",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Zinc?",
+    "options": [
+      "Zn",
+      "He",
+      "Ar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Silver?",
+    "options": [
+      "Ag",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Tin?",
+    "options": [
+      "Sn",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Iodine?",
+    "options": [
+      "I",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Gold?",
+    "options": [
+      "Au",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Mercury?",
+    "options": [
+      "Hg",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Lead?",
+    "options": [
+      "Pb",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Uranium?",
+    "options": [
+      "U",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Platinum?",
+    "options": [
+      "Pt",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Chromium?",
+    "options": [
+      "Cr",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Manganese?",
+    "options": [
+      "Mn",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Bromine?",
+    "options": [
+      "Br",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Strontium?",
+    "options": [
+      "Sr",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Cesium?",
+    "options": [
+      "Cs",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Barium?",
+    "options": [
+      "Ba",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Tungsten?",
+    "options": [
+      "W",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical symbol for Plutonium?",
+    "options": [
+      "Pu",
+      "He",
+      "Zn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of power?",
+    "options": [
+      "Watt",
+      "Joule",
+      "Volt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of pressure?",
+    "options": [
+      "Pascal",
+      "Bar",
+      "Atmosphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of frequency?",
+    "options": [
+      "Hertz",
+      "Radian",
+      "Newton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which law states F = m × a?",
+    "options": [
+      "Newton's Second Law",
+      "Newton's First Law",
+      "Hooke's Law"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What phenomenon bends light entering water?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Diffraction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which process splits atomic nuclei?",
+    "options": [
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Ionization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which gas do plants release during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which process makes identical body cells?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the basic unit of heredity?",
+    "options": [
+      "Gene",
+      "Chromosome",
+      "Allele"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood component helps clotting?",
+    "options": [
+      "Platelets",
+      "Red blood cells",
+      "White blood cells"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which compound gives blood its red color?",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Keratin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scientist discovered penicillin?",
+    "options": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Robert Koch"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the Great Red Spot?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What causes tides on Earth?",
+    "options": [
+      "Lunar and solar gravity",
+      "Earth's rotation",
+      "Wind currents"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What instrument measures atmospheric pressure?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Hygrometer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the main component of natural gas?",
+    "options": [
+      "Methane",
+      "Ethane",
+      "Propane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which gas is used to fill most safe party balloons?",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Oxygen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ produces bile?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Gallbladder"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which artery is the body's largest?",
+    "options": [
+      "Aorta",
+      "Carotid",
+      "Femoral"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which chamber pumps oxygenated blood to the body?",
+    "options": [
+      "Left ventricle",
+      "Right ventricle",
+      "Left atrium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which tissue connects muscle to bone?",
+    "options": [
+      "Tendon",
+      "Ligament",
+      "Cartilage"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which macromolecules are made of amino acids?",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Lipids"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which vitamin prevents rickets?",
+    "options": [
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin K"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ produces insulin?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Thyroid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which cells carry oxygen in blood?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ],
+    "correctIndex": 0
+  },
+  
+  {
+    "stem": "What is the SI unit of electric current?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Ohm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of work?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of power?",
+    "options": [
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of electric resistance?",
+    "options": [
+      "Ohm",
+      "Siemens",
+      "Tesla"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit of magnetic field strength?",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Gauss"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What force opposes motion between two surfaces in contact?",
+    "options": [
+      "Friction",
+      "Tension",
+      "Lift"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What law explains rocket motion?",
+    "options": [
+      "Conservation of momentum",
+      "Hooke's law",
+      "Charles's law"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What phenomenon causes a straw to look bent in water?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Diffraction"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What device stores electric charge?",
+    "options": [
+      "Capacitor",
+      "Resistor",
+      "Transformer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What subatomic particle determines an element's identity?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What particles carry the electromagnetic force?",
+    "options": [
+      "Photons",
+      "Gluons",
+      "Gravitons"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is 9.8 m/s² on Earth commonly called?",
+    "options": [
+      "Acceleration due to gravity",
+      "Escape velocity",
+      "Terminal velocity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the unit for frequency?",
+    "options": [
+      "Hertz",
+      "Pascal",
+      "Coulomb"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the unit for electric charge?",
+    "options": [
+      "Coulomb",
+      "Volt",
+      "Watt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Light behaves as both wave and particle. What is this called?",
+    "options": [
+      "Wave–particle duality",
+      "Polarization",
+      "Dispersion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What law states V = IR?",
+    "options": [
+      "Ohm's law",
+      "Faraday's law",
+      "Ampère's law"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What quantity is conserved in elastic collisions?",
+    "options": [
+      "Kinetic energy",
+      "Thermal energy",
+      "Electric charge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the property of a material to return to its original shape?",
+    "options": [
+      "Elasticity",
+      "Plasticity",
+      "Viscosity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the tendency of objects to resist changes in motion?",
+    "options": [
+      "Inertia",
+      "Friction",
+      "Torque"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What device converts AC to DC?",
+    "options": [
+      "Rectifier",
+      "Transformer",
+      "Oscillator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What phenomenon spreads waves around obstacles?",
+    "options": [
+      "Diffraction",
+      "Refraction",
+      "Reflection"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the unit of pressure in SI?",
+    "options": [
+      "Pascal",
+      "Bar",
+      "Atmosphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the rate of change of velocity?",
+    "options": [
+      "Acceleration",
+      "Speed",
+      "Jerk"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the bending of light by gravity called?",
+    "options": [
+      "Gravitational lensing",
+      "Refraction",
+      "Scattering"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What kind of wave requires a medium to travel?",
+    "options": [
+      "Mechanical wave",
+      "Electromagnetic wave",
+      "Standing wave"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the inverse of resistance called?",
+    "options": [
+      "Conductance",
+      "Impedance",
+      "Capacitance"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the product of force and perpendicular distance?",
+    "options": [
+      "Torque",
+      "Power",
+      "Work"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the energy of motion?",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Thermal energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the energy stored due to position?",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Chemical energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the unit of temperature in SI?",
+    "options": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the pH of neutral water at 25°C?",
+    "options": [
+      "7",
+      "1",
+      "14"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of bond shares electron pairs?",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Hydrogen bond"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is table salt chemically?",
+    "options": [
+      "Sodium chloride",
+      "Potassium nitrate",
+      "Calcium carbonate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas turns limewater milky?",
+    "options": [
+      "Carbon dioxide",
+      "Ammonia",
+      "Hydrogen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chemical formula for ozone?",
+    "options": [
+      "O3",
+      "O2",
+      "CO2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the SI unit for amount of substance?",
+    "options": [
+      "Mole",
+      "Gram",
+      "Liter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is a substance that speeds up a reaction?",
+    "options": [
+      "Catalyst",
+      "Solute",
+      "Colloid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of separating a mixture by boiling and condensing?",
+    "options": [
+      "Distillation",
+      "Filtration",
+      "Decantation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call a homogeneous mixture?",
+    "options": [
+      "Solution",
+      "Suspension",
+      "Colloid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the main component of natural gas?",
+    "options": [
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which bond results from electron transfer?",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the lightest noble gas?",
+    "options": [
+      "Helium",
+      "Neon",
+      "Argon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the common name for H2SO4?",
+    "options": [
+      "Sulfuric acid",
+      "Hydrochloric acid",
+      "Nitric acid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the common name for NaHCO3?",
+    "options": [
+      "Baking soda",
+      "Washing soda",
+      "Bleach"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which gas is known as laughing gas?",
+    "options": [
+      "Nitrous oxide",
+      "Nitric oxide",
+      "Carbon monoxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the color of a neutral litmus paper in water?",
+    "options": [
+      "Purple",
+      "Red",
+      "Blue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is Avogadro's number approximately?",
+    "options": [
+      "6.02×10^23",
+      "3.00×10^8",
+      "9.81"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of a solid turning directly into gas?",
+    "options": [
+      "Sublimation",
+      "Deposition",
+      "Condensation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the electron donor in a redox reaction called?",
+    "options": [
+      "Reducing agent",
+      "Oxidizing agent",
+      "Catalyst"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which law relates gas pressure and volume at constant temperature?",
+    "options": [
+      "Boyle's law",
+      "Charles's law",
+      "Graham's law"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which law relates gas volume and temperature at constant pressure?",
+    "options": [
+      "Charles's law",
+      "Boyle's law",
+      "Dalton's law"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the pH range of acids?",
+    "options": [
+      "Less than 7",
+      "Equal to 7",
+      "Greater than 7"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call a solution that resists pH change?",
+    "options": [
+      "Buffer",
+      "Catalyst",
+      "Electrolyte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the common name for CH3COOH?",
+    "options": [
+      "Acetic acid",
+      "Formic acid",
+      "Citric acid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call metals that are liquid at room temperature?",
+    "options": [
+      "Mercury and gallium (near room temp)",
+      "Sodium and potassium",
+      "Lead and tin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call a substance that conducts electricity when molten or in solution?",
+    "options": [
+      "Electrolyte",
+      "Insulator",
+      "Semiconductor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the measure of a solution's hydrogen ion concentration?",
+    "options": [
+      "pH",
+      "pKa",
+      "pOH"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What term describes the even distribution of particles in a solution?",
+    "options": [
+      "Homogeneous",
+      "Heterogeneous",
+      "Colloidal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of reaction absorbs heat?",
+    "options": [
+      "Endothermic",
+      "Exothermic",
+      "Isothermal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of reaction releases heat?",
+    "options": [
+      "Exothermic",
+      "Endothermic",
+      "Isobaric"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the main gas in Earth's atmosphere?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Argon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the common name for CaCO3?",
+    "options": [
+      "Calcium carbonate",
+      "Calcium oxide",
+      "Calcium sulfate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the common name for NaClO (household)?",
+    "options": [
+      "Bleach",
+      "Baking soda",
+      "Vinegar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of mixture scatters light (Tyndall effect)?",
+    "options": [
+      "Colloid",
+      "Solution",
+      "Suspension"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the element symbol for potassium?",
+    "options": [
+      "K",
+      "P",
+      "Pt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the basic unit of life?",
+    "options": [
+      "Cell",
+      "Tissue",
+      "Organ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which process produces gametes?",
+    "options": [
+      "Meiosis",
+      "Mitosis",
+      "Binary fission"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organelle makes ATP in aerobic respiration?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which pigment makes plants green?",
+    "options": [
+      "Chlorophyll",
+      "Carotene",
+      "Xanthophyll"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which molecule stores genetic information?",
+    "options": [
+      "DNA",
+      "Protein",
+      "Lipid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What sugar is in DNA?",
+    "options": [
+      "Deoxyribose",
+      "Ribose",
+      "Glucose"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What sugar is in RNA?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Fructose"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which enzyme joins DNA fragments?",
+    "options": [
+      "Ligase",
+      "Helicase",
+      "Amylase"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which enzyme unwinds DNA?",
+    "options": [
+      "Helicase",
+      "Ligase",
+      "Lipase"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ primarily detoxifies blood?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Spleen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ filters blood to make urine?",
+    "options": [
+      "Kidney",
+      "Liver",
+      "Pancreas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ secretes insulin?",
+    "options": [
+      "Pancreas",
+      "Thyroid",
+      "Pituitary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which vitamin prevents scurvy?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B12"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which vitamin prevents rickets?",
+    "options": [
+      "Vitamin D",
+      "Vitamin A",
+      "Vitamin K"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin K",
+      "Vitamin B12",
+      "Vitamin E"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood cells carry oxygen?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood cells fight infection?",
+    "options": [
+      "White blood cells",
+      "Red blood cells",
+      "Platelets"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood component helps clotting?",
+    "options": [
+      "Platelets",
+      "Plasma",
+      "Hemoglobin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What protein gives red blood cells their color?",
+    "options": [
+      "Hemoglobin",
+      "Myoglobin",
+      "Keratin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the primary energy currency of the cell?",
+    "options": [
+      "ATP",
+      "ADP",
+      "AMP"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the functional unit of the kidney?",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Alveolus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the site of gas exchange in the lungs?",
+    "options": [
+      "Alveoli",
+      "Bronchi",
+      "Trachea"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What tissue connects muscle to bone?",
+    "options": [
+      "Tendon",
+      "Ligament",
+      "Fascia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What tissue connects bone to bone?",
+    "options": [
+      "Ligament",
+      "Tendon",
+      "Cartilage"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ stores bile?",
+    "options": [
+      "Gallbladder",
+      "Liver",
+      "Pancreas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which digestive enzyme is found in saliva?",
+    "options": [
+      "Amylase",
+      "Pepsin",
+      "Trypsin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which part of the neuron receives signals?",
+    "options": [
+      "Dendrite",
+      "Axon",
+      "Myelin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which part of the neuron sends signals?",
+    "options": [
+      "Axon",
+      "Dendrite",
+      "Soma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the insulating sheath around some axons?",
+    "options": [
+      "Myelin",
+      "Sarcolemma",
+      "Synapse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What neurotransmitter is at the neuromuscular junction?",
+    "options": [
+      "Acetylcholine",
+      "Dopamine",
+      "GABA"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which brain region coordinates balance?",
+    "options": [
+      "Cerebellum",
+      "Cerebrum",
+      "Medulla"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is programmed cell death called?",
+    "options": [
+      "Apoptosis",
+      "Necrosis",
+      "Autophagy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of copying DNA to RNA?",
+    "options": [
+      "Transcription",
+      "Translation",
+      "Replication"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of building protein from mRNA?",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Transformation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scientist discovered penicillin?",
+    "options": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Robert Koch"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who proposed the theory of natural selection?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ produces bile?",
+    "options": [
+      "Liver",
+      "Gallbladder",
+      "Pancreas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which chamber pumps oxygenated blood to the body?",
+    "options": [
+      "Left ventricle",
+      "Right ventricle",
+      "Left atrium"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the largest organ of the human body?",
+    "options": [
+      "Skin",
+      "Liver",
+      "Brain"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which macromolecules are made of amino acids?",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Lipids"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ regulates metabolism via thyroxine?",
+    "options": [
+      "Thyroid",
+      "Adrenal gland",
+      "Pituitary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which hormone regulates blood sugar by lowering it?",
+    "options": [
+      "Insulin",
+      "Glucagon",
+      "Adrenaline"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which hormone raises blood sugar between meals?",
+    "options": [
+      "Glucagon",
+      "Insulin",
+      "Cortisol"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the genetic material in retroviruses?",
+    "options": [
+      "RNA",
+      "DNA",
+      "Protein"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ is primarily responsible for balance and hearing?",
+    "options": [
+      "Inner ear",
+      "Cochlea",
+      "Semicircular canals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood type is the universal donor (red cells)?",
+    "options": [
+      "O negative",
+      "AB positive",
+      "A positive"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which blood type is the universal recipient (red cells)?",
+    "options": [
+      "AB positive",
+      "O negative",
+      "B positive"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where does photosynthesis primarily occur in leaves?",
+    "options": [
+      "Chloroplasts of mesophyll cells",
+      "Stomata",
+      "Xylem"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which process produces lactic acid in muscles during intense exercise?",
+    "options": [
+      "Anaerobic respiration",
+      "Aerobic respiration",
+      "Photosynthesis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the name of the fluid component of blood?",
+    "options": [
+      "Plasma",
+      "Serum",
+      "Cytosol"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the primary structural component of plant cell walls?",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Pectin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ filters lymph and helps fight infection?",
+    "options": [
+      "Spleen",
+      "Liver",
+      "Pancreas"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the basic unit of the nervous system?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the chromosome count in human somatic cells?",
+    "options": [
+      "46",
+      "23",
+      "44"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scientist is known as the father of genetics?",
+    "options": [
+      "Gregor Mendel",
+      "James Watson",
+      "Rosalind Franklin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What organ produces digestive enzymes like trypsin?",
+    "options": [
+      "Pancreas",
+      "Stomach",
+      "Liver"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Where does protein synthesis occur?",
+    "options": [
+      "Ribosome",
+      "Nucleus",
+      "Lysosome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which organ stores glycogen and regulates glucose?",
+    "options": [
+      "Liver",
+      "Spleen",
+      "Kidney"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of rock forms from sediments being compacted and cemented?",
+    "options": [
+      "Sedimentary rock",
+      "Igneous rock",
+      "Metamorphic rock"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What type of rock forms under heat and pressure without melting?",
+    "options": [
+      "Metamorphic rock",
+      "Igneous rock",
+      "Sedimentary rock"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the hardest mineral on Mohs scale?",
+    "options": [
+      "Diamond",
+      "Corundum",
+      "Topaz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas is most abundant in Earth's crust by mass?",
+    "options": [
+      "Oxygen",
+      "Silicon",
+      "Aluminum"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What process breaks rocks into smaller pieces without changing composition?",
+    "options": [
+      "Physical weathering",
+      "Chemical weathering",
+      "Metamorphism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What process moves weathered material from one place to another?",
+    "options": [
+      "Erosion",
+      "Deposition",
+      "Sublimation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the primary greenhouse gas increasing due to humans?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What layer of atmosphere has the ozone layer?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What instrument measures wind speed?",
+    "options": [
+      "Anemometer",
+      "Barometer",
+      "Hygrometer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What cloud is associated with thunderstorms?",
+    "options": [
+      "Cumulonimbus",
+      "Stratus",
+      "Altocumulus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is molten rock beneath Earth's surface?",
+    "options": [
+      "Magma",
+      "Lava",
+      "Rhyolite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is molten rock on Earth's surface?",
+    "options": [
+      "Lava",
+      "Magma",
+      "Granite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the boundary where plates slide past each other?",
+    "options": [
+      "Transform boundary",
+      "Convergent boundary",
+      "Divergent boundary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What device measures atmospheric pressure?",
+    "options": [
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the main cause of ocean acidification?",
+    "options": [
+      "Absorption of CO₂",
+      "Oil spills",
+      "Plastic pollution"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which cycle involves evaporation, condensation, and precipitation?",
+    "options": [
+      "Water cycle",
+      "Carbon cycle",
+      "Nitrogen cycle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call the long-term average of weather?",
+    "options": [
+      "Climate",
+      "Season",
+      "Front"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the primary driver of Earth's weather systems?",
+    "options": [
+      "Solar energy",
+      "Geothermal heat",
+      "Tidal forces"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the boundary between two air masses?",
+    "options": [
+      "Front",
+      "Thermocline",
+      "Orocline"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scale measures tornado intensity (damage)?",
+    "options": [
+      "Enhanced Fujita scale",
+      "Saffir–Simpson scale",
+      "Beaufort scale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which gas causes acid rain when oxidized to acids?",
+    "options": [
+      "Sulfur dioxide",
+      "Oxygen",
+      "Methane"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of plants releasing water vapor?",
+    "options": [
+      "Transpiration",
+      "Respiration",
+      "Perspiration"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is a sudden release of energy in Earth's crust causing shaking?",
+    "options": [
+      "Earthquake",
+      "Volcanism",
+      "Erosion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call a cone-shaped mountain built by eruptions?",
+    "options": [
+      "Volcano",
+      "Mesa",
+      "Butte"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the layer of Earth with liquid iron and nickel?",
+    "options": [
+      "Outer core",
+      "Inner core",
+      "Mantle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What boundary forms when plates collide?",
+    "options": [
+      "Convergent boundary",
+      "Divergent boundary",
+      "Transform boundary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What fossil fuel forms from ancient marine organisms?",
+    "options": [
+      "Oil",
+      "Coal",
+      "Peat"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What renewable energy uses heat from Earth's interior?",
+    "options": [
+      "Geothermal",
+      "Solar",
+      "Hydroelectric"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the process of converting waste into reusable material?",
+    "options": [
+      "Recycling",
+      "Composting",
+      "Landfilling"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What gas do plants take in for photosynthesis?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the global warming potential reference gas?",
+    "options": [
+      "Carbon dioxide",
+      "Methane",
+      "Nitrous oxide"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which instrument measures humidity?",
+    "options": [
+      "Hygrometer",
+      "Barometer",
+      "Thermometer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which scale measures hurricane intensity?",
+    "options": [
+      "Saffir–Simpson scale",
+      "Enhanced Fujita scale",
+      "Richter scale"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which ocean current warms Western Europe?",
+    "options": [
+      "Gulf Stream",
+      "Humboldt Current",
+      "Kuroshio Current"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is frozen ground that remains below 0°C for 2+ years?",
+    "options": [
+      "Permafrost",
+      "Talus",
+      "Glacier ice"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the closest star to Earth?",
+    "options": [
+      "The Sun",
+      "Proxima Centauri",
+      "Sirius"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the largest planet in the solar system?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Neptune"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet is known as the Red Planet?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Mercury"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet has the most prominent ring system?",
+    "options": [
+      "Saturn",
+      "Uranus",
+      "Jupiter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is a light-year a measure of?",
+    "options": [
+      "Distance",
+      "Time",
+      "Brightness"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is our galaxy called?",
+    "options": [
+      "Milky Way",
+      "Andromeda",
+      "Triangulum"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which dwarf planet lies in the asteroid belt?",
+    "options": [
+      "Ceres",
+      "Pluto",
+      "Eris"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What protects Earth from charged solar particles?",
+    "options": [
+      "Magnetosphere",
+      "Ozone layer",
+      "Troposphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which mission first landed humans on the Moon?",
+    "options": [
+      "Apollo 11",
+      "Apollo 8",
+      "Apollo 13"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Who was the first human in space?",
+    "options": [
+      "Yuri Gagarin",
+      "Alan Shepard",
+      "Neil Armstrong"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the plane of Earth's orbit called?",
+    "options": [
+      "Ecliptic",
+      "Equator",
+      "Meridian"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What are small rocky bodies orbiting the Sun mostly between Mars and Jupiter?",
+    "options": [
+      "Asteroids",
+      "Comets",
+      "Meteors"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What are icy bodies that develop tails near the Sun?",
+    "options": [
+      "Comets",
+      "Asteroids",
+      "Meteoroids"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the remnant neutron star that emits radio pulses?",
+    "options": [
+      "Pulsar",
+      "Quasar",
+      "White dwarf"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What kind of galaxy is the Milky Way?",
+    "options": [
+      "Barred spiral",
+      "Elliptical",
+      "Irregular"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which telescope launched in 1990 revolutionized astronomy?",
+    "options": [
+      "Hubble Space Telescope",
+      "James Webb Space Telescope",
+      "Chandra X-ray Observatory"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which telescope primarily observes in infrared since 2021?",
+    "options": [
+      "James Webb Space Telescope",
+      "Hubble Space Telescope",
+      "Kepler Space Telescope"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What do we call the apparent backward motion of planets?",
+    "options": [
+      "Retrograde motion",
+      "Precession",
+      "Nutation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet is tilted about 98° on its axis?",
+    "options": [
+      "Uranus",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the boundary around a black hole called?",
+    "options": [
+      "Event horizon",
+      "Accretion disk",
+      "Photon sphere"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the source of the Sun's energy?",
+    "options": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Radioactive decay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What term describes a planet outside our solar system?",
+    "options": [
+      "Exoplanet",
+      "Dwarf planet",
+      "Planetesimal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which planet is hottest on average?",
+    "options": [
+      "Venus",
+      "Mercury",
+      "Mars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the name of our Moon's dark, flat plains?",
+    "options": [
+      "Maria",
+      "Highlands",
+      "Regolith"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "Which spacecraft carried the Golden Record?",
+    "options": [
+      "Voyager 1",
+      "Pioneer 10",
+      "Cassini"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What numeral system do computers use?",
+    "options": [
+      "Binary",
+      "Decimal",
+      "Octal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Core Processing Unit",
+      "Central Programming Unit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What does RAM stand for?",
+    "options": [
+      "Random Access Memory",
+      "Readily Available Memory",
+      "Rapid Access Module"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the Big O of binary search?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is 2^10 equal to?",
+    "options": [
+      "1024",
+      "1000",
+      "512"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the derivative of x^2?",
+    "options": [
+      "2x",
+      "x",
+      "x^3"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the integral of 1/x dx?",
+    "options": [
+      "ln|x| + C",
+      "x + C",
+      "1/x + C"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the next prime after 13?",
+    "options": [
+      "17",
+      "15",
+      "19"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the base of the natural logarithm?",
+    "options": [
+      "e",
+      "π",
+      "10"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What matrix has ones on the diagonal and zeros elsewhere?",
+    "options": [
+      "Identity matrix",
+      "Zero matrix",
+      "Diagonal matrix"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the GCD of 12 and 18?",
+    "options": [
+      "6",
+      "12",
+      "3"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What triangle has all three sides equal?",
+    "options": [
+      "Equilateral",
+      "Isosceles",
+      "Scalene"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the sum of angles in a triangle?",
+    "options": [
+      "180°",
+      "90°",
+      "360°"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What sequence has each term as the sum of the previous two?",
+    "options": [
+      "Fibonacci",
+      "Arithmetic",
+      "Geometric"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the value of π to two decimals?",
+    "options": [
+      "3.14",
+      "3.12",
+      "3.16"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the binary representation of decimal 5?",
+    "options": [
+      "101",
+      "110",
+      "111"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "stem": "What is the hexadecimal for decimal 15?",
+    "options": [
+      "F",
+      "E",
+      "10"
+    ],
+    "correctIndex": 0
+  }
+]
