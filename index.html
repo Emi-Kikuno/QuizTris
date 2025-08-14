@@ -333,9 +333,10 @@ footer .controls button:active {
       <option value="trivia">General Trivia</option>
 <option value="geography">Geography</option>
 <option value="history">History</option>
+<option value="math">Math Trainer</option>
 <option value="science">Science</option>
 <option value="weird">Weird</option>
-<option value="math">Math Trainer</option>
+
       </select>
 	  <label for="language">Language</label>
 <select id="language">
@@ -413,8 +414,8 @@ footer .controls button:active {
 </div>
 <div class="row" style="gap:8px">
   <button class="button" id="playAgain">Play again</button>
-  <button class="button" id="clearLB" ...>Clear board</button>
-  <button class="button" id="closeLB" ...>Close</button>
+  <button class="button" id="clearLB">Clear board</button>
+  <button class="button" id="closeLB">Close</button>
 </div>
   </div>
 </div>
@@ -595,6 +596,8 @@ function openLeaderboard(finalStats){
 
   // Show overlay
   document.getElementById('leaderboard').style.display = 'grid';
+  document.getElementById('saveScore').disabled = false;
+  document.getElementById('saveScore').textContent = 'Save score';
 }
 
 function closeLeaderboard(){
@@ -608,23 +611,25 @@ function getQuizAccuracyPct(){
 /* Buttons */
 document.addEventListener('click', (e)=>{
   if (e.target.id === 'saveScore'){
-    const name = (document.getElementById('playerName').value || '').trim();
-    // Persist preferred name for next time
-    localStorage.setItem('quiztris.playerName', name);
-     addLBEntry({ 
-      name, 
-      score, 
-      level, 
-      lines, 
-      theme: themeName,     // NEW
-      accuracy,             // NEW (0..100)
-      ts: Date.now() 
-    });
-    renderLB();
-    // Disable save to avoid duplicates per run
-    e.target.disabled = true;
-    e.target.textContent = 'Saved';
-  }
+  const name = (document.getElementById('playerName').value || '').trim();
+  localStorage.setItem('quiztris.playerName', name);
+
+  const accuracy = getQuizAccuracyPct();   // <-- compute here
+  addLBEntry({
+    name,
+    score,
+    level,
+    lines,
+    theme,               // <-- use the current theme string
+    accuracy,            // 0..100 integer
+    ts: Date.now()
+  });
+
+  renderLB();
+  e.target.disabled = true;
+  e.target.textContent = 'Saved';
+}
+
   if (e.target.id === 'playAgain'){
     // Show Start screen again (reuse your existing flow)
     closeLeaderboard();
@@ -919,17 +924,157 @@ document.addEventListener('keydown', e=>{
     if(e.key==='Enter') submitNumeric();
   }
 });
+// === Math difficulty curve & builders ===
+function mathCurve(level){
+  // Gentle numbers at L1 since we’re allowing × and ÷ immediately
+  const max       = Math.min(10 + level * 4, 99);           // operand cap
+  const maxAnswer = Math.min(120 + level * 35, 999);        // final answer cap
+
+  // Ops availability (as requested)
+  const allowMul    = level >= 1;   // × from L1
+  const allowDiv    = level >= 1;   // ÷ (integer only) from L1
+  const allowParens = level >= 2;   // parentheses from L2
+
+  // Frequency ramps
+  // Two-step starts low (30%) and rises to 80% by late game
+  const twoStepChance = Math.min(0.30 + level * 0.05, 0.80);
+
+  // Parentheses appear only from L2: start 10% at L2, grow ~8% per level, cap at 60%
+  const parenBase = Math.max(0, level - 2);                 // 0 at L1–2, then 1,2,3...
+  const parenChance = allowParens ? Math.min(0.10 + parenBase * 0.08, 0.60) : 0;
+
+  return { max, maxAnswer, allowMul, allowDiv, allowParens, twoStepChance, parenChance };
+}
+
+function ri(min,max){ return Math.floor(Math.random()*(max-min+1))+min; }
+function pick(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+function evalOp(a,op,b){ return op==='+'?a+b:op==='-'?a-b:op==='x'?a*b: b===0?NaN: a/b; }
+
+function allowedOps(cfg){
+  const ops=['+','-']; if(cfg.allowMul) ops.push('x'); if(cfg.allowDiv) ops.push('/');
+  return ops;
+}
+function pairFor(op,max,nonNeg=true){
+  let a=ri(1,max), b=ri(1,max);
+  if(op==='/'){ b=ri(1,Math.max(1,Math.floor(max/2))); const k=ri(1,Math.max(1,Math.floor(max/b))); a=b*k; }
+  if(op==='-'&&nonNeg&&a<b){ [a,b]=[b,a]; }
+  return [a,b];
+}
+function oneStep(cfg){
+  const ops=allowedOps(cfg);
+  for(let i=0;i<120;i++){
+    const op=pick(ops);
+    const [a,b]=pairFor(op,cfg.max,true);
+    const v=evalOp(a,op,b);
+    if(!Number.isFinite(v)) continue;
+    if(op==='/' && !Number.isInteger(v)) continue;
+    if(Math.abs(v)>cfg.maxAnswer) continue;
+    return { expr:`${a} ${op} ${b}`, value:v };
+  }
+  return { expr:`1 + 1`, value:2 };
+}
+function twoStep(cfg){
+  const ops = allowedOps(cfg);
+  const wantParens = cfg.allowParens && Math.random() < cfg.parenChance;
+
+  // --- Option A: (a op1 b) op2 c  (no parentheses needed)
+  function buildLeftAssoc(){
+    for (let i=0;i<240;i++){
+      const left = oneStep(cfg);        // (a op1 b)
+      const op2 = pick(ops);
+      let c;
+
+      if (op2 === '/'){
+        // pick divisor of left.value within range to keep integer division
+        const divisors=[];
+        for (let d=1; d<=cfg.max; d++) if (left.value % d === 0) divisors.push(d);
+        if (!divisors.length) continue;
+        c = pick(divisors);
+      } else {
+        c = ri(1, cfg.max);
+        if (op2 === '-' && left.value < c) c = ri(1, left.value);
+      }
+
+      const v = evalOp(left.value, op2, c);
+      if (!Number.isFinite(v) || !Number.isInteger(v)) continue;
+      if (Math.abs(v) > cfg.maxAnswer) continue;
+
+      return { expr:`${left.expr} ${op2} ${c}`, value:v };
+    }
+    return null;
+  }
+
+  // --- Option B: a op1 (b op2 c)  (parentheses change precedence)
+  function buildRightAssoc(){
+    for (let i=0;i<320;i++){
+      // inner (b op2 c)
+      const op2 = pick(ops);
+      let b, c, innerVal;
+
+      if (op2 === '/'){
+        // choose c first, then make b = c * k to ensure integer division
+        c = ri(1, Math.max(1, Math.floor(cfg.max/2)));
+        const k = ri(1, Math.max(1, Math.floor(cfg.max / c)));
+        b = c * k;
+        innerVal = evalOp(b, '/', c);   // guaranteed integer
+      } else {
+        b = ri(1, cfg.max);
+        c = ri(1, cfg.max);
+        if (op2 === '-' && b < c) [b, c] = [c, b];
+        innerVal = evalOp(b, op2, c);
+        if (!Number.isFinite(innerVal)) continue;
+      }
+      if (!Number.isInteger(innerVal)) continue;
+      if (Math.abs(innerVal) > cfg.maxAnswer) continue;
+
+      // outer a op1 (inner)
+      const op1 = pick(ops);
+      let a;
+
+      if (op1 === '/'){
+        // make a a multiple of innerVal to keep a / inner integer
+        const mulMax = Math.max(1, Math.floor(cfg.max / Math.max(1, innerVal)));
+        const m = ri(1, mulMax);
+        a = innerVal * m;
+      } else {
+        a = ri(1, cfg.max);
+        if (op1 === '-' && a < innerVal) a = innerVal + ri(0, 5);
+      }
+
+      const v = evalOp(a, op1, innerVal);
+      if (!Number.isFinite(v) || !Number.isInteger(v)) continue;
+      if (Math.abs(v) > cfg.maxAnswer) continue;
+
+      return { expr:`${a} ${op1} (${b} ${op2} ${c})`, value:v };
+    }
+    return null;
+  }
+
+  // pick branch
+  const right = wantParens ? buildRightAssoc() : null;
+  if (right) return right;
+
+  const left = buildLeftAssoc();
+  if (left) return left;
+
+  // fallback
+  return oneStep(cfg);
+}
+
+function buildMathProblem(level){
+  const cfg=mathCurve(level);
+  const two = Math.random() < cfg.twoStepChance;
+  return two ? twoStep(cfg) : oneStep(cfg);
+}
 
 function makeMathQ(){
-  const ops=['+','-','x','/'];
-  let op=ops[rand(ops.length)];
-  let a=1+rand(12), b=1+rand(12), stem, answer;
-  if(op==='+'){ answer=a+b; stem=`${a} + ${b} = ?`; }
-  else if(op==='-'){ if(b>a)[a,b]=[b,a]; answer=a-b; stem=`${a} - ${b} = ?`; }
-  else if(op==='x'){ answer=a*b; stem=`${a} x ${b} = ?`; }
-  else { a=a*b; answer=Math.floor(a/b); stem=`${a} / ${b} = ?`; }
-  return { type:'numeric', stem, answer:String(answer) };
+  // Uses global 'level' which you already update during play
+  const { expr, value } = buildMathProblem(level);
+  // Keep your existing UI style: use 'x' and '/' symbols like before
+  return { type:'numeric', stem: `${expr} = ?`, answer: String(value) };
 }
+
+
 
 function buildUIForQuestion(q){
   if(q.type==='mcq'){
@@ -958,69 +1103,51 @@ function buildUIForQuestion(q){
 function pauseGame(){ paused=true; $('#status').textContent='Paused'; }
 function resumeGame(){ if(!gameOver){ paused=false; $('#status').textContent='Playing'; } }
 
-function submitNumeric(){ const ans=toast.solution.value.trim(); resolveAnswer(ans!=='' && ans===quiz.data.answer); }
+function submitNumeric(){
+  const ans = toast.solution.value.trim();
+  const ok = ans !== '' && Number(ans) === Number(quiz.data.answer);
+  resolveAnswer(ok);
+}
+
 function submitMC(idx){ resolveAnswer(idx===quiz.data.correctIndex); }
 
-function resolveAnswer(ok){
-  if(ok){
-  function resolveAnswer(ok){
-  // NEW: count attempts & correct answers
-  quizAttempted++;                 // every submit counts as an attempt
-  if (ok) quizCorrect++;           // only increment on correct
+function resolveAnswer(ok) {
+  quizAttempted++;
+  if (ok) quizCorrect++;
 
-  if(ok){
+  if (ok) {
     clearBarRow(quiz.bar.row);
     quiz.bar.pending = false;
-    score += 100; setHUDValue('score', score);
+    score += 100;
+    setHUDValue('score', score);
 
     renderBarHighlights();
-    if (!barQueue.some(b => b.pending)) clearAllBarHighlights();
+    if (!barQueue.some(b => b.pending)) {
+      clearAllBarHighlights();
+    }
 
-    if(quiz.timer){ clearInterval(quiz.timer); quiz.timer=null; }
+    if (quiz.timer) {
+      clearInterval(quiz.timer);
+      quiz.timer = null;
+    }
     resumeGame();
     closeToast();
     openNextBar();
+
   } else {
-    score=Math.max(0, score-25); setHUDValue('score', score);
+    score = Math.max(0, score - 25);
+    setHUDValue('score', score);
     toast.el.animate(
       [
-        {transform:'translateX(-50%)'},
-        {transform:'translateX(-50%) translateX(6px)'},
-        {transform:'translateX(-50%)'}
+        { transform: 'translateX(-50%)' },
+        { transform: 'translateX(-50%) translateX(6px)' },
+        { transform: 'translateX(-50%)' }
       ],
-      {duration:180}
+      { duration: 180 }
     );
   }
 }
 
-  clearBarRow(quiz.bar.row);
-  quiz.bar.pending = false;
-  score += 100; setHUDValue('score', score);
-
-  // Rebuild highlights for any remaining pending bars
-  renderBarHighlights();
-
-  // If none left, wipe them
-  if (!barQueue.some(b => b.pending)) {
-    clearAllBarHighlights();
-  }
-
-  if(quiz.timer){ clearInterval(quiz.timer); quiz.timer=null; }
-  resumeGame();
-  closeToast();
-  openNextBar();
-} else {
-    score=Math.max(0, score-25); setHUDValue('score', score);
-    toast.el.animate(
-      [
-        {transform:'translateX(-50%)'},
-        {transform:'translateX(-50%) translateX(6px)'},
-        {transform:'translateX(-50%)'}
-      ],
-      {duration:180}
-    );
-  }
-}
 
 
 function openNextBar(){ const next = barQueue.find(b=>b.pending); if(next) openQuizForBar(next); }
