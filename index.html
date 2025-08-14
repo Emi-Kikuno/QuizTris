@@ -22,7 +22,7 @@
   /* Start modal */
   #start{position:fixed;inset:0;display:grid;place-items:center;background:rgba(6,9,20,0.96);z-index:30}
   #start .panel{width:min(520px,92vw);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
-  .field{margin-bottom:12px}.field label{display:block;font-size:16px;opacity:.85;margin-bottom:6px}
+  .field{margin-bottom:12px}.field label{display:block;font-size:18px;opacity:.85;margin-bottom:6px}
   .field select,#start .field input[type='number']{
 
   width: 100%;
@@ -54,7 +54,7 @@
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   color: #07131a;
   font-weight: 700;
-  padding: 10px 14px;
+  padding: 5px 7px;
   border-radius: 12px;
   border: none;
   width: 100%;
@@ -121,6 +121,100 @@ footer .controls button:active {
   #picker h3 { margin: 0 0 8px; }
 
   @media (max-width:860px){.game{grid-template-columns:1fr}#toast.min{right:6px}}
+  
+  /* Hide the native select but keep it in the layout for forms/JS */
+.select-hidden {
+  position: absolute !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Wrapper matches your Start panel input look */
+.select-wrap {
+  position: relative;
+}
+
+.select-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #0e1430;         /* same as your inputs */
+  color: var(--fg);
+  border: 1px solid #27305e;
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-btn:focus-visible {
+  outline: 2px solid #6aa7ff;
+  outline-offset: 2px;
+}
+
+.select-caret {
+  flex: 0 0 auto;
+  width: 0; height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 7px solid #9fb3ff; /* subtle chevron */
+}
+
+/* Dropdown list panel (matches toast/panel tones) */
+.select-list {
+  position: absolute;
+  left: 0; right: 0; top: calc(100% + 6px);
+  background: #0f1636;          /* inner panel tone */
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  max-height: 260px;
+  overflow: auto;
+  z-index: 70;
+  display: none;
+}
+
+.select-list.open { display: block; }
+
+/* Option rows styled like your pills */
+.select-option {
+  padding: 10px 12px;
+  border-radius: 10px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.select-option[aria-selected="true"] {
+  background: #131c42;
+  border: 1px solid #27305e;
+}
+
+.select-option:hover,
+.select-option:focus {
+  background: #19224b;
+}
+
+.select-noresults {
+  padding: 10px 12px;
+  opacity: 0.7;
+}
+
+/* Optional tiny search inside the dropdown (comment out if not wanted) */
+.select-search {
+  width: 100%;
+  background: #0e1430;
+  color: var(--fg);
+  border: 1px solid #27305e;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px 4px 8px;
+}
+
 </style>
 <style id="mobile-hud-css">
 @media (max-width: 860px) {
@@ -152,6 +246,34 @@ footer .controls button:active {
   }
   .mobile-hud .stat span { display:block; opacity:.8; font-size:12px; margin-bottom:4px; }
 }
+/* Leaderboard overlay (match Start / Toast aesthetic) */
+#leaderboard {
+  position: fixed; inset: 0; display: none; place-items: center;
+  background: rgba(6,9,20,0.96); z-index: 60;
+}
+#leaderboard .panel {
+  width: min(520px, 92vw);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+}
+#leaderboard input {
+  width: 100%;
+  background: #0e1430;
+  color: var(--fg);
+  border: 1px solid #27305e;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+#leaderboard tbody tr:nth-child(odd){
+  background:#0f1636;
+}
+#leaderboard td {
+  padding: 6px 8px;
+}
+
 </style>
 </head>
 <body>
@@ -203,12 +325,13 @@ footer .controls button:active {
     <div class="field">
       <label>Theme</label>
       <select id="theme">
-        <option value="trivia">General Trivia</option>
-        <option value="weird">Weird &amp; Wonderful</option>
-        <option value="history">History</option>
-        <option value="science">Science</option>
-        <option value="geography">Geography</option>
-        <option value="math">Math Trainer (numeric)</option>
+      <option value="trivia">General Trivia</option>
+<option value="geography">Geography</option>
+<option value="history">History</option>
+<option value="math">Math Trainer</option>
+<option value="science">Science</option>
+<option value="weird">Weird</option>
+
       </select>
 	  <label for="language">Language</label>
 <select id="language">
@@ -217,7 +340,7 @@ footer .controls button:active {
 </select>
     </div>
     <div class="field">
-      <label>Timer seconds (pause duration)</label>
+      <label>Quiz Timer</label>
       <input id="timerSec" type="number" min="3" max="20" step="1" value="7" />
     </div>
     <div class="field">
@@ -247,6 +370,46 @@ footer .controls button:active {
     <div id="ui-num" style="display:none">
       <div class="sol"><input id="solution" placeholder="Answer" inputmode="numeric" /><button id="submitNum">Submit</button></div>
       <div class="numpad" id="numpad"></div>
+    </div>
+  </div>
+</div>
+<!-- Leaderboard Modal -->
+<div id="leaderboard" style="display:none">
+  <div class="panel">
+    <h2 style="margin-top:0">Leaderboard</h2>
+
+    <div class="field">
+      <label for="playerName">Your name</label>
+      <input id="playerName" placeholder="Enter name" maxlength="20" />
+    </div>
+
+    <div class="field">
+      <div id="finalStats" class="pill">Score 0 • Level 1 • Lines 0</div>
+    </div>
+
+    <div class="field" style="max-height:40vh; overflow:auto;">
+      <table id="lbTable" style="width:100%; border-collapse:collapse">
+        <thead>
+          <tr>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--line)">#</th>
+            <th style="text-align:left; padding:6px 8px; border-bottom:1px solid var(--line)">Name</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--line)">Score</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--line)">Lvl</th>
+            <th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--line)">Lines</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="row" style="gap:8px; margin-top:8px">
+      <button class="button" id="saveScore">Save score</button>
+    </div>
+    <div class="row" style="gap:8px; margin-top:8px">
+      <button class="button" id="playAgain">Play again</button>
+      <button class="button" id="clearLB">Clear board</button>
+<button class="button" id="closeLB">Close</button>
+
     </div>
   </div>
 </div>
@@ -295,7 +458,7 @@ const ctx = canvas.getContext('2d');
 let COLS=10, ROWS=20, CELL=32;
 let grid, active, nextTick=0, dropInterval=800, paused=true, gameOver=false;
 let score=0, level=1, lines=0;
-let timerPauseSeconds=7;
+let timerPauseSeconds=5;
 let theme='math';
 let currentLang = 'en';
 const i18n = {
@@ -363,6 +526,96 @@ function alignControlsToCanvas(){
   controls.style.width = cb.width + 'px';
   controls.style.marginLeft = (cb.left - fb.left) + 'px';
 }
+/* ===== Leaderboard ===== */
+const LB_KEY = 'quiztris.leaderboard.v1';
+
+function loadLB(){
+  try { return JSON.parse(localStorage.getItem(LB_KEY) || '[]'); }
+  catch { return []; }
+}
+function saveLB(list){
+  localStorage.setItem(LB_KEY, JSON.stringify(list));
+}
+function addLBEntry(entry){
+  const list = loadLB();
+  list.push(entry);
+  // Sort: score desc, then level desc, then lines desc
+  list.sort((a,b)=> (b.score-a.score) || (b.level-a.level) || (b.lines-a.lines));
+  saveLB(list.slice(0,10)); // keep Top 10
+}
+
+function renderLB(){
+  const tbody = document.querySelector('#lbTable tbody');
+  const list = loadLB();
+  tbody.innerHTML = '';
+  list.forEach((e, i)=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${i+1}</td>
+      <td>${escapeHtml(e.name || '—')}</td>
+      <td style="text-align:right">${e.score}</td>
+      <td style="text-align:right">${e.level}</td>
+      <td style="text-align:right">${e.lines}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+function openLeaderboard(finalStats){
+  // Fill the header pill (“Score • Level • Lines”)
+  const pill = document.getElementById('finalStats');
+  pill.textContent = `Score ${finalStats.score} • Level ${finalStats.level} • Lines ${finalStats.lines}`;
+
+  // Prefill name from previous session if available
+  const storedName = localStorage.getItem('quiztris.playerName') || '';
+  const nameInput = document.getElementById('playerName');
+  nameInput.value = storedName;
+  setTimeout(()=> nameInput.focus(), 0);
+
+  // Render current table
+  renderLB();
+
+  // Show overlay
+  document.getElementById('leaderboard').style.display = 'grid';
+}
+
+function closeLeaderboard(){
+  document.getElementById('leaderboard').style.display = 'none';
+}
+
+/* Buttons */
+document.addEventListener('click', (e)=>{
+  if (e.target.id === 'saveScore'){
+    const name = (document.getElementById('playerName').value || '').trim();
+    // Persist preferred name for next time
+    localStorage.setItem('quiztris.playerName', name);
+    addLBEntry({ name, score, level, lines, ts: Date.now() });
+    renderLB();
+    // Disable save to avoid duplicates per run
+    e.target.disabled = true;
+    e.target.textContent = 'Saved';
+  }
+  if (e.target.id === 'playAgain'){
+    // Show Start screen again (reuse your existing flow)
+    closeLeaderboard();
+    document.getElementById('start').style.display = 'grid'; // Start UI uses this overlay
+  }
+  if (e.target.id === 'clearLB'){
+    if (confirm('Clear all leaderboard entries?')){
+      saveLB([]);
+      renderLB();
+    }
+  }
+  if (e.target.id === 'closeLB'){
+    closeLeaderboard();
+  }
+});
 
 /* ===== Trivia loader (fetch + embedded + file-picker) ===== */
 let triviaBank=[], triviaIndex=0, triviaSource='—';
@@ -451,7 +704,12 @@ function spawnPiece(){
   const type=PIECES[rand(PIECES.length)];
   const shape=SHAPES[type].map(r=>r.slice());
   active={x:Math.floor(COLS/2)-Math.ceil(shape[0].length/2), y:0, type, shape};
-  if (collides(grid, active)) { gameOver = true; paused = true; $('#status').textContent='Game Over'; }
+  if (collides(grid, active)) {
+  gameOver = true;
+  paused = true;
+  $('#status').textContent = 'Game Over';
+  openLeaderboard({ score, level, lines });
+}
 }
 function canPlaceAt(px, py, shape){
   for (let r = 0; r < shape.length; r++){
@@ -803,7 +1061,72 @@ $('#go').onclick = async ()=>{
   spawnPiece();
   requestAnimationFrame(step);
 };
+// ===== Custom Dropdown Enhancer (minimal) =====
+(function () {
+  window.enhanceDropdown = function(sel){
+    if (!sel || sel._enhanced) return;
+    sel._enhanced = true;
 
+    // Wrap + hide native select
+    const wrap = document.createElement('div');
+    wrap.className = 'select-wrap';
+    sel.parentNode.insertBefore(wrap, sel);
+    wrap.appendChild(sel);
+    sel.classList.add('select-hidden');
+
+    // Button (closed state)
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'select-btn';
+    btn.setAttribute('aria-haspopup', 'listbox');
+    btn.setAttribute('aria-expanded', 'false');
+
+    const label = document.createElement('span');
+    label.textContent = sel.options[sel.selectedIndex]?.text || 'Select';
+    const caret = document.createElement('span');
+    caret.className = 'select-caret';
+    btn.append(label, caret);
+    wrap.appendChild(btn);
+
+    // List
+    const list = document.createElement('div');
+    list.className = 'select-list';
+    list.setAttribute('role', 'listbox');
+    wrap.appendChild(list);
+
+    function build(){
+      list.innerHTML = '';
+      Array.from(sel.options).forEach((o, i) => {
+        const opt = document.createElement('div');
+        opt.className = 'select-option';
+        opt.setAttribute('role', 'option');
+        if (i === sel.selectedIndex) opt.setAttribute('aria-selected', 'true');
+        opt.textContent = o.text;
+        opt.addEventListener('click', () => choose(i));
+        list.appendChild(opt);
+      });
+    }
+    function open(){ build(); list.classList.add('open'); btn.setAttribute('aria-expanded','true');
+      document.addEventListener('mousedown', outside); document.addEventListener('keydown', onKey); }
+    function close(){ list.classList.remove('open'); btn.setAttribute('aria-expanded','false');
+      document.removeEventListener('mousedown', outside); document.removeEventListener('keydown', onKey); }
+    function toggle(){ list.classList.contains('open') ? close() : open(); }
+    function choose(i){
+      sel.selectedIndex = i;
+      label.textContent = sel.options[i].text;
+      sel.dispatchEvent(new Event('change', { bubbles: true }));
+      close(); btn.focus();
+    }
+    function outside(e){ if (!wrap.contains(e.target)) close(); }
+    function onKey(e){ if (e.key === 'Escape'){ close(); btn.focus(); } if (e.key === 'Enter'){ e.preventDefault(); } }
+
+    btn.addEventListener('click', toggle);
+    sel.addEventListener('change', () => { label.textContent = sel.options[sel.selectedIndex]?.text || ''; });
+  };
+})();
+
+const themeSel = document.getElementById('theme');
+enhanceDropdown(themeSel);
 
 </script>
 </body>
