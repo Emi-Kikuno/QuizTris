@@ -85,6 +85,7 @@
   .sol{display:flex;gap:6px;margin:8px 0}
   .sol input{flex:1;background:#0c1435;color:var(--fg);border:1px solid #273268;border-radius:10px;padding:10px;font-size:18px;text-align:center}
   .sol button{background:var(--ok);color:#072018;border:none;border-radius:10px;padding:10px 12px;font-weight:700}
+#start { display: none; }
 
   /* Bar highlight */
   .bar-highlight{position:absolute;left:0;right:0;height:0;pointer-events:none}
@@ -278,10 +279,42 @@ footer .controls button:active {
 #leaderboard td {
   padding: 6px 8px;
 }
+.opening-screen {
+  position: fixed;
+  inset: 0;
+  background: #0b0d20; /* same background as game */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.opening-screen .logo {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.opening-screen button {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #6dd5ed, #a4b0ff);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 </style>
 </head>
 <body>
+	<div id="openingScreen" class="opening-screen">
+  <img src="assets/splash.png" alt="QuizTris Logo" class="logo">
+  <button id="enterBtn">Enter</button>
+</div>
+
 <div class="wrap">
  <header>
   <div class="row" style="display:grid; grid-template-columns: 1fr auto 1fr; align-items:center;">
@@ -462,6 +495,10 @@ function setHUDValue(idBase, value){
 const rand = n => Math.floor(Math.random()*n);
 const shuffle = arr => { for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; };
 
+document.getElementById('enterBtn').addEventListener('click', () => {
+  document.getElementById('openingScreen').style.display = 'none';
+  document.getElementById('start').style.display = 'grid'; // or whatever shows your start toast
+});
 
 /* ===== Game State ===== */
 const canvas = $('#board');
