@@ -23,8 +23,47 @@
   #start{position:fixed;inset:0;display:grid;place-items:center;background:rgba(6,9,20,0.96);z-index:30}
   #start .panel{width:min(520px,92vw);background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
   .field{margin-bottom:12px}.field label{display:block;font-size:14px;opacity:.85;margin-bottom:6px}
-  .field select,.field input[type='number']{width:100%;background:#0e1430;color:var(--fg);border:1px solid #27305e;border-radius:10px;padding:10px;outline:none}
-  .button{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#07131a;font-weight:700;padding:10px 14px;border-radius:12px;border:none;width:100%;box-shadow:0 8px 20px rgba(109,213,237,.25)}
+  .field select,#start .field input[type='number']{
+
+  width: 100%;
+  box-sizing: border-box;   /* ← include padding + border in 100% */
+  min-width: 0;             /* ← allow it to shrink inside grids/flex */
+  display: block;           /* ← avoid inline sizing quirks */
+
+  background: #0e1430;
+  color: var(--fg);
+  border: 1px solid #27305e;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+/* Optional: remove spinners for tighter fit */
+#start .field input[type='number']{
+  appearance: textfield;
+}
+#start .field input[type='number']::-webkit-outer-spin-button,
+#start .field input[type='number']::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* If the rounded panel still clips: */
+#start .panel { overflow: hidden; }
+.button{
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #07131a;
+  font-weight: 700;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(109,213,237,.25);
+  cursor: pointer;
+}
+.button:hover{ filter: brightness(1.08); }
+.button:active{ transform: translateY(1px); }
+
 
   /* Toast */
   #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:10px;width:min(680px,94vw);z-index:40;display:none}
@@ -254,7 +293,7 @@ const shuffle = arr => { for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Mat
 const canvas = $('#board');
 const ctx = canvas.getContext('2d');
 let COLS=10, ROWS=20, CELL=32;
-let grid, active, nextTick=0, dropInterval=630, paused=true, gameOver=false;
+let grid, active, nextTick=0, dropInterval=800, paused=true, gameOver=false;
 let score=0, level=1, lines=0;
 let timerPauseSeconds=7;
 let theme='math';
@@ -301,7 +340,7 @@ function preloadTextures(){
 const PIECES = Object.keys(SHAPES);
 function updateSpeed(){
   // Linear ramp: 800ms at L1 → faster each level, floored at 120ms
-  dropInterval = Math.max(120, 800 - (level - 1) * 60);
+  dropInterval = Math.max(120, 630 - (level - 1) * 60);
   // If you prefer exponential instead, use:
   // dropInterval = Math.max(100, Math.round(800 * Math.pow(0.92, level - 1)));
 }
