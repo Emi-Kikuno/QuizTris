@@ -283,6 +283,21 @@ const SHAPES={
   I:[[1,1,1,1]], J:[[1,0,0],[1,1,1]], L:[[0,0,1],[1,1,1]], O:[[1,1],[1,1]],
   S:[[0,1,1],[1,1,0]], T:[[0,1,0],[1,1,1]], Z:[[1,1,0],[0,1,1]]
 };
+
+
+const textures = {}; // filled by preloadTextures()
+
+function preloadTextures(){
+  const names = ['I','J','L','O','S','T','Z','BAR'];
+  const loads = names.map(name => new Promise((resolve, reject)=>{
+    const img = new Image();
+    img.onload = ()=>{ textures[name] = img; resolve(); };
+    img.onerror = reject;
+    img.src = `assets/textures/${name}.jpg`;
+  }));
+  return Promise.all(loads);
+}
+
 const PIECES = Object.keys(SHAPES);
 function updateSpeed(){
   // Linear ramp: 800ms at L1 → faster each level, floored at 120ms
@@ -399,6 +414,24 @@ function spawnPiece(){
   active={x:Math.floor(COLS/2)-Math.ceil(shape[0].length/2), y:0, type, shape};
   if (collides(grid, active)) { gameOver = true; paused = true; $('#status').textContent='Game Over'; }
 }
+function canPlaceAt(px, py, shape){
+  for (let r = 0; r < shape.length; r++){
+    for (let c = 0; c < shape[0].length; c++){
+      if (!shape[r][c]) continue;
+      const x = px + c, y = py + r;
+      if (x < 0 || x >= COLS || y >= ROWS) return false;
+      if (y >= 0 && grid[y][x]) return false;
+    }
+  }
+  return true;
+}
+
+function getGhostY(piece){
+  let gy = piece.y;
+  while (canPlaceAt(piece.x, gy + 1, piece.shape)) gy++;
+  return gy;
+}
+
 function rotate(shape){
   const h=shape.length, w=shape[0].length;
   const res = Array.from({length:w},()=>Array(h).fill(0));
@@ -417,12 +450,71 @@ function collides(g, p){
 }
 function merge(g,p){ const {x,y,shape,type}=p; for(let r=0;r<shape.length;r++) for(let c=0;c<shape[r].length;c++) if(shape[r][c]) g[y+r][x+c]=type; }
 
-function drawCell(x,y,color){ ctx.fillStyle=color; ctx.fillRect(x*CELL,y*CELL,CELL-1,CELL-1); }
+function drawCell(x, y, color, type){
+  // base fill
+  ctx.fillStyle = color;
+  ctx.fillRect(x*CELL, y*CELL, CELL-1, CELL-1);
+
+  // texture overlay if available
+  if (type && textures[type]){
+    ctx.globalAlpha = 0.4; // set opacity here
+    ctx.drawImage(textures[type], x*CELL, y*CELL, CELL, CELL);
+    ctx.globalAlpha = 1.0; // reset to default
+  }
+}
+
+
 function draw(){
   ctx.clearRect(0,0,canvas.width,canvas.height);
-  for(let r=0;r<ROWS;r++) for(let c=0;c<COLS;c++) if(grid[r][c]) drawCell(c,r, grid[r][c]===true? colors.BAR: colors[grid[r][c]]);
-  if(active){ const {x,y,shape,type}=active; for(let r=0;r<shape.length;r++) for(let c=0;c<shape[r].length;c++) if(shape[r][c]) drawCell(x+c,y+r, colors[type]); }
+
+  // 1) Locked cells
+for (let r = 0; r < ROWS; r++) {
+  for (let c = 0; c < COLS; c++) {
+    if (grid[r][c]) {
+      const val  = grid[r][c];
+      const type = (val === true) ? 'BAR' : val;
+      const color = (val === true) ? colors.BAR : colors[val];
+      drawCell(c, r, color, type);
+    }
+  }
 }
+
+
+  // 2) GHOST (ADD THIS)
+  if (active && !gameOver){
+    const gy = getGhostY(active);
+    const { x, shape, type } = active;
+    ctx.save();
+    ctx.globalAlpha = 0.05;
+    ctx.fillStyle = '#ffffff';
+    for (let r=0; r<shape.length; r++){
+      for (let c=0; c<shape[r].length; c++){
+        if (!shape[r][c]) continue;
+        ctx.fillRect((x+c)*CELL, (gy+r)*CELL, CELL-1, CELL-1);
+      }
+    }
+    // optional subtle outline in piece color
+    ctx.globalAlpha = 0.10;
+    ctx.strokeStyle = colors[type] || '#ffffff';
+    ctx.lineWidth = 2;
+    for (let r=0; r<shape.length; r++){
+      for (let c=0; c<shape[r].length; c++){
+        if (!shape[r][c]) continue;
+        ctx.strokeRect((x+c)*CELL+1, (gy+r)*CELL+1, CELL-3, CELL-3);
+      }
+    }
+    ctx.restore();
+  }
+
+  // 3) Active piece
+  if (active){
+    const {x,y,shape,type}=active;
+    for (let r=0; r<shape.length; r++)
+      for (let c=0; c<shape[r].length; c++)
+        if (shape[r][c]) drawCell(x+c, y+r, colors[type], type);
+  }
+}
+
 
 function step(ts){
   if(paused||gameOver){ draw(); requestAnimationFrame(step); return; }
@@ -667,7 +759,8 @@ $('#go').onclick = async ()=>{
   
   // ✅ Language-aware trivia loader for non-math themes
   if (theme !== 'math') await loadTrivia();
-  
+  // ensure textures are ready (okay to call multiple times; they’ll be cached by the browser)
+  try { await preloadTextures(); } catch(e){ console.warn('Textures failed to load', e); }
   spawnPiece();
   requestAnimationFrame(step);
 };
