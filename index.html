@@ -49,7 +49,7 @@
 }
 
 /* If the rounded panel still clips: */
-#start .panel { overflow: hidden; }
+#start .panel { overflow: visible; }
 .button{
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   color: #07131a;
@@ -64,6 +64,11 @@
 .button:hover{ filter: brightness(1.08); }
 .button:active{ transform: translateY(1px); }
 
+/* when there isn't space below, open upward */
+.select-list.drop-up {
+  top: auto;
+  bottom: calc(100% + 6px);
+}
 
   /* Toast */
   #toast{position:fixed;left:50%;transform:translateX(-50%);bottom:10px;width:min(680px,94vw);z-index:40;display:none}
@@ -1106,8 +1111,25 @@ $('#go').onclick = async ()=>{
         list.appendChild(opt);
       });
     }
-    function open(){ build(); list.classList.add('open'); btn.setAttribute('aria-expanded','true');
-      document.addEventListener('mousedown', outside); document.addEventListener('keydown', onKey); }
+   function open(){
+  build();
+  // decide up vs down based on viewport space
+  const btnBox = btn.getBoundingClientRect();
+  const spaceBelow = window.innerHeight - btnBox.bottom;
+  const spaceAbove = btnBox.top;
+
+  list.classList.remove('drop-up');
+  // 200 is a safe heuristic; or measure list.scrollHeight after build()
+  if (spaceBelow < 200 && spaceAbove > spaceBelow) {
+    list.classList.add('drop-up');
+  }
+
+  list.classList.add('open');
+  btn.setAttribute('aria-expanded','true');
+  document.addEventListener('mousedown', outside);
+  document.addEventListener('keydown', onKey);
+}
+
     function close(){ list.classList.remove('open'); btn.setAttribute('aria-expanded','false');
       document.removeEventListener('mousedown', outside); document.removeEventListener('keydown', onKey); }
     function toggle(){ list.classList.contains('open') ? close() : open(); }
@@ -1124,7 +1146,6 @@ $('#go').onclick = async ()=>{
     sel.addEventListener('change', () => { label.textContent = sel.options[sel.selectedIndex]?.text || ''; });
   };
 })();
-
 const themeSel = document.getElementById('theme');
 const langSel  = document.getElementById('language');   // or your actual id
 const sizeSel  = document.getElementById('boardSize');  // or your actual id
@@ -1132,6 +1153,7 @@ const sizeSel  = document.getElementById('boardSize');  // or your actual id
 enhanceDropdown(themeSel);
 enhanceDropdown(langSel);
 enhanceDropdown(sizeSel);
+
 
 </script>
 </body>
