@@ -259,6 +259,24 @@ let score=0, level=1, lines=0;
 let timerPauseSeconds=7;
 let theme='math';
 let currentLang = 'en';
+const i18n = {
+  en: {
+    quizTitle: 'Pick the Right Answer',
+    mathTitle: 'Solve to Clear',
+    statusPlaying: 'Playing',
+    statusPaused: 'Paused',
+  },
+  fr: {
+    quizTitle: 'Choisis la bonne réponse',
+    mathTitle: 'Résous pour effacer',
+    statusPlaying: 'En jeu',
+    statusPaused: 'En pause',
+  }
+};
+function t(key){
+  const pack = i18n[currentLang] || i18n.en;
+  return (pack && pack[key]) || i18n.en[key] || key;
+}
 
 const colors={ I:'#68e1fd', J:'#7aa2ff', L:'#ffb86c', O:'#ffdf6d', S:'#6ef7b4', T:'#d98bff', Z:'#ff7a9a', BAR:'#6ef7b480' };
 const SHAPES={
@@ -569,7 +587,7 @@ async function openQuizForBar(bar){
   const q = (theme === 'math') ? makeMathQ() : getNextTrivia();
   quiz.data=q; quiz.type=q.type;
 
-  toast.title.textContent = (theme==='math')? 'Solve to Clear' : 'Pick the Right Answer';
+ toast.title.textContent = (theme==='math') ? t('mathTitle') : t('quizTitle');
   toast.stem.textContent = q.stem;
   buildUIForQuestion(q);
   showToast();
