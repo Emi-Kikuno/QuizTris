@@ -87,7 +87,7 @@
   .sol button{background:var(--ok);color:#072018;border:none;border-radius:10px;padding:10px 12px;font-weight:700}
 
 	
-#start {  display: none !important; /* Ensure it can't override */ }
+#start {  display: none; /* Ensure it can't override */ }
 
   /* Bar highlight */
   .bar-highlight{position:absolute;left:0;right:0;height:0;pointer-events:none}
@@ -1383,5 +1383,13 @@ enhanceDropdown(sizeSel);
 
 
 </script>
+<script>
+document.getElementById('enterBtn').addEventListener('click', () => {
+  document.getElementById('openingScreen').style.display = 'none';
+  document.getElementById('start').style.display = 'grid'; // show start toast
+});
+</script>
+
+	
 </body>
 </html>
