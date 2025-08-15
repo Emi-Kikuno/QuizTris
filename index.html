@@ -223,6 +223,31 @@ footer .controls button:active {
   margin: 4px 4px 8px;
 }
 
+
+/* === Mute button in header === */
+.header-righttools{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+#muteBtn{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #27305e;
+  background: #0e1430;
+  color: #cfe5ff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  transition: filter .15s, transform .05s;
+}
+#muteBtn:hover{ filter: brightness(1.2); }
+#muteBtn:active{ transform: translateY(1px); }
+
 </style>
 <style id="mobile-hud-css">
 @media (max-width: 860px) {
@@ -343,32 +368,12 @@ footer .controls button:active {
 @media (max-height: 600px){
   .opening-screen{ justify-content: flex-start; }
 }
-/* Header right tools: status + mute */
-.righttools{ display:flex; align-items:center; gap:8px; justify-self:end; }
-#muteBtn{
-  background:#0e1430;
-  border:1px solid #27305e;
-  color:var(--fg);
-  width:36px; height:36px;
-  border-radius:50%;
-  display:flex; align-items:center; justify-content:center;
-  cursor:pointer;
-  font-size:18px;
-  box-shadow:0 2px 8px rgba(0,0,0,.25);
-}
-#muteBtn:hover{ filter:brightness(1.1); }
-#muteBtn:active{ transform:translateY(1px); }
-
-
 
 
 </style>
 
 </head>
 <body>
-
-<button id="muteBtn" style="position:fixed; top:10px; right:10px; z-index:999; font-size:1.2rem;">🔊</button>
-
 	<div id="openingScreen" class="opening-screen">
   <img src="assets/splash.png" alt="QuizTris Logo" class="logo">
   <button id="enterBtn">Enter</button>
@@ -380,7 +385,7 @@ footer .controls button:active {
     <div class="title" style="justify-self:start;">QuizTris</div>
     <button id="pauseBtn" style="padding:6px 12px; border-radius:8px; border:none; background:#ff9800; color:#000; font-weight:bold; cursor:pointer;">
       Pause</button>
-    <div class="pill" id="status" style="justify-self:end;">Paused</div>
+    <div class="header-righttools" style="justify-self:end;">  <div class="pill" id="status">Paused</div>  <button id="muteBtn" title="Mute/Unmute" aria-label="Toggle sound">🔊</button></div>
   </div>
 </header>
 
@@ -547,119 +552,130 @@ const $ = s => document.querySelector(s);
 
 
 
-
-/* ===== Sound Effects (Web Audio, low latency) ===== */
-let audioCtx;
-let masterGain;
-const sfxBuffers = {};
-
-async function sfxInit(){
-  if (audioCtx) return;
-  audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  masterGain = audioCtx.createGain();
-  masterGain.gain.value = 0.5;
-  masterGain.connect(audioCtx.destination);
-  // start loading buffers
-  sfxLoad('thud','assets/sounds/thud.mp3');
-  sfxLoad('ping','assets/sounds/ping.mp3');
-  sfxLoad('buzz','assets/sounds/buzz.mp3');
-}
-
-async function sfxLoad(name, url){
-  try {
-    const res = await fetch(url, { cache: 'no-store' });
-    const buf = await res.arrayBuffer();
-    sfxBuffers[name] = await audioCtx.decodeAudioData(buf);
-  } catch(e){ console.warn('[SFX] load failed', name, e); }
-}
-
-function playSfx(name, gain=1){
-  try {
-    if (!audioCtx || audioCtx.state === 'suspended') return;
-    const buf = sfxBuffers[name];
-    if (!buf) return; // not yet loaded
-    const src = audioCtx.createBufferSource();
-    src.buffer = buf;
-    const g = audioCtx.createGain();
-    g.gain.value = gain;
-    src.connect(g).connect(masterGain);
-    src.start(0);
-  } catch(e){ /* no-op */ }
-}
-
-// Prime on first interaction
-let sfxPrimed = false;
-function primeAudio(){
-  if (sfxPrimed) return;
-  sfxPrimed = true;
-  sfxInit();
-  audioCtx && audioCtx.resume && audioCtx.resume();
-}
-document.addEventListener('pointerdown', primeAudio, { once: true });
-document.addEventListener('keydown', primeAudio, { once: true });
-// ===== Mute/Unmute Toggle =====
-let sfxMuted = false;
-document.getElementById('muteBtn').addEventListener('click', () => {
-  sfxMuted = !sfxMuted;
-  document.getElementById('muteBtn').textContent = sfxMuted ? '🔇' : '🔊';
-});
-// Wrap original playSfx to obey mute state
-const _origPlaySfx = playSfx;
-playSfx = function(...args){
-  if (sfxMuted) return;
-  _origPlaySfx(...args);
+/* ===== Audio Engine (WebAudio on http/https, HTMLAudio on file://) ===== */
+const AUDIO_FILES = {
+  thud: 'assets/sounds/thud.mp3',
+  ping: 'assets/sounds/ping.mp3',
+  buzz: 'assets/sounds/buzz.mp3',
 };
 
-	// ==== Mobile audio unlock (add once) ====
-let audioReady = false;
+// Master & per-sound trims
+let masterVolume = 0.8;  // 0..1, used by both engines
+const perSound = { thud: 0.6, ping: 1.0, buzz: 0.9 };
 
-async function unlockAudio() {
-  if (audioReady) return;
+let muted = false;
+const useWeb = location.protocol.startsWith('http');
 
-  try {
-    // resume the WebAudio context
-    if (typeof audioCtx !== 'undefined' && audioCtx.state !== 'running') {
-      await audioCtx.resume().catch(()=>{});
+let audioCtx, masterGain, buffers = {};
+let htmlAudio = {}; // fallback players
+
+async function initAudio(){
+  if (useWeb){
+    try{
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      masterGain = audioCtx.createGain();
+      masterGain.gain.value = masterVolume;
+      masterGain.connect(audioCtx.destination);
+
+      // Preload & decode
+      await Promise.all(Object.entries(AUDIO_FILES).map(async ([k, url])=>{
+        const res = await fetch(url, {cache:'no-store'});
+        const ab = await res.arrayBuffer();
+        buffers[k] = await audioCtx.decodeAudioData(ab);
+      }));
+    }catch(e){
+      // Fall back quietly
+      console.warn('WebAudio init failed, falling back to HTMLAudio:', e);
+      setupHtmlAudio();
     }
-
-    // play super-quiet blips to fully "warm" the graph
-    if (typeof audioCtx !== 'undefined' && typeof buffers !== 'undefined') {
-      ['thud','ping','buzz'].forEach(name => {
-        const buf = buffers?.[name];
-        if (!buf) return;
-        const src = audioCtx.createBufferSource();
-        src.buffer = buf;
-        const g = audioCtx.createGain();
-        g.gain.value = 0.0001; // inaudible
-        src.connect(g).connect(masterGain);
-        try { src.start(0); } catch {}
-      });
-    }
-
-    audioReady = true;
-    // once unlocked, remove listeners
-    ['pointerdown','touchstart','click','keydown'].forEach(ev => 
-      window.removeEventListener(ev, unlockAudio, true)
-    );
-  } catch (e) {
-    // no-op, we’ll try again on next gesture
+  } else {
+    setupHtmlAudio();
   }
 }
 
-// Listen to many possible first gestures (capture phase for iOS)
+function setupHtmlAudio(){
+  Object.entries(AUDIO_FILES).forEach(([k, url])=>{
+    const a = new Audio(url);
+    a.preload = 'auto';
+    htmlAudio[k] = a;
+  });
+}
+
+function setMasterVolume(v){
+  masterVolume = Math.max(0, Math.min(1, v));
+  if (masterGain) masterGain.gain.value = masterVolume;
+}
+
+function playSfx(name, gain=1){
+  if (muted) return;
+  const trim = (perSound[name] ?? 1) * gain;
+  if (useWeb && audioCtx && buffers[name]){
+    try{
+      const src = audioCtx.createBufferSource();
+      src.buffer = buffers[name];
+      const g = audioCtx.createGain();
+      g.gain.value = trim;
+      src.connect(g).connect(masterGain);
+      src.start();
+    }catch(e){ /* ignore */ }
+  } else if (htmlAudio[name]){
+    try{
+      const a = htmlAudio[name].cloneNode(); // allow overlap
+      a.volume = trim * masterVolume;
+      a.play();
+    }catch(e){ /* ignore */ }
+  }
+}
+
+// ==== Mobile unlock for WebAudio ====
+let audioReady = false;
+async function unlockAudio(){
+  if (audioReady) return;
+  try{
+    if (audioCtx && audioCtx.state !== 'running'){
+      await audioCtx.resume().catch(()=>{});
+    }
+    // warm up with silent blips
+    if (audioCtx && Object.keys(buffers).length){
+      Object.keys(buffers).forEach((k)=>{
+        const src = audioCtx.createBufferSource();
+        const g = audioCtx.createGain();
+        src.buffer = buffers[k];
+        g.gain.value = 0.0001;
+        src.connect(g).connect(masterGain);
+        try{ src.start(); }catch(e){}
+      });
+    }
+    audioReady = true;
+    ['pointerdown','touchstart','click','keydown'].forEach(ev =>
+      window.removeEventListener(ev, unlockAudio, true)
+    );
+  }catch(e){ /* will retry on next gesture */ }
+}
 ['pointerdown','touchstart','click','keydown'].forEach(ev =>
-  window.addEventListener(ev, unlockAudio, { capture:true, once:false, passive:true })
+  window.addEventListener(ev, unlockAudio, { capture:true, passive:true })
 );
 
-// Also hook your own buttons explicitly (in case the overlay eats events)
-document.getElementById('enterBtn')?.addEventListener('click', unlockAudio, { capture:true });
-document.getElementById('go')?.addEventListener('click', unlockAudio, { capture:true });
-
-// If the tab was backgrounded at load, resume when it becomes visible
-document.addEventListener('visibilitychange', () => {
-  if (!audioReady && document.visibilityState === 'visible') unlockAudio();
+// Hook key buttons too
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.getElementById('enterBtn')?.addEventListener('click', unlockAudio, {capture:true});
+  document.getElementById('go')?.addEventListener('click', unlockAudio, {capture:true});
 });
 
+// Init audio once DOM is ready
+document.addEventListener('DOMContentLoaded', initAudio);
+
+
+setTimeout(()=>{ try{ setMasterVolume(0.8); }catch(e){} }, 0);
+// ===== Mute toggle =====
+document.addEventListener('DOMContentLoaded', ()=>{
+  const btn = document.getElementById('muteBtn');
+  if (!btn) return;
+  btn.addEventListener('click', ()=>{
+    muted = !muted;
+    btn.textContent = muted ? '🔇' : '🔊';
+  });
+});
 
 function setHUDValue(idBase, value){
   const a = document.getElementById(idBase);
@@ -1071,8 +1087,8 @@ function step(ts){
 
 /* ===== Line handling (merge to bars) ===== */
 function onLock(){
-  playSfx('thud', 0.7);
-  const fullRows = [];
+    try{ playSfx('thud', 0.9); }catch(e){}
+const fullRows = [];
   for (let r = 0; r < ROWS; r++) {
     if (grid[r].every(v => v)) fullRows.push(r);
   }
@@ -1329,10 +1345,10 @@ function submitNumeric(){
 function submitMC(idx){ resolveAnswer(idx===quiz.data.correctIndex); }
 
 function resolveAnswer(ok) {
-  quizAttempted++;
+    // SFX on answer
+  try{ if(ok) playSfx('ping', 1.0); else playSfx('buzz', 0.9); }catch(e){}
+quizAttempted++;
   if (ok) quizCorrect++;
-  // SFX on answer
-  if (ok) { playSfx('ping'); } else { playSfx('buzz'); }
 
   if (ok) {
     clearBarRow(quiz.bar.row);
