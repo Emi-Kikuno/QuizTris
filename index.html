@@ -311,6 +311,29 @@ footer .controls button:active {
   cursor: pointer;
 	display: inline-block; /* Ensure not hidden */
 }
+	@media (min-width: 861px) {
+  .opening-screen .logo {
+    max-height: 50vh; /* keep logo from eating all vertical space */
+    height: auto;
+  }
+}
+
+.opening-screen {
+  padding: 1rem;           /* ensure spacing on small windows */
+  box-sizing: border-box;
+}
+
+@media (max-height: 500px) {
+  .opening-screen {
+    justify-content: flex-start; /* stack from top if short screen */
+    overflow-y: auto;            /* allow scrolling if needed */
+  }
+  .opening-screen .logo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 
 </style>
 </head>
