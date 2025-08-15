@@ -343,6 +343,23 @@ footer .controls button:active {
 @media (max-height: 600px){
   .opening-screen{ justify-content: flex-start; }
 }
+/* Header right tools: status + mute */
+.righttools{ display:flex; align-items:center; gap:8px; justify-self:end; }
+#muteBtn{
+  background:#0e1430;
+  border:1px solid #27305e;
+  color:var(--fg);
+  width:36px; height:36px;
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  cursor:pointer;
+  font-size:18px;
+  box-shadow:0 2px 8px rgba(0,0,0,.25);
+}
+#muteBtn:hover{ filter:brightness(1.1); }
+#muteBtn:active{ transform:translateY(1px); }
+
+
 
 
 </style>
@@ -592,6 +609,56 @@ playSfx = function(...args){
   if (sfxMuted) return;
   _origPlaySfx(...args);
 };
+
+	// ==== Mobile audio unlock (add once) ====
+let audioReady = false;
+
+async function unlockAudio() {
+  if (audioReady) return;
+
+  try {
+    // resume the WebAudio context
+    if (typeof audioCtx !== 'undefined' && audioCtx.state !== 'running') {
+      await audioCtx.resume().catch(()=>{});
+    }
+
+    // play super-quiet blips to fully "warm" the graph
+    if (typeof audioCtx !== 'undefined' && typeof buffers !== 'undefined') {
+      ['thud','ping','buzz'].forEach(name => {
+        const buf = buffers?.[name];
+        if (!buf) return;
+        const src = audioCtx.createBufferSource();
+        src.buffer = buf;
+        const g = audioCtx.createGain();
+        g.gain.value = 0.0001; // inaudible
+        src.connect(g).connect(masterGain);
+        try { src.start(0); } catch {}
+      });
+    }
+
+    audioReady = true;
+    // once unlocked, remove listeners
+    ['pointerdown','touchstart','click','keydown'].forEach(ev => 
+      window.removeEventListener(ev, unlockAudio, true)
+    );
+  } catch (e) {
+    // no-op, we’ll try again on next gesture
+  }
+}
+
+// Listen to many possible first gestures (capture phase for iOS)
+['pointerdown','touchstart','click','keydown'].forEach(ev =>
+  window.addEventListener(ev, unlockAudio, { capture:true, once:false, passive:true })
+);
+
+// Also hook your own buttons explicitly (in case the overlay eats events)
+document.getElementById('enterBtn')?.addEventListener('click', unlockAudio, { capture:true });
+document.getElementById('go')?.addEventListener('click', unlockAudio, { capture:true });
+
+// If the tab was backgrounded at load, resume when it becomes visible
+document.addEventListener('visibilitychange', () => {
+  if (!audioReady && document.visibilityState === 'visible') unlockAudio();
+});
 
 
 function setHUDValue(idBase, value){
