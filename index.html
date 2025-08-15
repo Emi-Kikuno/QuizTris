@@ -311,31 +311,41 @@ footer .controls button:active {
   cursor: pointer;
 	display: inline-block; /* Ensure not hidden */
 }
-	@media (min-width: 861px) {
-  .opening-screen .logo {
-    max-height: 50vh; /* keep logo from eating all vertical space */
-    height: auto;
-  }
-}
 
-.opening-screen {
-  padding: 1rem;           /* ensure spacing on small windows */
+</style>
+
+</style> <!-- last existing style in your file -->
+
+<style id="desktop-opening-fix">
+/* Let the opening screen scroll if needed and size to the real viewport */
+.opening-screen{
+  overflow: auto;
+  min-height: 100dvh;
+  gap: 2rem;
+  padding: 1.5rem;
   box-sizing: border-box;
 }
 
-@media (max-height: 500px) {
-  .opening-screen {
-    justify-content: flex-start; /* stack from top if short screen */
-    overflow-y: auto;            /* allow scrolling if needed */
-  }
-  .opening-screen .logo {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+/* Make the logo as big as the viewport allows, but never so big it hides the button */
+.opening-screen .logo{
+  display: block;
+  height: auto;
+  width: auto;
+  /* Keep it wide but sensible; override the earlier 80% cap */
+  max-width: min(90vw, 1000px) !important;
+  /* Reserve ~220px of vertical space for button + spacing */
+  max-height: clamp(320px, calc(100dvh - 160px), 82dvh) !important;
+  object-fit: contain;
+}
+
+/* If the window is extremely short, top-align so the button is immediately reachable */
+@media (max-height: 600px){
+  .opening-screen{ justify-content: flex-start; }
 }
 
 
 </style>
+
 </head>
 <body>
 	<div id="openingScreen" class="opening-screen">
