@@ -335,6 +335,7 @@ footer .controls button:active {
   max-width: min(90vw, 1000px) !important;
   /* Reserve ~220px of vertical space for button + spacing */
   max-height: clamp(320px, calc(100dvh - 160px), 82dvh) !important;
+
   object-fit: contain;
 }
 
@@ -348,6 +349,9 @@ footer .controls button:active {
 
 </head>
 <body>
+
+<button id="muteBtn" style="position:fixed; top:10px; right:10px; z-index:999; font-size:1.2rem;">🔊</button>
+
 	<div id="openingScreen" class="opening-screen">
   <img src="assets/splash.png" alt="QuizTris Logo" class="logo">
   <button id="enterBtn">Enter</button>
@@ -522,6 +526,72 @@ footer .controls button:active {
 <script>
 /* ===== Utilities ===== */
 const $ = s => document.querySelector(s);
+
+
+
+
+
+/* ===== Sound Effects (Web Audio, low latency) ===== */
+let audioCtx;
+let masterGain;
+const sfxBuffers = {};
+
+async function sfxInit(){
+  if (audioCtx) return;
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  masterGain = audioCtx.createGain();
+  masterGain.gain.value = 0.5;
+  masterGain.connect(audioCtx.destination);
+  // start loading buffers
+  sfxLoad('thud','assets/sounds/thud.mp3');
+  sfxLoad('ping','assets/sounds/ping.mp3');
+  sfxLoad('buzz','assets/sounds/buzz.mp3');
+}
+
+async function sfxLoad(name, url){
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    const buf = await res.arrayBuffer();
+    sfxBuffers[name] = await audioCtx.decodeAudioData(buf);
+  } catch(e){ console.warn('[SFX] load failed', name, e); }
+}
+
+function playSfx(name, gain=1){
+  try {
+    if (!audioCtx || audioCtx.state === 'suspended') return;
+    const buf = sfxBuffers[name];
+    if (!buf) return; // not yet loaded
+    const src = audioCtx.createBufferSource();
+    src.buffer = buf;
+    const g = audioCtx.createGain();
+    g.gain.value = gain;
+    src.connect(g).connect(masterGain);
+    src.start(0);
+  } catch(e){ /* no-op */ }
+}
+
+// Prime on first interaction
+let sfxPrimed = false;
+function primeAudio(){
+  if (sfxPrimed) return;
+  sfxPrimed = true;
+  sfxInit();
+  audioCtx && audioCtx.resume && audioCtx.resume();
+}
+document.addEventListener('pointerdown', primeAudio, { once: true });
+document.addEventListener('keydown', primeAudio, { once: true });
+// ===== Mute/Unmute Toggle =====
+let sfxMuted = false;
+document.getElementById('muteBtn').addEventListener('click', () => {
+  sfxMuted = !sfxMuted;
+  document.getElementById('muteBtn').textContent = sfxMuted ? '🔇' : '🔊';
+});
+// Wrap original playSfx to obey mute state
+const _origPlaySfx = playSfx;
+playSfx = function(...args){
+  if (sfxMuted) return;
+  _origPlaySfx(...args);
+};
 
 
 function setHUDValue(idBase, value){
@@ -934,6 +1004,7 @@ function step(ts){
 
 /* ===== Line handling (merge to bars) ===== */
 function onLock(){
+  playSfx('thud', 0.7);
   const fullRows = [];
   for (let r = 0; r < ROWS; r++) {
     if (grid[r].every(v => v)) fullRows.push(r);
@@ -1193,6 +1264,8 @@ function submitMC(idx){ resolveAnswer(idx===quiz.data.correctIndex); }
 function resolveAnswer(ok) {
   quizAttempted++;
   if (ok) quizCorrect++;
+  // SFX on answer
+  if (ok) { playSfx('ping'); } else { playSfx('buzz'); }
 
   if (ok) {
     clearBarRow(quiz.bar.row);
